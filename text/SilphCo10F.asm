@@ -1,68 +1,67 @@
 _SilphCo10FSilphWorkerFImScaredText::
 	text "Waaaaa!"
-	line "I'm scared!"
+	line "Bojim se!"
 	done
 
 _SilphCo10FSilphWorkerFQuietAboutMyCryingText::
-	text "Please keep quiet"
-	line "about my crying!"
+	text "Nikomu nerikej,"
+	line "ze jsem brecela!"
 	done
 
 _SilphCo10FRocketBattleText::
-	text "Welcome to the"
-	line "10F! So good of"
-	cont "you to join me!"
+	text "Vitej na 10F!"
+	line "Diky, ze ses ke"
+	cont "mne pridal!"
 	done
 
 _SilphCo10FRocketEndBattleText::
-	text "I'm"
-	line "stunned!"
+	text "Jsem"
+	line "v soku!"
 	prompt
 
 _SilphCo10FRocketAfterBattleText::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "Pekny pokus, ale"
+	line "zasedacka je o"
+	cont "patro vys!"
 	done
 
 _SilphCo10FScientistBattleText::
-	text "Enough of your"
-	line "silly games!"
+	text "Dost tech tvych"
+	line "hloupych her!"
 	done
 
 _SilphCo10FScientistEndBattleText::
-	text "No"
-	line "continues left!"
+	text "Zadne"
+	line "dalsi pokusy!"
 	prompt
 
 _SilphCo10FScientistAfterBattleText::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Stacila ti"
+	line "vyhra nade mnou?"
+	cont "Tak bez domu!"
 	done
 
 _SilphCoJessieJamesText1::
-	text "Hold it right"
-	line "there, brat!@"
+	text "Stuj, kluku!"
+	line "Ani hnout!@"
 	text_end
 
 _SilphCoJessieJamesText2::
-	text "Our BOSS is in a"
-	line "meeting!"
+	text "Nas BOSS ma"
+	line "jednani!"
 
-	para "You better not"
-	line "disturb him!"
+	para "Radsi ho"
+	line "nevyrusuj!"
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like"
-	line "always..."
+	text "Jako"
+	line "vzdycky..."
 	prompt
 
 _SilphCoJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!"
+	text "TEAM ROCKET odlita"
+	line "rychlosti svetla!"
 
-	para "Again...@"
+	para "Zase...@"
 	text_end

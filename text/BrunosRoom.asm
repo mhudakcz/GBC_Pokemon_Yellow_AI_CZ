@@ -1,37 +1,36 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Jsem BRUNO z"
+	line "ELITNI CTYRKY!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "Tvrdym treninkem"
+	line "se lide i #MON"
+	cont "stavaji silnejsi!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Cvicim sily se"
+	line "svymi #MON!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Rozdrtime te"
+	line "svou prevahou!"
 
-	para "Hoo hah!"
+	para "Hu ha!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Proc?"
+	line "Jak jsem mohl"
+	cont "prohrat?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Moje role je"
+	line "u konce! Jdi"
+	cont "vstric dalsi"
+	cont "vyzve!"
 	done
 
 _BrunosRoomBrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Cisi hlas:"
+	line "Neutikej!"
 	done

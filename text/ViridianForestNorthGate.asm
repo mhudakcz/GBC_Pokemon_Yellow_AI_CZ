@@ -1,19 +1,18 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Spousta #MON"
+	line "zije jen v lesich"
+	cont "a jeskynich."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Musis hledat"
+	line "vsude, aby jsi"
+	cont "nasel ruzne!"
 	done
 
 _ViridianForestNorthGateGrampsText::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Vsiml sis krovi"
+	line "podel cesty?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Daji se posekat"
+	line "specialnim utokem"
+	cont "#MON."
 	done

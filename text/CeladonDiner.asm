@@ -1,60 +1,59 @@
 _CeladonDinerCookText::
-	text "Hi!"
+	text "Cau!"
 
-	para "We're taking a"
-	line "break now."
+	para "Mame ted"
+	line "prestavku."
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "Moji #MON jsou"
+	line "slabi, tak musim"
+	cont "casto do DRUG"
+	cont "STORE."
 	done
 
 _CeladonDinerMiddleAgedManText::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "Pst! Pod GAME"
+	line "CORNER je"
+	cont "sklepeni."
 	done
 
 _CeladonDinerFisherText::
-	text "Munch..."
+	text "Mnam..."
 
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	para "Ten chlap u"
+	line "stolu prohral"
+	cont "vsechno v automa-"
+	cont "tech."
 	done
 
 _CeladonDinerGymGuideImFlatOutBustedText::
-	text "Go ahead! Laugh!"
+	text "Smej se! Smej!"
 
-	para "I'm flat out"
-	line "busted!"
+	para "Jsem na mizine!"
 
-	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
+	para "Konec automatu!"
+	line "Jdu na to"
+	cont "poctive!"
 
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	para "Na! Uz to nebudu"
+	line "potrebovat!"
 	prompt
 
 _CeladonDinerGymGuideReceivedCoinCaseText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> ziskal"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonDinerGymGuideCoinCaseNoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Udelej misto pro"
+	line "tohle!"
 	done
 
 _CeladonDinerGymGuideWinItBackText::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "Vzdy jsem si"
+	line "myslel, ze to"
+	cont "vyhraju zpatky..."
 	done

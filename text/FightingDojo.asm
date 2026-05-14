@@ -1,130 +1,128 @@
 _FightingDojoKarateMasterText::
 	text "Grunt!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Jsem KARATE"
+	line "MISTR! Jsem zde"
+	cont "VUDCEM!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Chces vyzvat"
+	line "nase ready?"
+	cont "Necekej milost!"
 
 	para "Fwaaa!"
 	done
 
 _FightingDojoKarateMasterDefeatedText::
 	text "Hwa!"
-	line "Arrgh! Beaten!"
+	line "Arrgh! Porazen!"
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "Ano, prohral"
+	line "jsem!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "Ale prosim,"
+	line "neber si nas"
+	cont "emblem jako"
+	cont "trofej!"
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	para "Vymenou ti dam"
+	line "cenneho bojoveho"
+	cont "#MON!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "Vyber si, ktery"
+	line "se ti libi!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
 	text "Ho!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Zustan a treninkuj"
+	line "u nas karate!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Hoargh! Sundej si"
+	line "boty!"
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Vzdavam"
+	line "to!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Pockej, az uvidis"
+	line "naseho Mistra!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Ja jsem proti"
+	line "nemu nikdo!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "Slysel jsem, ze"
+	line "jsi dobry! Ukaz!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "Rozhodci!"
+	line "Bod pro tebe!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Nas Mistr je"
+	line "profi bojovnik!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Nic me nedesi!"
 
-	para "I break boulders"
-	line "for training!"
+	para "V treninku"
+	line "drtim balvany!"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "Au!"
+	line "Naraz prsty!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Jedine, ceho se"
+	line "bojime, je"
+	cont "psychicka sila!"
 	done
 
 _FightingDojoBlackbelt4BattleText::
 	text "Hoohah!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
+	para "Vstoupils do"
+	line "naseho FIGHTING"
 	cont "DOJO!"
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
 	text "Oof!"
-	line "I give up!"
+	line "Vzdavam to!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Tady trenuji ti"
+	line "nejlepsi bojovnici"
+	cont "ze sirokeho okoli."
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard-kicking"
-	cont "HITMONLEE?"
+	text "Chces tvrde"
+	line "kopajiciho"
+	cont "HITMONLEEho?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston-punching"
-	cont "HITMONCHAN?"
+	text "Chces pistove"
+	line "bouchajiciho"
+	cont "HITMONCHANa?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "Nebud chamtivy..."
 	done

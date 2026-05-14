@@ -1,35 +1,35 @@
 _RocketHideoutB3FRocket1BattleText::
-	text "Stop meddling in"
-	line "TEAM ROCKET's"
-	cont "affairs!"
+	text "Nepleta se do"
+	line "veci TEAM"
+	cont "ROCKETu!"
 	done
 
 _RocketHideoutB3FRocket1EndBattleText::
-	text "Oof!"
-	line "Taken down!"
+	text "Au!"
+	line "Sejmuti!"
 	prompt
 
 _RocketHideoutB3FRocket1AfterBattleText::
 	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	line "To je pristroj,"
+	cont "co SEF ukradl."
+	cont "Je tady nekde."
 	done
 
 _RocketHideout3BattleText::
-	text "We got word from"
-	line "upstairs that you"
-	cont "were coming!"
+	text "Dostali jsme"
+	line "echo shora, ze"
+	cont "uz mires sem!"
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What?"
-	line "I lost? No!"
+	text "Co?"
+	line "Prohral jsem?"
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
-	cont "the elevator!"
+	text "Bez si!"
+	line "Ale na vytah"
+	cont "potrebujes LIFT"
+	cont "KEY!"
 	done

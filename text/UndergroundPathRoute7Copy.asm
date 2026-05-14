@@ -1,35 +1,35 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	text "Chci nakupovat"
+	line "v obchodaku"
+	cont "v CELADON, ale..."
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Je tam tolik"
+	line "drsne vypadajicich"
+	cont "lidi."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
+	text "TEAM ROCKET mel"
+	line "tajny ukryt v"
 	cont "CELADON CITY?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "Jdes nakupovat"
+	line "do CELADON?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Staci vyjit ven"
+	line "a smer na zapad!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "PODZEMNI CESTA"
+	line "vede pod"
+	cont "SAFFRONem az do"
+	cont "LAVENDERu."
 
-	para "If you're heading"
-	line "to CERULEAN, go"
-	cont "to the building"
-	cont "across the road."
+	para "Jdes-li do"
+	line "CERULEAN, jdi"
+	cont "do budovy pres"
+	cont "ulici."
 	done

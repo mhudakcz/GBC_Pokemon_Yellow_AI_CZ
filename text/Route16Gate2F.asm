@@ -1,26 +1,25 @@
 _Route16Gate2FLittleBoyText::
-	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	text "Jedu na projizdku"
+	line "se svou holkou!"
 	done
 
 _Route16Gate2FLittleGirlText::
-	text "We're going"
-	line "riding together!"
+	text "Jedeme se"
+	line "spolu projet!"
 	done
 
 _Route16Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "It's CELADON DEPT."
-	line "STORE!"
+	para "Je to CELADON"
+	line "DEPT. STORE!"
 	done
 
 _Route16Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "There's a long"
-	line "path over water!"
+	para "Dlouha stezka"
+	line "pres vodu!"
 	done

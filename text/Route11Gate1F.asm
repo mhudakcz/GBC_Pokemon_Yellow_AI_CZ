@@ -1,14 +1,14 @@
 _Route11Gate1FGuardText::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Kdyz chytas moc"
+	line "#MON, je tezke"
+	cont "vymyslet jim"
+	cont "jmena?"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
+	para "V LAVENDER TOWN"
+	line "zije muz, ktery"
+	cont "hodnoti prezdivky"
+	cont "tvych #MON."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "Taky ti je"
+	line "prejmenuje!"
 	done

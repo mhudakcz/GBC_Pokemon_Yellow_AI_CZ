@@ -1,21 +1,21 @@
 _Route9Youngster2BattleText::
-	text "Go, my super bug"
-	line "#MON!"
+	text "Vpred, ma super"
+	line "brouci #MON!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "My"
-	line "bugs..."
+	text "Moji"
+	line "broucci..."
 	prompt
 
 _Route9Youngster2AfterBattleText::
-	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	text "Kdyz nemas rad"
+	line "brouci #MON,"
+	cont "lezes mi krkem!"
 	done
 
 _Route9SignText::
-	text "ROUTE 9"
+	text "CESTA 9"
 	line "CERULEAN CITY-"
 	cont "ROCK TUNNEL"
 	done

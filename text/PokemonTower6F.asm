@@ -1,44 +1,44 @@
 _PokemonTower6FGhostWasCubonesMotherText::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "Ten DUCH byla"
+	line "nepokojna duse"
+	cont "matky CUBONE!"
 	done
 
 _PokemonTower6FSoulWasCalmedText::
-	text "The mother's soul"
-	line "was calmed."
+	text "Duse matky byla"
+	line "utisena."
 
-	para "It departed to"
-	line "the afterlife!"
+	para "Odesla na onen"
+	line "svet!"
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give...me..."
-	line "blood..."
+	text "Daj...mi..."
+	line "krev..."
 	done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
+	text "Sten!"
 	prompt
 
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak..."
+	text "Citim se slaba a"
+	line "anemicka..."
 	done
 
 _PokemonTower6FChanneler2BattleText::
-	text "Urff... Kwaah!"
+	text "Urff... Kvaah!"
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text "Neco"
+	line "ze me vypadlo!"
 	prompt
 
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "Nepadaly mi"
+	line "vlasy! Byl to"
+	cont "zly duch!"
 	done
 
 _PokemonTower6FChanneler3BattleText::
@@ -51,11 +51,11 @@ _PokemonTower6FChanneler3EndBattleText::
 	prompt
 
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
+	text "Co se to tady"
+	line "deje?"
 	done
 
 _PokemonTower6FBeGoneText::
-	text "Be gone..."
-	line "Intruders..."
+	text "Odejdete..."
+	line "Vetrelci..."
 	done

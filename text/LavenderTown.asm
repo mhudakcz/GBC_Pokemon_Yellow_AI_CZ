@@ -1,64 +1,64 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "Veris v"
+	line "DUCHY?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers..."
+	text "Opravdu? Takze"
+	line "veric je vic..."
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "Hahaha, asi"
+	line "ze ne."
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Ta bila ruka na"
+	line "tvem rameni,"
+	cont "neni skutecna."
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Tohle mesto je"
+	line "znamy hrbitov"
+	cont "#MON."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "V #MON TOWER"
+	line "se konaji"
+	cont "pohrby."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "V #MON TOWER se"
+	line "objevili DUCHOVE."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Asi to jsou duse"
+	line "#MON, ktere"
+	cont "zabili ROCKETi."
 	done
 
 _LavenderTownSignText::
 	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	line "Mesto vznesene"
+	cont "fialove barvy"
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "Novy SILPH SCOPE!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Spatris i"
+	line "neviditelne!"
 
 	para "SILPH CO."
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "LAVENDER"
+	line "DOBROVOLNICKY"
+	cont "#MON DUM"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
+	text "At duse #MON"
+	line "odpocivaji v miru"
 	cont "#MON TOWER"
 	done

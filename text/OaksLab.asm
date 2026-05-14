@@ -1,145 +1,144 @@
 _OaksLabRivalGrampsIsntAroundText::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: Cau"
+	line "<PLAYER>! Deda"
+	cont "tu neni!"
 
-	para "I ran here 'cos"
-	line "he said he had a"
-	cont "#MON for me."
+	para "Prisel jsem,"
+	line "ze pry pro me"
+	cont "ma #MON."
 	done
 
 _OaksLabRivalIllGetABetterPokemonThanYou::
-	text "<RIVAL>: Humph!"
-	line "I'll get a better"
-	cont "#MON than you!"
+	text "<RIVAL>: Hmpf!"
+	line "Dostanu lepsiho"
+	cont "#MON nez ty!"
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: Heh, my"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Heh,"
+	line "muj #MON vypada"
+	cont "mnohem silnejsi."
 	done
 
 _OaksLabThatsAPokeball::
-	text "That's a #"
-	line "BALL. There's a"
-	cont "#MON inside!"
+	text "Tohle je #"
+	line "BALL. Uvnitr je"
+	cont "#MON!"
 	done
 
 _OaksLabOak1GoAheadItsYours::
-	text "OAK: Go ahead,"
-	line "it's yours!"
+	text "OAK: Smele!"
+	line "Je tvuj!"
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "OAK: Kdyz se"
+	line "objevi divoky"
+	cont "#MON, tvuj"
+	cont "ti #MON poradi!"
 
-	para "Afterward, go on"
-	line "to the next town."
+	para "Pak vyraz do"
+	line "dalsiho mesta."
 	done
 
 _OaksLabOak1YouShouldTalkToIt::
-	text "OAK: You should"
-	line "talk to it and"
-	cont "see how it feels."
+	text "OAK: Mel by sis"
+	line "s nim promluvit"
+	cont "a poznat ho."
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "OAK: Ach,"
+	line "<PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "Jak se ma muj"
+	line "stary #MON?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Zda se, ze te"
+	line "ma docela rad."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "Mas talent na"
+	line "trenera #MON!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Coze? Mas pro"
+	line "me neco?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> predal"
+	line "BALIK od OAKa.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thanks, <PLAYER>!"
+	para "Ach! To je"
+	line "specialni #"
+	cont "BALL, co jsem"
+	cont "objednal!"
+	cont "Diky, <PLAYER>!"
 
-	para "By the way, I must"
-	line "ask you to do"
-	cont "something for me."
+	para "Mimochodem, mam"
+	line "pro tebe ukol."
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "#MON po celem"
+	line "svete cekaji"
+	cont "na tebe, <PLAYER>!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "OAK: Detailni"
+	line "data o #MON"
+	cont "neziskas jen"
+	cont "tim, ze je vidis."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
+	para "Musis je chytat!"
+	line "Pouzij tyto k"
+	cont "chyceni divokych"
 	cont "#MON."
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "<PLAYER> dostal"
+	line "5 # BALLu!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Kdyz se objevi"
+	line "divoky #MON,"
+	cont "je tvuj!"
 
-	para "Just like I showed"
-	line "you, throw a #"
-	cont "BALL at it and try"
-	cont "to catch it!"
+	para "Jak jsem ti"
+	line "ukazal, hod po"
+	cont "nem # BALL a"
+	cont "zkus ho chytit!"
 
-	para "This won't always"
-	line "work, though."
+	para "Nemusi to vyjit"
+	line "pokazde."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Zdravy #MON"
+	line "muze utect."
+	cont "Potrebujes stesti!"
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "OAK: Stav se"
+	line "obcas u me."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Chci vedet, jak"
+	line "ti jde #DEX."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "OAK: Rad te"
+	line "vidim! Jak ti"
+	cont "jde #DEX?"
+	cont "Mrknu na nej!"
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "Vypada to jak"
+	line "encyklopedie,"
+	cont "ale stranky"
+	cont "jsou prazdne!"
 	done
 
 _OaksLabOak2Text::
@@ -147,255 +146,254 @@ _OaksLabOak2Text::
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
+	text "PROF.OAK je"
+	line "autorita na"
 	cont "#MON!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Mnoho treneru"
+	line "#MON si ho"
+	cont "vazi!"
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: Dedo!"
+	line "Uz me nebavi"
+	cont "cekat!"
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: Hmm? <RIVAL>?"
-	line "Why are you here"
-	cont "already?"
+	text "OAK: Hmm?"
+	line "<RIVAL>? Proc"
+	cont "uz jsi tady?"
 
-	para "I said for you to"
-	line "come by later..."
+	para "Rekl jsem,"
+	line "abys prisel"
+	cont "pozdeji..."
 
-	para "Ah, whatever!"
-	line "Just wait there."
+	para "Ah, vsak co!"
+	line "Pockej tam."
 
-	para "Look, <PLAYER>! Do"
-	line "you see that ball"
-	cont "on the table?"
+	para "Hled, <PLAYER>!"
+	line "Vidis na stole"
+	cont "tu kouli?"
 
-	para "It's called a #"
-	line "BALL. It holds a"
-	cont "#MON inside."
+	para "Rika se ji #"
+	line "BALL. Uvnitr je"
+	cont "#MON."
 
-	para "You may have it!"
-	line "Go on, take it!"
+	para "Muzes si ji"
+	line "vzit! Smele!"
 	done
 
 _OaksLabRivalWhatAboutMeText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "<RIVAL>: Hej!"
+	line "Dedo! A co ja?"
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient,"
-	line "<RIVAL>, I'll give"
-	cont "you one later."
+	text "OAK: Strp se,"
+	line "<RIVAL>, dam ti"
+	cont "ji pozdeji."
 	done
 
 _OaksLabRivalTakesText1::
-	text "<RIVAL>: No way!"
-	line "<PLAYER>, I want"
-	cont "this #MON!"
+	text "<RIVAL>: V zadnem"
+	line "pripade! Ja chci"
+	cont "tohohle #MON!"
 	prompt
 
 _OaksLabRivalTakesText2::
-	text "<RIVAL> snatched"
-	line "the #MON!@"
+	text "<RIVAL> popadl"
+	line "#MON!@"
 	text_end
 
 _OaksLabRivalTakesText3::
-	text "OAK: <RIVAL>! What"
-	line "are you doing?"
+	text "OAK: <RIVAL>! Co"
+	line "to delas?"
 	prompt
 
 _OaksLabRivalTakesText4::
-	text "<RIVAL>: Gramps, I"
-	line "want this one!"
+	text "<RIVAL>: Dedo,"
+	line "chci tohohle!"
 	prompt
 
 _OaksLabRivalTakesText5::
-	text "OAK: But, I... Oh,"
-	line "all right then."
-	cont "That #MON is"
-	cont "yours."
+	text "OAK: Ale, ja..."
+	line "No tak dobre."
+	cont "Ten #MON je"
+	cont "tvuj."
 
-	para "I was going to"
-	line "give you one"
-	cont "anyway..."
+	para "Stejne jsem ti"
+	line "ho chtel dat..."
 
-	para "<PLAYER>, come over"
-	line "here."
+	para "<PLAYER>, pojd"
+	line "sem."
 	done
 
 _OaksLabOakGivesText::
-	text "OAK: <PLAYER>, this"
-	line "is the #MON I"
-	cont "caught earlier."
+	text "OAK: <PLAYER>,"
+	line "tohle je #MON,"
+	cont "co jsem chytil."
 
-	para "You can have it."
-	line "I caught it in"
-	cont "the wild and it's"
-	cont "not tame yet."
+	para "Muzes si ho"
+	line "vzit. Chytil"
+	cont "jsem ho ve"
+	cont "volne prirode,"
+	cont "neni jeste"
+	cont "krotky."
 	prompt
 
 _OaksLabReceivedText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> dostal"
+	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "OAK: Hej!"
+	line "Jeste neodchazej!"
 	done
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: Pockej"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Zmerime sily"
+	cont "nasich #MON!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Pojd, smahnu te!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "COZE?"
+	line "Neuveritelne!"
+	cont "Vybral jsem si"
+	cont "spatneho #MON!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Jo!"
+	line "Nejsem skvely?"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: Dobre!"
+	line "Necham sveho"
+	cont "#MON trenovat"
+	cont "v souboji!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! Dedo!"
+	line "Cau, smolari!"
 	done
 
 _OaksLabPikachuDislikesPokeballsText1::
-	text "OAK: What?"
+	text "OAK: Coze?"
 	done
 
 _OaksLabPikachuDislikesPokeballsText2::
-	text "OAK: Would you"
-	line "look at that!"
+	text "OAK: Podivejme!"
 
-	para "It's odd, but it"
-	line "appears that your"
-	cont "PIKACHU dislikes"
-	cont "# BALLs."
+	para "To je divne, ale"
+	line "vypada to, ze"
+	cont "tvuj PIKACHU"
+	cont "nechce # BALL."
 
-	para "You should just"
-	line "keep it with you."
+	para "Asi ho mas"
+	line "nosit s sebou."
 
-	para "That should make"
-	line "it happy!"
+	para "Bude tak"
+	line "stastnejsi!"
 
-	para "You can talk to it"
-	line "and see how it"
-	cont "feels about you."
+	para "Muzes s nim"
+	line "mluvit a poznat"
+	cont "jak te ma rad."
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Dedo!"
 	done
 
 _OaksLabRivalMyPokemonHasGrownStrongerText::
-	text "<RIVAL>: Gramps,"
-	line "my #MON has"
-	cont "grown stronger!"
-	cont "Check it out!"
+	text "<RIVAL>: Dedo,"
+	line "muj #MON je"
+	cont "uz silnejsi!"
+	cont "Mrkni na to!"
 	done
 
 _OaksLabOakIHaveARequestText::
 	text "OAK: Ah, <RIVAL>,"
-	line "good timing!"
+	line "presne vcas!"
 
-	para "I needed to ask"
-	line "both of you to do"
-	cont "something for me."
+	para "Potrebuju, abys-"
+	line "te oba neco"
+	cont "pro me udelali."
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
+	text "Na stole je"
+	line "muj vynalez,"
 	cont "#DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Sam zaznamenava"
+	line "data o #MON,"
+	cont "ktere jsi videl"
+	cont "nebo chytil!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Je to hi-tech"
+	line "encyklopedie!"
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "OAK: <PLAYER> a"
+	line "<RIVAL>! Vezmete"
+	cont "si je s sebou!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> dostal"
+	line "#DEX od OAKa!@"
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Vytvorit uplny"
+	line "pruvodce vsemi"
+	cont "#MON sveta..."
 
-	para "That was my dream!"
+	para "To byl muj sen!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Ale jsem moc"
+	line "stary! Nezvladnu"
+	cont "to!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Tak chci, abyste"
+	line "muj sen splnili"
+	cont "vy dva!"
 
-	para "Get moving, you"
-	line "two!"
+	para "Vyrazte, vy dva!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Je to velke dilo"
+	line "v historii"
+	cont "#MON!"
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Jasne"
+	line "Dedo! Nech to"
+	cont "na me!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, nerad"
+	line "to rikam, ale"
+	cont "nepotrebuju te!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "Vim co! Pujcim"
+	line "si MAPU MESTA"
+	cont "od sestry!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
+	para "Reknu ji, at ti"
+	line "zadnou nepujci,"
 	cont "<PLAYER>! Hahaha!"
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "Studuji #MON"
+	line "jako asistent"
+	cont "PROF.OAKa."
 	done

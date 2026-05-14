@@ -1,124 +1,120 @@
 _SafariZoneGateSafariZoneWorker1Text::
-	text "Welcome to the"
+	text "Vitej v"
 	line "SAFARI ZONE!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
-	text "Leaving early?@"
+	text "Odchazis brzy?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
-	text "Please return any"
-	line "SAFARI BALLs you"
-	cont "have left."
+	text "Vrat prosim"
+	line "vsechny zbyle"
+	cont "SAFARI BALLy."
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodLuckText::
-	text "Good Luck!"
+	text "Hodne stesti!"
 	done
 
 _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
-	text "Did you get a"
-	line "good haul?"
-	cont "Come again!"
+	text "Mas dobry ulovek?"
+	line "Pridi zas!"
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
-	line "you can catch all"
-	cont "the #MON you"
-	cont "want in the park!"
+	text "Za pouhych ¥500"
+	line "muzes chytat"
+	cont "#MON v parku,"
+	cont "kolik jen chces!"
 
-	para "Would you like to"
-	line "join the hunt?@"
+	para "Chces se pridat"
+	line "k lovu?@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥@"
+	text "To bude ¥@"
 	text_bcd wPriceTemp, $c3
 	text ","
-	line "please!"
+	line "prosim!"
 
-	para "We only use a"
-	line "special # BALL"
-	cont "here."
+	para "Tady mas jen"
+	line "specialni BALL."
 
-	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	para "<PLAYER> dostal"
+	line "30 SAFARI BALLu!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	text_start
 
-	para "We'll call you on"
-	line "the PA when you"
-	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	para "Zavolame te pres"
+	line "PA, az dojde cas"
+	cont "nebo SAFARI"
+	cont "BALLy!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
-	text "OK! Please come"
-	line "again!"
+	text "OK! Pridi zas"
+	line "prosim!"
 	done
 
 _SafariZoneGateSafariZoneWorker1NotEnoughMoneyText::
-	text "Oops! Not enough"
-	line "money!"
+	text "Ups! Malo penez!"
 	done
 
 _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
-	text "Hi! Is it your"
-	line "first time here?"
+	text "Cau! Jsi tu"
+	line "poprve?"
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "SAFARI ZONE ma"
+	line "4 zony."
 
-	para "Each zone has"
-	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	para "Kazda zona ma"
+	line "ruzne druhy"
+	cont "#MON. Pouzij"
+	cont "SAFARI BALLy"
+	cont "k chytani!"
 
-	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
-	cont "over for you!"
+	para "Kdyz dojde cas"
+	line "nebo SAFARI"
+	cont "BALLy, konec hry"
+	cont "pro tebe!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	para "Pred odchodem"
+	line "uvolni prazdny"
+	cont "BOX #MON,"
+	cont "aby bylo misto"
+	cont "na nove #MON!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
-	text "Sorry, you're a"
-	line "regular here!"
+	text "Promin, ty jsi"
+	line "tu staly host!"
 	done
 
 _SafariZoneLowCostText1::
 	text_start
 
-	para "Oh, all right, pay"
-	line "me what you have."
+	para "Dobra, dej mi"
+	line "co mas."
 	prompt
 
 _SafariZoneLowCostText2::
-	text "But, I can't give"
-	line "you all 30 BALLs."
+	text "Ale nedam ti"
+	line "vsech 30 BALLu."
 	done
 
 _SafariZoneLowCostText3::
 	text_start
 
-	para "You're persistent,"
-	line "aren't you?"
+	para "Ty se nedas,"
+	line "ze?"
 
-	para "OK, you can go in"
-	line "for free, but"
-	cont "just this once!@"
+	para "OK, jdi zdarma,"
+	line "ale jen ted!@"
 	text_end
 
 _SafariZoneLowCostText4::
@@ -126,22 +122,21 @@ _SafariZoneLowCostText4::
 	done
 
 _SafariZoneLowCostText5::
-	text "I'm sorry, but you"
-	line "have to pay to"
-	cont "enter."
+	text "Promin, ale za"
+	line "vstup se plati."
 	done
 
 _SafariZoneLowCostText6::
-	text "You can't enter"
-	line "without paying!"
+	text "Bez placeni"
+	line "neprojdes!"
 	done
 
 _SafariZoneLowCostText7::
-	text "I said, no money,"
-	line "no entry!"
+	text "Rikam, bez penez"
+	line "neprojdes!"
 	done
 
 _SafariZoneLowCostText8::
-	text "Read my lips, NO!"
-	line "Get it?"
+	text "Ctu ti to z usti,"
+	line "NE! Jasne?"
 	done

@@ -1,24 +1,24 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "Cooo!?"
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "TEAM ROCKET je"
+	line "na MT.MOON? Co?"
+	cont "Mam telefonat!"
 
-	para "Scram!"
+	para "Zmiz!"
 	done
 
 _PewterPokecenterText3::
-	text "#MON CENTERS"
-	line "are wonderful!"
+	text "#MON CENTRA"
+	line "jsou skvela!"
 
-	para "They heal #MON"
-	line "completely."
+	para "Uzdravi #MON"
+	line "uplne."
 
-	para "Even conditions"
-	line "like sleep, burn,"
-	cont "poison and others"
-	cont "are cured."
+	para "I stavy jako"
+	line "spanek, popaleni,"
+	cont "otrava a dalsi"
+	cont "lze vylecit."
 	done
 
 _PewterPokecenterJigglypuffText::

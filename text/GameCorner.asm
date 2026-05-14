@@ -1,185 +1,185 @@
 _GameCornerBeauty1Text::
-	text "Welcome!"
+	text "Vitej!"
 
-	para "You can exchange"
-	line "your coins for"
-	cont "fabulous prizes"
-	cont "next door."
+	para "Sve mince muzes"
+	line "vymenit za"
+	cont "skvele ceny"
+	cont "vedle."
 	done
 
 _GameCornerClerkDoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
+	text "Vitej v ROCKET"
 	line "GAME CORNER!"
 
-	para "Do you need some"
-	line "game coins?"
+	para "Potrebujes herni"
+	line "mince?"
 
-	para "It's ¥1000 for 50"
-	line "coins. Would you"
-	cont "like some?"
+	para "¥1000 za 50"
+	line "minci. Chces?"
 	done
 
 _GameCornerClerkThanksHereAre50CoinsText::
-	text "Thanks! Here are"
-	line "your 50 coins!"
+	text "Diky! Tady"
+	line "je 50 minci!"
 	done
 
 _GameCornerClerkPleaseComePlaySometimeText::
-	text "No? Please come"
-	line "play sometime!"
+	text "Ne? Tak prijd"
+	line "nekdy zahrat!"
 	done
 
 _GameCornerClerkCantAffordTheCoinsText::
-	text "You can't afford"
-	line "the coins!"
+	text "Na ty mince"
+	line "nemas!"
 	done
 
 _GameCornerClerkCoinCaseIsFullText::
-	text "Oops! Your COIN"
-	line "CASE is full."
+	text "Ouha! Tvuj COIN"
+	line "CASE je plny."
 	done
 
 _GameCornerClerkDontHaveCoinCaseText::
-	text "You don't have a"
+	text "Nemas zadny"
 	line "COIN CASE!"
 	done
 
 _GameCornerMiddleAgedMan1Text::
-	text "Keep this quiet."
+	text "Nech si to pro"
+	line "sebe."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "Sla fama, ze to"
+	line "tu vede TEAM"
+	cont "ROCKET."
 	done
 
 _GameCornerBeauty2Text::
-	text "I think these"
-	line "machines have"
-	cont "different odds."
+	text "Myslim, ze tyhle"
+	line "automaty maji"
+	cont "ruzne sance."
 	done
 
 _GameCornerFishingGuru1WantToPlayText::
-	text "Kid, do you want"
-	line "to play?"
+	text "Mladiku, chces si"
+	line "zahrat?"
 	prompt
 
 _GameCornerFishingGuru1Received10CoinsText::
-	text "<PLAYER> received"
-	line "10 coins!@"
+	text "<PLAYER> ziskal"
+	line "10 minci!@"
 	text_end
 
 _GameCornerFishingGuru1DontNeedMyCoinsText::
-	text "You don't need my"
-	line "coins!"
+	text "Moje mince"
+	line "nepotrebujes!"
 	done
 
 _GameCornerFishingGuru1WinsComeAndGoText::
-	text "Wins seem to come"
-	line "and go."
+	text "Vyhry prichazi"
+	line "a zase odchazi."
 	done
 
 _GameCornerMiddleAgedWomanText::
-	text "I'm having a"
-	line "wonderful time!"
+	text "Bavim se"
+	line "skvele!"
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
+	text "Hej!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "Mas lepsi veci"
+	line "na praci, budouci"
+	cont "sampione!"
 
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	para "VUDKYNI CELADON"
+	line "GYMu je ERIKA!"
+	cont "Pouziva grass"
+	cont "#MON!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "Mozna vypada"
+	line "krotce, ale nedej"
+	cont "se zmast!"
 	done
 
 _GameCornerGymGuideTheyOfferRarePokemonText::
-	text "They offer rare"
-	line "#MON that can"
-	cont "be exchanged for"
-	cont "your coins."
+	text "Nabizeji vzacne"
+	line "#MON, ktere si"
+	cont "vymenis za sve"
+	cont "mince."
 
-	para "But, I just can't"
-	line "seem to win!"
+	para "Ale ja proste"
+	line "neumim vyhrat!"
 	done
 
 _GameCornerGamblerText::
-	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	text "Hry jsou desne!"
+	line "Snadno se na ne"
+	cont "navykne!"
 	done
 
 _GameCornerMiddleAgedMan2WantSomeCoinsText::
-	text "What's up? Want"
-	line "some coins?"
+	text "Co je? Chces"
+	line "mince?"
 	prompt
 
 _GameCornerMiddleAgedMan2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> ziskal"
+	line "20 minci!@"
 	text_end
 
 _GameCornerMiddleAgedMan2YouHaveLotsOfCoinsText::
-	text "You have lots of"
-	line "coins!"
+	text "Mas mince"
+	line "spoustu!"
 	done
 
 _GameCornerMiddleAgedMan2INeedMoreCoinsText::
-	text "Darn! I need more"
-	line "coins for the"
-	cont "#MON I want!"
+	text "Sakra! Potrebuju"
+	line "vic minci na"
+	cont "#MON, co chci!"
 	done
 
 _GameCornerFishingGuru2ThrowingMeOffText::
-	text "Hey, what? You're"
-	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	text "Hej, co? Rusis"
+	line "me! Tady mas"
+	cont "mince, zmiz!"
 	prompt
 
 _GameCornerFishingGuru2Received20CoinsText::
-	text "<PLAYER> received"
-	line "20 coins!@"
+	text "<PLAYER> ziskal"
+	line "20 minci!@"
 	text_end
 
 _GameCornerFishingGuru2YouGotYourOwnCoinsText::
-	text "You've got your"
-	line "own coins!"
+	text "Mas svoje"
+	line "vlastni mince!"
 	done
 
 _GameCornerFishingGuru2CloselyWatchTheReelsText::
-	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	text "Trik je sledovat"
+	line "valecky"
+	cont "zblizka!"
 	done
 
 _GameCornerRocketImGuardingThisPosterText::
-	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	text "Hlidam tenhle"
+	line "plakat!"
+	cont "Zmiz, nebo se to"
+	cont "nepovede!"
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text "Sakra!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
-	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	text "Nas ukryt by"
+	line "mohli najit!"
+	cont "Reknu to SEFOVI!"
 	done
 
 _GameCornerPosterSwitchBehindPosterText::
-	text "Hey!"
+	text "Hej!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	para "Za plakatem je"
+	line "vypinac!?"
+	cont "Stiskneme ho!@"
 	text_end

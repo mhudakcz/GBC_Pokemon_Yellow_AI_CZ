@@ -1,119 +1,118 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "Pozor! Lekls mne!"
+	line "Aha, vzdyt jsi"
+	cont "jenom decko!"
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
-	line "Shocked again!"
+	text "Ty jo!"
+	line "Zas me lekas!"
 	prompt
 
 _MtMoon1FHikerAfterBattleText::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "Decka jako ty"
+	line "by tu nemely"
+	cont "byt!"
 	done
 
 _MtMoon1FYoungster1BattleText::
-	text "Did you come to"
-	line "explore too?"
+	text "Taky jsi prisel"
+	line "objevovat?"
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "Prohra"
+	line "smrdi!"
 	prompt
 
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "Slezl jsem sem,"
+	line "abych zapusobil"
+	cont "na holky."
 	done
 
 _MtMoon1FCooltrainerF1BattleText::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Pani! Je to tu"
+	line "vetsi, nez jsem"
+	cont "myslela!"
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
-	text "Oh!"
-	line "I lost it!"
+	text "Ach!"
+	line "Ztratila jsem!"
 	prompt
 
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "Jak se odsud"
+	line "dostanu?"
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "Co? Neplaz se"
+	line "ke mne!"
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "Moji"
+	line "#MON to nedaji!"
 	prompt
 
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "Musim najit"
+	line "silnejsi #MON."
 	done
 
 _MtMoon1FCooltrainerF2BattleText::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "Co? Cekam tu na"
+	line "sve pratele,"
+	cont "az me najdou."
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "Prohra?"
 	prompt
 
 _MtMoon1FCooltrainerF2AfterBattleText::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "Slysela jsem, ze"
+	line "tu jsou velmi"
+	cont "vzacne fosilie."
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "Podezrele postavy"
+	line "v jeskyni. Co ty?"
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "Mas"
+	line "me!"
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "Videl jsem je!"
+	line "Jsou to chlapi"
+	cont "z TEAM ROCKET!"
 	done
 
 _MtMoon1FYoungster3BattleText::
-	text "Go through this"
-	line "cave to get to"
+	text "Touhle jeskyni"
+	line "se dostanes do"
 	cont "CERULEAN CITY!"
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "Prohral"
+	line "jsem."
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "ZUBAT je tezky!"
+	line "Ale muze byt"
+	cont "uzitecny, kdyz"
+	cont "jednoho chytis."
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a bloodsucker!"
+	text "Pozor! ZUBAT je"
+	line "krvelacny!"
 	done

@@ -1,137 +1,135 @@
 _Route21Fisher1BattleText::
-	text "You want to know"
-	line "if the fish are"
-	cont "biting?"
+	text "Chces vedet, jak"
+	line "ryby beru?"
 	done
 
 _Route21Fisher1EndBattleText::
-	text "Dang!"
+	text "Sakra!"
 	prompt
 
 _Route21Fisher1AfterBattleText::
-	text "I can't catch"
-	line "anything good!"
+	text "Nemuzu nic"
+	line "poradneho chytit!"
 	done
 
 _Route21Fisher2BattleText::
-	text "I got a big haul!"
-	line "Wanna go for it?"
+	text "Mam plnou sit!"
+	line "Chces zkusit?"
 	done
 
 _Route21Fisher2EndBattleText::
-	text "Darn"
+	text "Pitomy"
 	line "MAGIKARP!"
 	prompt
 
 _Route21Fisher2AfterBattleText::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "Chytam asi jen"
+	line "samy MAGIKARP!"
 	done
 
 _Route21Swimmer1BattleText::
-	text "The sea cleanses"
-	line "my body and soul!"
+	text "More mi cisti"
+	line "telo i dusi!"
 	done
 
 _Route21Swimmer1EndBattleText::
-	text "Ayah!"
+	text "Ajaj!"
 	prompt
 
 _Route21Swimmer1AfterBattleText::
-	text "I like the"
-	line "mountains too!"
+	text "Mam rad i"
+	line "hory!"
 	done
 
 _Route21Swimmer2BattleText::
-	text "What's wrong with"
-	line "me swimming?"
+	text "Co je spatne na"
+	line "tom, ze plavu?"
 	done
 
 _Route21Swimmer2EndBattleText::
-	text "Cheap"
-	line "shot!"
+	text "Levna"
+	line "rana!"
 	prompt
 
 _Route21Swimmer2AfterBattleText::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "Jak vypadam?"
+	line "Jak nafukovaci"
+	cont "kruh? Vypadni!"
 	done
 
 _Route21Swimmer3BattleText::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "Vsechny me #MON"
+	line "jsou z more!"
 	done
 
 _Route21Swimmer3EndBattleText::
-	text "Diver!!"
-	line "Down!!"
+	text "Potapec!"
+	line "Dolu!"
 	prompt
 
 _Route21Swimmer3AfterBattleText::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "Kde jsi chytil"
+	line "sva #MON?"
 	done
 
 _Route21Swimmer4BattleText::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "Zrovna jsem v"
+	line "triatlonu!"
 	done
 
 _Route21Swimmer4EndBattleText::
-	text "Pant..."
-	line "pant...pant..."
+	text "Funi..."
+	line "funi...funi..."
 	prompt
 
 _Route21Swimmer4AfterBattleText::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "Jsem hotovy!"
+	line "Jeste me ceka"
+	cont "kolo a maraton!"
 	done
 
 _Route21Swimmer5BattleText::
-	text "Ahh! Feel the sun"
-	line "and the wind!"
+	text "Ach! Slunce"
+	line "a vitr!"
 	done
 
 _Route21Swimmer5EndBattleText::
-	text "Yow!"
-	line "I lost!"
+	text "Au!"
+	line "Prohrala jsem!"
 	prompt
 
 _Route21Swimmer5AfterBattleText::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "Spalila jsem se"
+	line "na skvarek!"
 	done
 
 _Route21Fisher3BattleText::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "Hej, neplas mi"
+	line "ryby!"
 	done
 
 _Route21Fisher3EndBattleText::
-	text "Sorry!"
-	line "I didn't mean it!"
+	text "Promin!"
+	line "Nechtel jsem!"
 	prompt
 
 _Route21Fisher3AfterBattleText::
-	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	text "Byl jsem nastvany,"
+	line "ze nic nemuzu"
+	cont "chytit."
 	done
 
 _Route21Fisher4BattleText::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "Zustan se mnou,"
+	line "nez neco chytim!"
 	done
 
 _Route21Fisher4EndBattleText::
-	text "That"
-	line "burned some time."
+	text "Aspon"
+	line "to uteklo."
 	prompt
 
 _Route21Fisher4AfterBattleText::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "Pockej! Mam"
+	line "zabrani! Jo!"
 	done

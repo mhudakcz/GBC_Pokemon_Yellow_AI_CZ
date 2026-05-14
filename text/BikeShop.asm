@@ -1,71 +1,69 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Cau! Vitej v"
+	line "obchodu s KOLY."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "Mame to spravne"
+	line "KOLO pro tebe!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "Pekne KOLO!"
+	line "Chces ho?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Promin! Nemas"
+	line "na to dost!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Och, to je..."
 
-	para "A BIKE VOUCHER!"
+	para "POUKAZ NA KOLO!"
 
-	para "OK! Here you go!"
+	para "OK! Tady mas!"
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> vymenil"
+	line "POUKAZ NA KOLO"
+	cont "za KOLO.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "sometime!"
+	text "Pridi zase"
+	line "nekdy!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Jak se ti libi"
+	line "tve nove KOLO?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "Muzes na nem"
+	line "jezdit po CESTE"
+	cont "i v jeskynich!"
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Udelej misto"
+	line "na tohle!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Mestske KOLO mi"
+	line "stacilo!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Na HORSKE neda"
+	line "se dat kos!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Tahle KOLA jsou"
+	line "cool, ale"
+	cont "moc draha!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Wow. Tve KOLO je"
+	line "fakt super!"
 	done

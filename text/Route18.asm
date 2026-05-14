@@ -1,48 +1,48 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "Vzdy kontroluju"
+	line "kazdou travu pro"
+	cont "nove #MON."
 	done
 
 _Route18CooltrainerM1EndBattleText::
-	text "Tch!"
+	text "Pche!"
 	prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
+	text "Kez bych mel"
 	line "BIKE!"
 	done
 
 _Route18CooltrainerM2BattleText::
 	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	line "Co rikas na muj"
+	cont "ptaci pokrik?"
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "Musel"
+	line "jsem te otravit!"
 	prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "O vikendech taky"
+	line "sbiram morske"
+	cont "#MON!"
 	done
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "Tohle je muj"
+	line "rajon! Zmiz!"
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "Krucinal!"
 	prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Tohle je muj"
+	line "lovecky revir"
+	cont "#MON!"
 	done
 
 _Route18SignText::
@@ -53,6 +53,6 @@ _Route18SignText::
 
 _Route18CyclingRoadSignText::
 	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	line "Pesi sem"
+	cont "nesmeji!"
 	done

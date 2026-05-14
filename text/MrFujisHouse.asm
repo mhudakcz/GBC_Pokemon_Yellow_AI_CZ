@@ -1,30 +1,30 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Divne, MR.FUJI"
+	line "tu neni."
+	cont "Kam zmizel?"
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "MR.FUJI se modlil"
+	line "sam za matku"
+	cont "od CUBONE."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Tohle je opravdu"
+	line "dum MR.FUJIho."
 
-	para "He's really kind!"
+	para "Je velmi laskavy!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Stara se o"
+	line "opustene a osirele"
+	cont "#MON!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Je to tak hreive!"
+	line "#MON se daji"
+	cont "krasne mazlit!"
 	done
 
 _MrFujisHousePsyduckText::
@@ -38,18 +38,18 @@ _MrFujisHouseNidorinoText::
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 	text "MR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
+	para "Cesta s #DEX"
+	line "muze selhat bez"
+	cont "lasky k tvym"
 	cont "#MON."
 
-	para "I think this may"
-	line "help your quest."
+	para "Myslim, ze tohle"
+	line "ti pomuze."
 	prompt
 
 _MrFujisHouseMrFujiReceivedPokeFluteText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> dostal"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -57,33 +57,32 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "Pri zvuku #"
+	line "FLUTE se spici"
+	cont "#MON vzbudi."
 
-	para "It works on all"
-	line "sleeping #MON."
+	para "Funguje na vsechny"
+	line "spici #MON."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Musis udelat"
+	line "misto na tohle!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "MR.FUJI: Pomohla"
+	line "ti ma FLAUTNA?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "#MON Mesicni"
+	line "Velka Cena"
+	cont "Tahani!"
 
-	para "The application"
-	line "form is..."
+	para "Prihlasovaci"
+	line "formular je..."
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Pryc! Nekdo ho"
+	line "vystrihl!"
 	done

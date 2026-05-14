@@ -1,18 +1,18 @@
 _SafariZoneEastRestHouseScientistText::
-	text "How many did you"
-	line "catch? I'm bushed"
-	cont "from the work!"
+	text "Kolik jsi chytil?"
+	line "Ja jsem unaven"
+	cont "z toho lopocenii!"
 	done
 
 _SafariZoneEastRestHouseRockerText::
-	text "I caught a"
+	text "Chytil jsem"
 	line "CHANSEY!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "To stalo za"
+	line "veskerou snahu!"
 	done
 
 _SafariZoneEastRestHouseSilphWorkerMText::
-	text "Whew! I'm tired"
-	line "from all the fun!"
+	text "Fju! Jsem unaven"
+	line "ze vsi zabavy!"
 	done

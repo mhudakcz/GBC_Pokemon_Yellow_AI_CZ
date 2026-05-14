@@ -1,49 +1,49 @@
 _CinnabarGymBlainePreBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "Ja jsem BLAINE!"
+	line "Vudce CINNABAR"
+	cont "GYMu!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Ma ohniva #MON"
+	line "spali vsechny"
+	cont "vyzyvatele!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Hah! Doufam, ze"
+	line "mas BURN HEAL!"
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Uz jsem"
+	line "vyhasl!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "Ziskal jsi"
+	line "VOLCANOBADGE!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "FIRE BLAST je"
+	line "nejvyssi ohnivy"
+	cont "utok!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Neplytvej s nim"
+	line "na vodni #MON!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "VOLCANOBADGE"
+	line "zvysuje SPEC"
+	cont "schopnosti"
+	cont "tvych #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Tu mas, vezmi"
+	line "si i toto!"
 	done
 
 _CinnabarGymBlaineReceivedTM38Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -52,204 +52,205 @@ _CinnabarGymBlaineReceivedTM38Text::
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
+	para "TM38 obsahuje"
 	line "FIRE BLAST!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Nauc ho ohnive"
+	line "#MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "CHARMELEON nebo"
+	line "PONYTA budou"
+	cont "dobra volba!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Udelej misto na"
+	line "muj dar!"
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Vis, jak horky"
+	line "muze byt ohnivy"
+	cont "dech #MON?"
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Au!"
+	line "Pali, pali!"
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Ohen, presneji"
+	line "receno"
+	cont "spalovani..."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "Bla, bla, bla,"
+	line "bla..."
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Byl jsem zlodej,"
+	line "ale stal se ze me"
+	cont "poradny trener!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "Vzdavam"
+	line "to!"
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Nemuzu si pomoct,"
+	line "porad kradu cizi"
+	cont "#MON!"
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Nevyhrajes!"
+	line "Studoval jsem"
+	cont "#MON dokonale!"
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "Aaa!"
+	line "Ma studia!"
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Me teorie jsou"
+	line "pro tebe moc"
+	cont "slozite!"
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "Mam rad ohnive"
+	line "#MON!"
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "Moc"
+	line "horky!"
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Kez by byl"
+	line "zlodejsky #MON!"
+	cont "Mel bych ho!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Ja vim, proc se"
+	line "BLAINE stal"
+	cont "trenerem!"
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
-	text "Ow!"
+	text "Au!"
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "BLAINE se ztratil"
+	line "v horach, kdyz se"
+	cont "objevil ohnivy"
+	cont "ptaci #MON."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Jeho svetlo mu"
+	line "umoznilo najit"
+	cont "cestu dolu!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Byl jsem v mnoha"
+	line "GYMech, ale tenhle"
+	cont "je nej!"
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "Joj!"
+	line "Moc horky!"
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "My fans ohne"
+	line "mame radi PONYTA"
+	cont "a NINETALES!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Ohen je slaby"
+	line "proti H2O!"
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Och!"
+	line "Uhasen!"
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Voda hasi ohen!"
+	line "Ale ohen tavi"
+	cont "ledove #MON!"
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Hej! Budouci"
+	line "sampione!"
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "Horkokrevny"
+	line "BLAINE je profik"
+	cont "na ohnive #MON!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "Zhas mu nadseni"
+	line "vodou!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "Vem si par"
+	line "BURN HEALu!"
 	done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "<PLAYER>! Porazil"
+	line "jsi ho!"
 	done
 
 _CinnabarGymText_1::
-	text "This GYM is also"
-	line "known as the QUIZ"
+	text "Tomuto GYMu se"
+	line "rika taky KVIZ"
 	cont "GYM."
 
-	para "You have to take a"
-	line "quiz if you want"
-	cont "to see BLAINE."
+	para "Musis udelat kviz"
+	line "a pak uvidis"
+	cont "BLAINEa."
 
-	para "You don't have to"
-	line "fight us if you"
-	cont "get it right."
+	para "Pokud uhadnes,"
+	line "nemusis s nami"
+	cont "bojovat."
 	done
 
 _CinnabarGymText_2::
-	text "Think you can do"
-	line "it?"
+	text "Myslis, ze to"
+	line "zvladnes?"
 	done
 
 _CinnabarGymText_3::
-	text "This one's tricky!"
+	text "Tahle je tezka!"
 	done
 
 _CinnabarGymText_4::
-	text "#MON enjoy"
-	line "quizzes too!"
+	text "#MON maji taky"
+	line "rada kvizy!"
 	done
 
 _CinnabarGymText_5::
-	text "I like it here at"
-	line "QUIZ GYM."
+	text "Libi se mi tu"
+	line "v KVIZ GYMu."
 	done
 
 _CinnabarGymText_6::
-	text "This is the last"
-	line "question."
+	text "Tohle je"
+	line "posledni otazka."
 	done
 
 _CinnabarGymText_7::
-	text "Come on, answer"
-	line "the question!"
+	text "Tak uz odpovez"
+	line "na otazku!"
 	done

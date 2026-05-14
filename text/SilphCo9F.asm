@@ -1,62 +1,62 @@
 SilphCo9FNurseYouLookTiredText::
-	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	text "Vypadas unavene!"
+	line "Mel by ses na"
+	cont "chvili dat do"
+	cont "klidu!"
 	prompt
 
 SilphCo9FNurseDontGiveUpText::
-	text "Don't give up!"
+	text "Nevzdavej to!"
 	done
 
 SilphCo9FNurseThankYouText::
-	text "Thank you so"
-	line "much!"
+	text "Mockrat ti"
+	line "dekuji!"
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "Tvi #MON te"
+	line "miluji, kluku!"
 	done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
+	text "Ghaaa!"
 	prompt
 
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Kdybych zacal jako"
+	line "trener v tvem"
+	cont "veku..."
 	done
 
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+	text "Tvi #MON maji"
+	line "slabiny! Dokazu"
+	cont "je vyuzit!"
 	done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
+	text "Setrels"
+	line "mne!"
 	prompt
 
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Vyuzivat slabin"
+	line "funguje! Mysli"
+	cont "na typy zivlu!"
 	done
 
 _SilphCo9FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jsem jeden ze 4"
+	line "ROCKET BRATRI!"
 	done
 
 _SilphCo9FRocket2EndBattleText::
 	text "Warg!"
-	line "Brothers, I lost!"
+	line "Bratri, prohral!"
 	prompt
 
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
+	text "Mi bratri me"
+	line "pomsti!"
 	done

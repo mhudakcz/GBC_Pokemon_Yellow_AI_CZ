@@ -1,157 +1,159 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "Musim se zahrat"
+	line "pred plavanim!"
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "Jsem"
+	line "rozehraty!"
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Diky, decko! Jsem"
+	line "pripraven plavat!"
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Pockej! Bude te"
+	line "klepat infarkt!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
-	text "Ooh!"
-	line "That's chilly!"
+	text "Hu!"
+	line "Tady to studi!"
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
+	text "Pozor na"
 	line "TENTACOOL!"
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "Miluju plavani!"
+	line "A co ty?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "Plac"
+	line "do vody!"
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Porazim #MON"
+	line "v plavani!"
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "Co je za"
+	line "obzorem?"
 	done
 
 _Route19Swimmer2EndBattleText::
-	text "Glub!"
+	text "Blub!"
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Vidim par"
+	line "ostrovu!"
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "Zkousel jsem"
+	line "lovit #MON pod"
+	cont "vodou, ale nic."
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "Pomoc!"
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Morske #MON"
+	line "musis chytat!"
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "Divam se na"
+	line "more, abych"
+	cont "zapomnel!"
 	done
 
 _Route19Swimmer4EndBattleText::
-	text "Ooh!"
-	line "Traumatic!"
+	text "Hu!"
+	line "Trauma!"
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "Divam se na"
+	line "more, abych"
+	cont "zapomnel!"
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "Tva jizda je"
+	line "super! Dostanu"
+	cont "ji za vyhru?"
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Och!"
+	line "Prohrala jsem!"
 	prompt
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "K SEAFOAM ISLANDS"
+	line "je to jeste"
+	cont "daleko."
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "Plavani je super!"
+	line "Spaleniny ne!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "Soky!"
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
+	text "Muj kluk chtel"
+	line "doplavat az k"
 	cont "SEAFOAM ISLANDS."
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "Vody jsou tu"
+	line "zradne!"
 	done
 
 _Route19Swimmer7EndBattleText::
-	text "Ooh!"
-	line "Dangerous!"
+	text "Hu!"
+	line "Nebezpecne!"
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "Mam krec!"
+	line "Blub, blub..."
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "Plaval jsem sem,"
+	line "ale jsem unaven."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "Jsem"
+	line "vycerpany..."
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "LAPRAS je tak"
+	line "velky, urcite te"
+	cont "udrzi v suchu."
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
+	text "MORSKA CESTA 19"
 	line "FUCHSIA CITY -"
 	cont "SEAFOAM ISLANDS"
 	done

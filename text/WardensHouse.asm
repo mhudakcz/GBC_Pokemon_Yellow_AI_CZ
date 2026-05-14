@@ -1,5 +1,5 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
+	text "STRAZCE: Hif fuff"
 	line "hefifoo!"
 
 	para "Ha lof ha feef ee"
@@ -18,69 +18,68 @@ _WardensHouseWardenGibberish3Text::
 	done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
+	text "<PLAYER> dal ZLATE"
+	line "ZUBY STRAZCI!@"
 	text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "STRAZCE si nasadil"
+	line "zuby!"
 	prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "STRAZCE: Diky,"
+	line "decko! Nikdo mi"
+	cont "nerozumel ani"
+	cont "slovo."
 
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
+	para "Takhle to neslo"
+	line "delat. Dam ti"
+	cont "neco za tu"
+	cont "namahu."
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "STRAZCE: HM04 uci"
+	line "STRENGTH!"
 
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	para "Umozni #MON"
+	line "hybat balvany,"
+	cont "kdyz nejsi"
+	cont "v boji."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	para "Aha, nasel jsi"
+	line "TAJNY DUM"
+	cont "v SAFARI ZONE?"
 
-	para "If you do, you"
-	line "win an HM!"
+	para "Pokud ano, vyhral"
+	line "jsi HM!"
 
-	para "I hear it's the"
-	line "rare SURF HM."
+	para "Slysel jsem, ze"
+	line "je to vzacne"
+	cont "SURF HM."
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Tvuj batoh je"
+	line "narvany!"
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
+	text "Fotky #MON"
+	line "a fosilie."
 	done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
+	text "Stare #MON"
+	line "zbozi."
 	done

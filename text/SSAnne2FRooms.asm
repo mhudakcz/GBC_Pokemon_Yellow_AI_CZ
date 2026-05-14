@@ -1,113 +1,114 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels,"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "Pri vsech mych"
+	line "cestach jsem nevi-"
+	cont "del #MON spat"
+	cont "jako toto!"
 
-	para "It was something"
-	line "like this!"
+	para "Bylo to nejak"
+	line "takhle!"
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Ach ano, videl"
+	line "jsem #MON, jak"
+	cont "preplavava lidi"
+	cont "pres vodu!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "#MON umi CUT"
+	line "male krovi."
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Soutezeni s"
+	line "mladymi me"
+	cont "drzi v kondici."
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Dobry"
+	line "boj! Citim se"
+	cont "zase mlady!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "Pred 15 lety"
+	line "bych byl vyhral!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "Koukni co jsem"
+	line "vylovil!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "Doslo"
+	line "mi vsechno!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "Vecirek?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "Vecirek na lodi"
+	line "uz je asi konec."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Co se ti libi"
+	line "vic, silny nebo"
+	cont "vzacny #MON?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "Klanim"
+	line "se ti!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Mam radsi silna"
+	line "a vzacna #MON."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "Na vecirku jsem"
+	line "te nevidela."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "V klidu"
+	line "to ber!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Och, zboznuju"
+	line "tva silna #MON!"
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Byl jsi uz v"
+	line "SAFARI ZONE"
+	cont "ve FUCHSIA CITY?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Bylo tam mnoho"
+	line "vzacnych #MON!!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Ja a muj tata"
+	line "myslime, ze"
+	cont "SAFARI ZONE je"
+	cont "uzasna!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "KAPITAN vypadal"
+	line "fakt nemocne a"
+	cont "bledy!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "Slysela jsem, ze"
+	line "lide bezne maji"
+	cont "morskou nemoc!"
 	done

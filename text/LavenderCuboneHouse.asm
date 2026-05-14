@@ -3,23 +3,22 @@ _LavenderCuboneHouseCuboneText::
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "Nesnasim ty hrozne"
+	line "ROCKETy!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "Chudak CUBONE..."
+	line "Jeho matka..."
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "Zabili ji, kdyz"
+	line "prchala pred"
+	cont "TYMem ROCKET!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "DUCH z #MON"
+	line "TOWER je pryc!"
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "Nekdo musel"
+	line "utisit jeho"
+	cont "neklidnou dusi!"
 	done

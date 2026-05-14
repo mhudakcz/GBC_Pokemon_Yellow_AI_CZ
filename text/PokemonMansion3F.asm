@@ -1,37 +1,37 @@
 _PokemonMansion3FSuperNerdBattleText::
-	text "This place is"
-	line "like, huge!"
+	text "Tady je to"
+	line "obrovsky!"
 	done
 
 _PokemonMansion3FSuperNerdEndBattleText::
-	text "Ayah!"
+	text "Ajaj!"
 	prompt
 
 _PokemonMansion3FSuperNerdAfterBattleText::
-	text "I wonder where"
-	line "my partner went."
+	text "Kde je asi"
+	line "muj parak?"
 	done
 
 _PokemonMansion3FScientistBattleText::
-	text "My mentor once"
-	line "lived here."
+	text "Muj mentor tu"
+	line "kdysi zil."
 	done
 
 _PokemonMansion3FScientistEndBattleText::
-	text "Whew!"
-	line "Overwhelming!"
+	text "Uf!"
+	line "Premoceno!"
 	prompt
 
 _PokemonMansion3FScientistAfterBattleText::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "Tak ses zasekl?"
+	line "Zkus seskocit"
+	cont "tamhle dolu!"
 	done
 
 _PokemonMansion3FDiaryText::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "Denik: 6. unora"
+	line "MEW se rozmnozilo."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "Mlade jsme"
+	line "nazvali MEWTWO."
 	done

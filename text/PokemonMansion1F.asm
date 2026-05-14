@@ -1,29 +1,29 @@
 _PokemonMansion1FScientistBattleText::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "Kdo jsi? Tady"
+	line "nikdo nema"
+	cont "co delat."
 	done
 
 _PokemonMansion1FScientistEndBattleText::
-	text "Ouch!"
+	text "Au!"
 	prompt
 
 _PokemonMansion1FScientistAfterBattleText::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "Klic? Nevim,"
+	line "o cem to"
+	cont "mluvis."
 	done
 
 _PokemonMansion1FSwitchText::
-	text "A secret switch!"
+	text "Tajny vypinac!"
 
-	para "Press it?"
+	para "Stisknout?"
 	done
 
 _PokemonMansion1FSwitchPressedText::
-	text "Who wouldn't?"
+	text "Kdo by ne?"
 	prompt
 
 _PokemonMansion1FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "Jeste ne!"
 	done

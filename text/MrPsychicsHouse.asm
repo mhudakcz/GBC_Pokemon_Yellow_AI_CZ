@@ -1,26 +1,26 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "...Pockej! Ani"
+	line "slovo!"
 
-	para "You wanted this!"
+	para "Tohle jsi chtel!"
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "TM29 je PSYCHIC!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "Muze snizit"
+	line "SPECIALNI sily"
+	cont "cile."
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "Kam to chces"
+	line "ulozit?"
 	done

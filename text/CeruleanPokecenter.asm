@@ -1,24 +1,22 @@
 _CeruleanPokecenterSuperNerdText::
-	text "That BILL!"
+	text "Ten BILL!"
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "Slysel jsem, ze"
+	line "udela cokoli, aby"
+	cont "ziskal vzacne"
+	cont "#MON!"
 	done
 
 _CeruleanPokecenterGentlemanText::
-	text "Have you heard"
-	line "about BILL?"
+	text "Slysel jsi uz o"
+	line "BILLovi?"
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "Vsichni mu rikaji"
+	line "#MANIAK!"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "Mam pocit, ze mu"
+	line "lidi jen zavidi."
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Kdo by se nechtel"
+	line "chlubit s #MON?"
 	done

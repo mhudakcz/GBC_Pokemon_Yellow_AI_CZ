@@ -1,40 +1,38 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Na zemi jsou veci,"
+	line "ktere nejsou"
+	cont "videt."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "ITEMFINDER zjisti"
+	line "predmet blizko"
+	cont "tebe."
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "Neukaze presne"
+	line "kde, musis se"
+	cont "podivat sam!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "Velky #MON spi"
+	line "na ceste!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "It's a beautiful"
-	line "view!"
+	para "Krasny vyhled!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	para "Z CERULEAN CITY"
+	line "do LAVENDER se"
+	cont "dostanes jen"
+	cont "skrz ROCK TUNNEL."
 	done

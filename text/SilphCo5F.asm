@@ -1,107 +1,107 @@
 _SilphCo5FSilphWorkerMThatsYouRightText::
-	text "TEAM ROCKET is"
-	line "in an uproar over"
-	cont "some intruder."
-	cont "That's you right?"
+	text "TEAM ROCKET je"
+	line "vzhuru kvuli"
+	cont "nejakemu vetrelci."
+	cont "To jsi ty, ze?"
 	done
 
 _SilphCo5FSilphWorkerMYoureOurHeroText::
-	text "TEAM ROCKET took"
-	line "off! You're our"
-	cont "hero! Thank you!"
+	text "TEAM ROCKET utekl!"
+	line "Jsi nas hrdina!"
+	cont "Mockrat diky!"
 	done
 
 _SilphCo5FRocket1BattleText::
-	text "I heard a kid was"
-	line "wandering around."
+	text "Slysel jsem, ze"
+	line "tu chodi nejaky"
+	cont "kluk."
 	done
 
 _SilphCo5FRocket1EndBattleText::
-	text "Boom!"
+	text "Bum!"
 	prompt
 
 _SilphCo5FRocket1AfterBattleText::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with TEAM ROCKET!"
+	text "Neni chytre se"
+	line "prit s TEAM"
+	cont "ROCKETem!"
 	done
 
 _SilphCo5FScientistBattleText::
-	text "We study #"
-	line "BALL technology"
-	cont "on this floor!"
+	text "Tady studujeme"
+	line "technologii #"
+	cont "BALLu!"
 	done
 
 _SilphCo5FScientistEndBattleText::
-	text "Dang!"
-	line "Blast it!"
+	text "Sakra!"
+	line "Hrom do toho!"
 	prompt
 
 _SilphCo5FScientistAfterBattleText::
-	text "We worked on the"
-	line "ultimate #"
-	cont "BALL which would"
-	cont "catch anything!"
+	text "Pracovali jsme na"
+	line "absolutnim #"
+	cont "BALLu, ktery"
+	cont "chyti cokoli!"
 	done
 
 _SilphCo5FRockerBattleText::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here!"
+	text "Cooo? Tady nemaji"
+	line "byt zadne deti!"
 	done
 
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Ach"
+	line "jo!"
 	prompt
 
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "Jsi teprv na 5F."
+	line "K mymu BOSSovi"
+	cont "je to dalekoo!"
 	done
 
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
-	line "a little respect!"
+	text "Projev TEAM ROCKET"
+	line "trochu uctu!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Khh..."
+	line "Khh..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
+	text "Mimochodem."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "KOFFING se vyvine"
+	line "ve WEEZINGa!"
 	done
 
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
+	text "Tohle je #MON"
 	line "REPORT!"
 
 	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	line "vytvorila PORYGON,"
+	cont "prvni virtualni"
+	cont "#MON."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
+	text "Tohle je #MON"
 	line "REPORT!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "Bylo potvrzeno"
+	line "pres 160 technik"
+	cont "#MON."
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
+	text "Tohle je #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "4 #MON se vyvi-"
+	line "nou jen pri"
+	cont "vymene kabelem."
 	done

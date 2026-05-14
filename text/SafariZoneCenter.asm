@@ -1,11 +1,11 @@
 _SafariZoneCenterRestHouseSignText::
-	text "REST HOUSE"
+	text "ODPOCIVADLO"
 	done
 
 _SafariZoneCenterTrainerTipsSignText::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERA"
 
-	para "Press the START"
-	line "Button to check"
-	cont "remaining time!"
+	para "Stiskni START"
+	line "pro kontrolu"
+	cont "zbyvajiciho casu!"
 	done

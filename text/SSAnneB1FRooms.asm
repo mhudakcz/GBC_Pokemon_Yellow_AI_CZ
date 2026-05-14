@@ -4,111 +4,113 @@ _SSAnneB1FRoomsMachokeText::
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Vis, co se rika"
+	line "o namornicich a"
+	cont "boji!"
 	done
 
 _SSAnneB1FRoomsSailor1EndBattleText::
-	text "Right!"
-	line "Good fight, mate!"
+	text "Tak!"
+	line "Dobry boj, kamo!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Haha! Chces byt"
+	line "namornik, kamo?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Jde o moji"
+	line "namornickou cest!"
 	done
 
 _SSAnneB1FRoomsSailor2EndBattleText::
-	text "Your"
-	line "spirit sank me!"
+	text "Tvuj"
+	line "duch me potopil!"
 	prompt
 
 _SSAnneB1FRoomsSailor2AfterBattleText::
-	text "Did you see the"
-	line "FISHING GURU in"
+	text "Videl jsi MISTRA"
+	line "RYBARENI ve"
 	cont "VERMILION CITY?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
-	text "Us sailors have"
-	line "#MON too!"
+	text "My namornici"
+	line "taky mame #MON!"
 	done
 
 _SSAnneB1FRoomsSailor3EndBattleText::
 	text "OK, "
-	line "you're not bad."
+	line "nejsi spatny."
 	prompt
 
 _SSAnneB1FRoomsSailor3AfterBattleText::
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Vsechna nase"
+	line "#MON jsme"
+	cont "chytili na mori!"
 	done
 
 _SSAnneB1FRoomsSailor4BattleText::
-	text "I like feisty"
-	line "kids like you!@"
+	text "Mam rad odvazne"
+	line "deti jako jsi ty!@"
 	text_end
 
 _SSAnneB1FRoomsSailor4EndBattleText::
-	text "Argh!"
-	line "Lost it!"
+	text "Aua!"
+	line "Prohrals!"
 	prompt
 
 _SSAnneB1FRoomsSailor4AfterBattleText::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Morska #MON"
+	line "ziji v hloubce."
+	cont "Budes potrebovat"
+	cont "PRUT!"
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Kamo, prujdes"
+	line "prknem, kdyz"
+	cont "prohrajes!"
 	done
 
 _SSAnneB1FRoomsSailor5EndBattleText::
-	text "Argh!"
-	line "Beaten by a kid!"
+	text "Aua!"
+	line "Porazil me kluk!"
 	prompt
 
 _SSAnneB1FRoomsSailor5AfterBattleText::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Medusa obcas"
+	line "doplave az k"
+	cont "nasi lodi."
 	done
 
 _SSAnneB1FRoomsFisherBattleText::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Ahoj cizinec!"
+	line "Stop a pokecej!"
 
-	para "All my #MON"
-	line "are from the sea!"
+	para "Vsechna ma #MON"
+	line "jsou z more!"
 	done
 
 _SSAnneB1FRoomsFisherEndBattleText::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Sakra!"
+	line "Tenhle mi"
+	cont "utekl!"
 	prompt
 
 _SSAnneB1FRoomsFisherAfterBattleText::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "Chtel jsem te"
+	line "udelat svym"
+	cont "asistentem!"
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
-	line "is super strong!"
+	text "Muj kamos"
+	line "MACHOKE je"
+	cont "super silny!"
 
-	para "He has enough"
-	line "STRENGTH to move"
-	cont "big rocks!"
+	para "Ma dost SILY"
+	line "k presouvani"
+	cont "velkych balvanu!"
 	done

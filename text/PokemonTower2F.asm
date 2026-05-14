@@ -1,57 +1,57 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: Hej,"
+	line "<PLAYER>! Co te"
+	cont "sem privadi?"
+	cont "Tve #MON"
+	cont "nevypadaji mrtve!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Aspon je tedy"
+	line "nechame omdlet!"
+	cont "Pojdme, kamo!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Co?"
+	line "Ty smraduchu!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "A to jsem te"
+	line "setril!"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "<RIVAL>: Hele,"
+	line "podivej na svoje"
+	cont "skomirave #MON!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Trochu je"
+	line "posil!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Jak ti jde"
+	line "#DEX, kamo?"
+	cont "Prave jsem"
+	cont "chytil CUBONE!"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "Dospeleho MAROWAK"
+	line "jeste neumim"
+	cont "najit!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "Snad uz ani"
+	line "neexistuji! No,"
+	cont "mel bych jit!"
+	cont "Mam toho hodne,"
+	cont "kamo!"
 
-	para "Smell ya later!"
+	para "Tak zatim!"
 	done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Ani my jsme"
+	line "nedokazali poznat"
+	cont "ty zatoulane"
+	cont "DUCHY!"
 
-	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	para "SILPH SCOPE by je"
+	line "snad mohl odhalit."
 	done

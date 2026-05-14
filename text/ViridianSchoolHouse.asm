@@ -1,20 +1,20 @@
 _ViridianSchoolHouseBrunetteGirlText::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Fuj! Snazim se"
+	line "naucit vsechny"
+	cont "sve poznamky."
 	done
 
 _ViridianSchoolHouseLittleGirlText::
-	text "Sis says #MON"
-	line "will become tame"
-	cont "if you treat them"
-	cont "nicely."
+	text "Sestra rika, ze"
+	line "#MON zkrotnou,"
+	cont "kdyz se k nim"
+	cont "chovas hezky."
 	done
 
 _ViridianSchoolHouseCooltrainerFText::
-	text "Okay!"
+	text "Tak jo!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Pozorne si"
+	line "prectete, co je"
+	cont "na tabuli!"
 	done

@@ -1,50 +1,50 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Cau! Delam ve"
+	line "#MON MARTu."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Je to fajn obchod,"
+	line "stav se u nas ve"
+	cont "meste VIRIDIAN."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Hele, dam ti"
+	line "vzorek zdarma!"
+	cont "Tady mas!"
 	prompt
 
 _Route1Youngster1GotPotionText::
-	text "<PLAYER> got"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Mame i # BALLy"
+	line "na chytani"
+	cont "#MON!"
 	done
 
 _Route1Youngster1NoRoomText::
-	text "You have too much"
-	line "stuff with you!"
+	text "Mas u sebe moc"
+	line "veci!"
 	done
 
 _Route1Youngster2Text::
-	text "See those ledges"
-	line "along the road?"
+	text "Vidis ty srazy"
+	line "podel cesty?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Je to trochu"
+	line "strasidelny, ale"
+	cont "muzes z nich"
+	cont "skocit dolu."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Tak se rychleji"
+	line "vratis zpet do"
+	cont "MESTA PALLET."
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "CESTA 1"
+	line "MESTO PALLET -"
+	cont "MESTO VIRIDIAN"
 	done

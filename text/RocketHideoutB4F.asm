@@ -1,67 +1,66 @@
 _RocketHideoutJessieJamesText1::
-	text "Not another step,"
-	line "brat!@"
+	text "Ani krok dal,"
+	line "smrade!@"
 	text_end
 
 _RocketHideoutJessieJamesText2::
-	text "How dare you"
-	line "humiliate us at"
-	cont "MT.MOON!"
+	text "Jak ses opovazil"
+	line "nas ponizit"
+	cont "na MT.MOON!"
 
-	para "It's payback time,"
-	line "you brat!"
+	para "Cas na odplatu,"
+	line "smrade!"
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
-	line "a dreadful twerp!"
+	text "Hrozny"
+	line "spratek!"
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "Vypada to, ze"
+	line "TEAM ROCKET zase"
+	cont "odlitava!@"
 	text_end
 
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Tak! Musim rict,"
+	line "ze jsem ohromen,"
+	cont "ze ses sem dostal!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "COZE!"
+	line "To neni mozne!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Vidim, ze vychova-"
+	line "vas sve #MON"
+	cont "s peci."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Dite jako ty"
+	line "nikdy nepochopi,"
+	cont "ceho chci"
+	cont "dosahnout."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Tentokrat"
+	line "ustoupim!"
 
-	para "I hope we meet"
-	line "again..."
+	para "Doufam, ze"
+	line "se zase potkame..."
 	done
 
 _RocketHideoutB4FRocketBattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Vytah nejede? Kdo"
+	line "ma LIFT KEY?"
 	done
 
 _RocketHideoutB4FRocketEndBattleText::
-	text "No!"
+	text "Ne!"
 	prompt
 
 _RocketHideoutB4FRocketAfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Ach ne! Upustil"
+	line "jsem LIFT KEY!"
 	done

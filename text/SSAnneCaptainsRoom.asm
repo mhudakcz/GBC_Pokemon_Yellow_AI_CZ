@@ -1,64 +1,65 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "KAPITAN: Oouf..."
+	line "Je mi hrozne..."
+	cont "Urrp! Nevolnost..."
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> potrel"
+	line "KAPITANOVI"
+	cont "zada!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "Trit-trit..."
+	line "Trit-trit...@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "KAPITAN: Uf!"
+	line "Diky! Je mi"
+	cont "uz mnohem lip!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Chces videt"
+	line "moji techniku CUT?"
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "Ukazal bych ti,"
+	line "kdybych nebyl"
+	cont "nemocny..."
 
-	para "I know! You can"
-	line "have this!"
+	para "Vim! Tohle"
+	line "muzes mit!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "anytime!"
+	para "Nauc to tvemu"
+	line "#MON a uvidis"
+	cont "CUT kdykoliv"
+	cont "budes chtit!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "KAPITAN: Uf!"
 
-	para "Now that I'm not"
-	line "sick anymore, I"
-	cont "guess it's time."
+	para "Ted, kdyz uz"
+	line "nejsem nemocny,"
+	cont "asi je cas."
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "Ach ne! Nemas"
+	line "misto na tohle!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Fuj! Nemel jsem"
+	line "se divat!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Jak prekonat"
+	line "morskou nemoc..."
+	cont "KAPITAN si to"
+	cont "ted cte!"
 	done

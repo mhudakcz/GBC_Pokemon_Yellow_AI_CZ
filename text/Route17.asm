@@ -1,112 +1,111 @@
 _Route17Biker1BattleText::
-	text "There's no money"
-	line "in fighting kids!"
+	text "Na soubojich s"
+	line "dekama nezbohatnu!"
 	done
 
 _Route17Biker1EndBattleText::
-	text "Burned"
-	line "out!"
+	text "Vyhorel"
+	line "jsem!"
 	prompt
 
 _Route17Biker1AfterBattleText::
-	text "Good stuff is"
-	line "lying around on"
-	cont "CYCLING ROAD!"
+	text "Na CYCLING ROAD"
+	line "se vali fajn"
+	cont "veci!"
 	done
 
 _Route17Biker2BattleText::
-	text "What do you want,"
-	line "kiddo?"
+	text "Co chces,"
+	line "smrade?"
 	done
 
 _Route17Biker2EndBattleText::
-	text "Whoo!"
+	text "Hujo!"
 	prompt
 
 _Route17Biker2AfterBattleText::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "Mohl bych te"
+	line "odsud vykopnout"
+	cont "panvem!"
 	done
 
 _Route17Biker3BattleText::
-	text "You heading to"
-	line "FUCHSIA?"
+	text "Mires do"
+	line "FUCHSIE?"
 	done
 
 _Route17Biker3EndBattleText::
-	text "Crash and"
-	line "burn!"
+	text "Naraz a"
+	line "shoreni!"
 	prompt
 
 _Route17Biker3AfterBattleText::
-	text "I love racing"
-	line "downhill!"
+	text "Miluju zavody"
+	line "z kopce dolu!"
 	done
 
 _Route17Biker4BattleText::
-	text "We're BIKERs!"
-	line "Highway stars!"
+	text "Jsme BIKERi!"
+	line "Hvezdy silnic!"
 	done
 
 _Route17Biker4EndBattleText::
-	text "Smoked!"
+	text "Sejmuti!"
 	prompt
 
 _Route17Biker4AfterBattleText::
-	text "Are you looking"
-	line "for adventure?"
+	text "Hledas snad"
+	line "dobrodruzstvi?"
 	done
 
 _Route17Biker5BattleText::
-	text "Let VOLTORB"
-	line "electrify you!"
+	text "Necht te VOLTORB"
+	line "naelektrizuje!"
 	done
 
 _Route17Biker5EndBattleText::
-	text "Grounded"
-	line "out!"
+	text "Uzemnen!"
 	prompt
 
 _Route17Biker5AfterBattleText::
-	text "I got my VOLTORB"
-	line "at the abandoned"
+	text "VOLTORBa mam"
+	line "z opustene"
 	cont "POWER PLANT."
 	done
 
 _Route17Biker6BattleText::
-	text "My #MON won't"
-	line "evolve! Why?"
+	text "Muj #MON se"
+	line "nevyviji! Proc?"
 	done
 
 _Route17Biker6EndBattleText::
-	text "Why,"
-	line "you!"
+	text "Ty"
+	line "blbe!"
 	prompt
 
 _Route17Biker6AfterBattleText::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Mozna nektery"
+	line "#MON potrebuje"
+	cont "k vyvoji STONE."
 	done
 
 _Route17Biker7BattleText::
-	text "I need a little"
-	line "exercise!"
+	text "Potrebuju trochu"
+	line "se hybat!"
 	done
 
 _Route17Biker7EndBattleText::
-	text "Whew!"
-	line "Good workout!"
+	text "Uf!"
+	line "Pekny trenink!"
 	prompt
 
 _Route17Biker7AfterBattleText::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "Urcite jsem"
+	line "trochu zhubl!"
 	done
 
 _Route17Biker8BattleText::
-	text "Be a rebel!"
+	text "Bud rebel!"
 	done
 
 _Route17Biker8EndBattleText::
@@ -114,65 +113,64 @@ _Route17Biker8EndBattleText::
 	prompt
 
 _Route17Biker8AfterBattleText::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "Bud pripraven"
+	line "branit svuj nazor!"
 	done
 
 _Route17Biker9BattleText::
-	text "Nice BIKE!"
-	line "How's it handle?"
+	text "Pekny BIKE!"
+	line "Jak se ovlada?"
 	done
 
 _Route17Biker9EndBattleText::
-	text "Shoot!"
+	text "Sakra!"
 	prompt
 
 _Route17Biker9AfterBattleText::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "Ten sjezd se"
+	line "spatne ridi!"
 	done
 
 _Route17Biker10BattleText::
-	text "Get lost, kid!"
-	line "I'm bushed!"
+	text "Zmiz, klucino!"
+	line "Jsem unaveny!"
 	done
 
 _Route17Biker10EndBattleText::
-	text "Are you"
-	line "satisfied?"
+	text "Jsi"
+	line "spokojen?"
 	prompt
 
 _Route17Biker10AfterBattleText::
-	text "I need to catch"
-	line "a few Zs!"
+	text "Potrebuju si"
+	line "trochu zdrimnout!"
 	done
 
 _Route17NoticeSign1Text::
-	text "It's a notice!"
+	text "Je to oznameni!"
 
-	para "Watch out for"
-	line "discarded items!"
+	para "Pozor na odhozene"
+	line "predmety!"
 	done
 
 _Route17TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "All #MON are"
-	line "unique."
+	para "Vsichni #MON"
+	line "jsou jedinecni."
 
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
-	cont "different rates."
+	para "I #MON stejneho"
+	line "druhu a urovne"
+	cont "rostou ruzne"
+	cont "rychle."
 	done
 
 _Route17TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "Press the A or B"
-	line "Button to stay in"
-	cont "place while on a"
-	cont "slope."
+	para "Stiskni A nebo B,"
+	line "abys zustal stat"
+	cont "na svahu."
 	done
 
 _Route17SignText::
@@ -182,14 +180,14 @@ _Route17SignText::
 	done
 
 _Route17NoticeSign2Text::
-	text "It's a notice!"
+	text "Je to oznameni!"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Nezahazuj hru,"
+	line "hazej radsi #"
+	cont "BALLy!"
 	done
 
 _Route17CyclingRoadEndsSignText::
 	text "CYCLING ROAD"
-	line "Slope ends here!"
+	line "Sjezd zde konci!"
 	done

@@ -1,172 +1,173 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Vyzkousim si"
+	line "#MON, co jsem"
+	cont "ziskala vymenou!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Ne-"
+	line "stacilo to!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "Nemuzes zmenit"
+	line "prezdivku #MON,"
+	cont "co jsi ziskal"
+	cont "vymenou."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "To umi jen jeho"
+	line "puvodni trener."
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Vypadas mirne,"
+	line "myslim, ze te"
+	cont "porazim!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
-	text "No,"
-	line "wrong!"
+	text "Ne,"
+	line "spatne!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Bojim se BIKERu,"
+	line "vypadaji oskliva"
+	cont "a zle!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "Kdyz piskam,"
+	line "umim privolat"
+	cont "ptaky #MON!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "Au!"
+	line "To je tragedie!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Asi nejsem"
+	line "stavena na boj."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Hmm? Mi ptaci se"
+	line "tresou! Ty jsi"
+	cont "dobry, ze?"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "Jak"
+	line "jsem si myslel!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Vis, ze utoky"
+	line "jako EARTHQUAKE"
+	cont "na ptaky vubec"
+	cont "nepusobi?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Ach, ty jsi"
+	line "maly roztomilek!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "Vypadal jsi"
+	line "tak roztomile!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Odpoustim ti!"
+	line "Zvladnu to!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Chovam #MON,"
+	line "protoze ziju"
+	cont "sama!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "O to"
+	line "jsem nestala!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "Rada chodim domu"
+	line "byt se svymi"
+	cont "#MON!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Hej decko! Pojd!"
+	line "Prave jsem to"
+	cont "ziskal!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "Proc"
+	line "ne?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Zijes jen jednou,"
+	line "tak ziju jako"
+	cont "psanec!"
+	cont "TYM ROCKET RULES!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Dej mi vsechny"
+	line "prachy, az ti"
+	cont "nakopu, decko!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "To"
+	line "neni mozne!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Delal jsem si"
+	line "legraci s prachy!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Co je cool?"
+	line "Vymena #MON!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "Ja"
+	line "rekla vymena!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Menim #MON"
+	line "s kamaradkami!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "Chces si hrat"
+	line "s mymi #MON?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "Byla"
+	line "jsem zbrkla!"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Pujdu trenovat"
+	line "se slabsimi.@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
+	text "CESTA 15"
+	line "Zapad k FUCHSIA"
 	cont "CITY"
 	done

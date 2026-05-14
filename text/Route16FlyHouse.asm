@@ -1,30 +1,29 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Tys nasel muj"
+	line "tajny kout!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "Prosim, nikomu"
+	line "neprozrazuj, ze"
+	cont "tu jsem. Dam ti"
+	cont "za to neco!"
 	prompt
 
 _Route16FlyHouseBrunetteGirlReceivedHM02Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "HM02!@"
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "HM02 je FLY."
+	line "Vezme te zpet"
+	cont "do mest."
 
-	para "Put it to good"
-	line "use!"
+	para "Vyuzij to dobre!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Nemas na to"
+	line "misto."
 	done
 
 _Route16FlyHouseFearowText::

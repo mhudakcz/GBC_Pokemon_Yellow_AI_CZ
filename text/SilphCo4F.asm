@@ -1,17 +1,16 @@
 _SilphCo4FSilphWorkerMImHidingText::
-	text "Sssh! Can't you"
-	line "see I'm hiding?"
+	text "Pssst! Nevidis,"
+	line "ze se schovavam?"
 	done
 
 _SilphCo4FSilphWorkerMTeamRocketIsGoneText::
-	text "Huh? TEAM ROCKET"
-	line "is gone?"
+	text "Co? TEAM ROCKET"
+	line "je pryc?"
 	done
 
 _SilphCo4FRocket1BattleText::
-	text "TEAM ROCKET has"
-	line "taken command of"
-	cont "SILPH CO.!"
+	text "TEAM ROCKET ted"
+	line "ovlada SILPH CO.!"
 	done
 
 _SilphCo4FRocket1EndBattleText::
@@ -19,38 +18,38 @@ _SilphCo4FRocket1EndBattleText::
 	prompt
 
 _SilphCo4FRocket1AfterBattleText::
-	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	text "Fwahaha!"
+	line "Muj BOSS po tom"
+	cont "miste touzil!"
 	done
 
 _SilphCo4FScientistBattleText::
-	text "My #MON are my"
-	line "loyal soldiers!"
+	text "Moji #MON jsou"
+	line "verni vojaci!"
 	done
 
 _SilphCo4FScientistEndBattleText::
-	text "Darn!"
-	line "You weak #MON!"
+	text "Sakra!"
+	line "Slabi #MON!"
 	prompt
 
 _SilphCo4FScientistAfterBattleText::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	text "Dvere jsou"
+	line "elektronicky"
+	cont "zamcene! Otvira"
+	cont "je CARD KEY!"
 	done
 
 _SilphCo4FRocket2BattleText::
-	text "Intruder spotted!"
+	text "Vetrelec spatren!"
 	done
 
 _SilphCo4FRocket2EndBattleText::
-	text "Who"
-	line "are you?"
+	text "Kdo"
+	line "jsi?"
 	prompt
 
 _SilphCo4FRocket2AfterBattleText::
-	text "I better tell the"
-	line "BOSS on 11F!"
+	text "Radsi reknu"
+	line "BOSSovi na 11F!"
 	done

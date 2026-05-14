@@ -1,84 +1,84 @@
 _Route8SuperNerd1BattleText::
-	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	text "Vypadas dobre v"
+	line "#MON, ale jak"
+	cont "ti jde chemie?"
 	done
 
 _Route8SuperNerd1EndBattleText::
-	text "Ow!"
-	line "Meltdown!"
+	text "Au!"
+	line "Reaktor v havarii!"
 	prompt
 
 _Route8SuperNerd1AfterBattleText::
-	text "I am better at"
-	line "school than this!"
+	text "Ve skole jsem"
+	line "lepsi nez tady!"
 	done
 
 _Route8Gambler1BattleText::
-	text "All right! Let's"
-	line "roll the dice!"
+	text "Tak jo! Hodime"
+	line "si kostkama!"
 	done
 
 _Route8Gambler1EndBattleText::
-	text "Drat!"
-	line "Came up short!"
+	text "Sakra!"
+	line "Padlo mi malo!"
 	prompt
 
 _Route8Gambler1AfterBattleText::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "Pani Stesti dnes"
+	line "stoji proti mne!"
 	done
 
 _Route8SuperNerd2BattleText::
-	text "You need strategy"
-	line "to win at this!"
+	text "Na vyhru chce to"
+	line "strategii!"
 	done
 
 _Route8SuperNerd2EndBattleText::
-	text "It's"
-	line "not logical!"
+	text "To"
+	line "neni logicke!"
 	prompt
 
 _Route8SuperNerd2AfterBattleText::
-	text "Go with GRIMER"
-	line "first...and..."
-	cont "...and...then..."
+	text "Nejprve GRIMER"
+	line "...a potom..."
+	cont "...a potom..."
 	done
 
 _Route8CooltrainerF1BattleText::
-	text "I like NIDORAN, so"
-	line "I collect them!"
+	text "Mam rada NIDORANy,"
+	line "tak je sbiram!"
 	done
 
 _Route8CooltrainerF1EndBattleText::
-	text "Why? Why??"
+	text "Proc? Proc??"
 	prompt
 
 _Route8CooltrainerF1AfterBattleText::
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "Kdyz #MON"
+	line "vyrostou, zosklivi"
+	cont "se! Nemeli by se"
+	cont "vyvijet!"
 	done
 
 _Route8SuperNerd3BattleText::
-	text "School is fun, but"
-	line "so are #MON."
+	text "Skola je zabava,"
+	line "ale i #MON."
 	done
 
 _Route8SuperNerd3EndBattleText::
-	text "I'll"
-	line "stay with school."
+	text "Zustanu"
+	line "radsi u skoly."
 	prompt
 
 _Route8SuperNerd3AfterBattleText::
-	text "We're stuck here"
-	line "because of the"
-	cont "gates at SAFFRON."
+	text "Trcime tu, brany"
+	line "v SAFFRON jsou"
+	cont "zavrene."
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
+	text "MEOWTH je super,"
 	line "meow, meow, meow!"
 	done
 
@@ -87,68 +87,66 @@ _Route8CooltrainerF2EndBattleText::
 	prompt
 
 _Route8CooltrainerF2AfterBattleText::
-	text "I think PIDGEY"
-	line "and RATTATA"
-	cont "are cute too!"
+	text "PIDGEY a RATTATA"
+	line "jsou taky"
+	cont "rozkosni!"
 	done
 
 _Route8CooltrainerF3BattleText::
-	text "We must look"
-	line "silly standing"
-	cont "here like this!"
+	text "Asi vypadame"
+	line "blbe, jak tu"
+	cont "takhle stojime!"
 	done
 
 _Route8CooltrainerF3EndBattleText::
-	text "Look what"
-	line "you did!"
+	text "Podivej, co"
+	line "jsi udelal!"
 	prompt
 
 _Route8CooltrainerF3AfterBattleText::
-	text "SAFFRON's gate-"
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "Hlidac brany v"
+	line "SAFFRONu nas tam"
+	cont "nepusti."
+	cont "Je tak protivny!"
 	done
 
 _Route8Gambler2BattleText::
-	text "I'm a rambling,"
-	line "gambling dude!"
+	text "Jsem tulak a"
+	line "gambler!"
 	done
 
 _Route8Gambler2EndBattleText::
-	text "Missed"
-	line "the big score!"
+	text "Hlavni"
+	line "vyhra mi unikla!"
 	prompt
 
 _Route8Gambler2AfterBattleText::
-	text "Gambling and"
-	line "#MON are like"
-	cont "eating peanuts!"
-	cont "Just can't stop!"
+	text "Sazeni a #MON"
+	line "jsou jako buraky!"
+	cont "Nedokazu prestat!"
 	done
 
 _Route8CooltrainerF4BattleText::
-	text "What's a cute,"
-	line "round and fluffy"
-	cont "#MON?"
+	text "Co je takovy"
+	line "rozkosny chlupaty"
+	cont "kulaty #MON?"
 	done
 
 _Route8CooltrainerF4EndBattleText::
 	text "Stop!"
 
-	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	para "Nebud takovy zly"
+	line "na moji CLEFAIRY!"
 	prompt
 
 _Route8CooltrainerF4AfterBattleText::
-	text "I heard that"
-	line "CLEFAIRY evolves"
-	cont "when it's exposed"
-	cont "to a MOON STONE."
+	text "Slysela jsem, ze"
+	line "CLEFAIRY se vyvine"
+	cont "diky MOON STONE."
 	done
 
 _Route8UndergroundSignText::
-	text "UNDERGROUND PATH"
+	text "PODZEMNI CESTA"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
 	done

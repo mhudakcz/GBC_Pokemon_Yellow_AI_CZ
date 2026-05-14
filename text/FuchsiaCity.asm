@@ -1,30 +1,30 @@
 _FuchsiaCityYoungster1Text::
-	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	text "Zkusil jsi"
+	line "SAFARI hru? Tam"
+	cont "chytis #MON,"
+	cont "co nejsou jinde."
 	done
 
 _FuchsiaCityGamblerText::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "Pred vchodem do"
+	line "SAFARI ZONE je"
+	cont "zoo."
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	para "Vzadu je SAFARI"
+	line "hra na chytani"
+	cont "#MON."
 	done
 
 _FuchsiaCityErikText::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "ERIK: Kde je"
+	line "SARA? Rikal jsem,"
+	cont "ze se tu sejdem."
 	done
 
 _FuchsiaCityYoungster2Text::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "Ten predmet"
+	line "tam vevnitr je"
+	cont "vlastne #MON."
 	done
 
 _FuchsiaCityPokemonText::
@@ -33,85 +33,85 @@ _FuchsiaCityPokemonText::
 
 _FuchsiaCitySignText::
 	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	line "Hle! Je to"
+	cont "vasniva ruzova!"
 	done
 
 _FuchsiaCitySafariGameSignText::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "SAFARI hra"
+	line "#MON-CHYT-JE!"
 	done
 
 _FuchsiaCityWardensHomeSignText::
 	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	line "DOMOV STRAZCE"
 	done
 
 _FuchsiaCitySafariZoneSignText::
-	text "#MON PARADISE"
+	text "#MON RAJ"
 	line "SAFARI ZONE"
 	done
 
 _FuchsiaCityGymSignText::
 	text "FUCHSIA CITY"
 	line "#MON GYM"
-	cont "LEADER: KOGA"
+	cont "VUDCE: KOGA"
 
-	para "The Poisonous"
-	line "Ninja Master!"
+	para "Mistr jedovatych"
+	line "ninju!"
 	done
 
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
+	text "Jmeno: CHANSEY"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "Chytit ho je"
+	line "vec nahody."
 	prompt
 
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
+	text "Jmeno: VOLTORB"
 
-	para "The very image of"
-	line "a # BALL."
+	para "Pravy obraz"
+	line "# BALLu."
 	prompt
 
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
+	text "Jmeno: KANGASKHAN"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "Materska #MON,"
+	line "ktera vychovava"
+	cont "mladata v kapse"
+	cont "na bricha."
 	prompt
 
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+	text "Jmeno: SLOWPOKE"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Pratelsky a"
+	line "velmi pomaly."
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
+	text "Jmeno: LAPRAS"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Aka kral"
+	line "vsech mori."
 	prompt
 
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
+	text "Jmeno: OMANYTE"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "#MON, ktery byl"
+	line "vzkrisen"
+	cont "z fosilie."
 	prompt
 
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
+	text "Jmeno: KABUTO"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "#MON, ktery byl"
+	line "vzkrisen"
+	cont "z fosilie."
 	prompt
 
 _FuchsiaCityFossilSignUndeterminedText::

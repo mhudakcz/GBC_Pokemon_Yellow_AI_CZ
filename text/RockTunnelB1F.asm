@@ -1,129 +1,134 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Turisti necha-"
+	line "vaji vetvicky"
+	cont "jako znacky."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
 	text "Ohhh!"
-	line "I did my best!"
+	line "Snazila jsem se!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "Chci jit "
+	line "domu!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hahaha! Porazis"
+	line "moji silu?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Jejda!"
+	line "Predcen v sile!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Jdu po sile,"
+	line "protoze nerad"
+	cont "premyslim!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "Mas #DEX?"
+	line "Taky bych chtel!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Sakra!"
+	line "Tak strasne"
+	cont "ti zavidim!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Az dokoncis"
+	line "svuj #DEX,"
+	cont "muzu ho mit?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "Vis o tech"
+	line "kostymovych"
+	cont "fandech?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "No,"
+	line "tak to je."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Kostymovi fandi"
+	line "se pro zabavu"
+	cont "obleci za #MON."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Me #MON"
+	line "techniky te"
+	cont "rozplacou!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Vzdavam!"
+	line "Tvoje technika"
+	cont "je lepsi!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "V horach casto"
+	line "potkas #MON"
+	cont "kamenneho typu."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "Sem casto"
+	line "nechodim, ale"
+	cont "budu s tebou"
+	cont "bojovat."
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "Och!"
+	line "Prohrala jsem!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "Mam rada mala"
+	line "#MON, velka"
+	cont "jsou desiva!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "Dej mi"
+	line "tu nejlepsi"
+	cont "ranu!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "Vystreleno"
+	line "pryc!"
 	prompt
 
 _RockTunnelB1FHiker3AfterBattleText::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "Vychovam svoji"
+	line "#MON, aby"
+	cont "porazila tvoji,"
+	cont "kluku!"
 	done
 
 _RockTunnelB1FSuperNerd3BattleText::
-	text "I draw #MON"
-	line "when I'm home."
+	text "Doma kreslim"
+	line "#MON."
 	done
 
 _RockTunnelB1FSuperNerd3EndBattleText::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "Uf!"
+	line "Jsem vycerpany!"
 	prompt
 
 _RockTunnelB1FSuperNerd3AfterBattleText::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Jsem umelec,"
+	line "ne bojovnik."
 	done

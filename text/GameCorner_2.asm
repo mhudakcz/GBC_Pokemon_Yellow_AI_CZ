@@ -1,4 +1,4 @@
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Ouha! Zapomnel"
+	line "jsi COIN CASE!"
 	done

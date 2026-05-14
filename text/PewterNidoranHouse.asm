@@ -3,23 +3,23 @@ _PewterNidoranHouseNidoranText::
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN, sedni!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Nas #MON je"
+	line "z venku, tak ho"
+	cont "tezko zvladame."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Ten z venku je"
+	line "#MON, kterys"
+	cont "ziskal vymenou."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Roste rychle, ale"
+	line "muze neposlechnout"
+	cont "nezkuseneho"
+	cont "trenera v boji!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "Kez bychom meli"
+	line "nejake ODZNAKy..."
 	done

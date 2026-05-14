@@ -1,135 +1,136 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Ahoj, tebe tu"
+	line "jeste neznam!"
 
-	para "What's your policy"
-	line "on #MON? What"
-	cont "is your approach?"
+	para "Jaka je tvoje"
+	line "filozofie ohledne"
+	cont "#MON? Jak na"
+	cont "to jdes?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "Ja jedu na plno"
+	line "v utocnem stylu"
+	cont "s vodnimi #MON!"
 
-	para "MISTY, the world-"
-	line "famous beauty, is"
-	cont "your host!"
+	para "MISTY, svetove"
+	line "znama krasavice,"
+	cont "te vita!"
 
-	para "Are you ready,"
-	line "sweetie?"
+	para "Jsi pripraven,"
+	line "zlaticko?"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
+	text "TM11 nauci"
 	line "BUBBLEBEAM!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Pouzij ji na"
+	line "vodniho #MON!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "CASCADEBADGE"
+	line "zaridi, ze #MON"
+	cont "do L30 poslechnou!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "I ty od cizich"
+	line "treneru!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "anytime!"
+	para "A jeste, ted"
+	line "muzes pouzivat"
+	cont "CUT kdykoliv!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Muzes CUTem"
+	line "kacet male kere"
+	cont "a otevirat cesty!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "A muzes mit i"
+	line "mou oblibenou TM!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "TM11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Udelej tomu"
+	line "misto!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "I can't"
-	line "believe I lost!"
+	text "Nemuzu"
+	line "tomu uverit!"
 
-	para "All right!"
+	para "Tak dobre!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!"
+	para "Vezmi si"
+	line "CASCADEBADGE jako"
+	cont "dukaz vitezstvi!"
 	prompt
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Na tebe staci"
+	line "i ja!"
 
-	para "MISTY can wait!"
+	para "MISTY pocka!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Smetl"
+	line "jsi me!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Musis bojovat s"
+	line "dalsimi treneri,"
+	cont "aby ses dozvedel,"
+	cont "jak jsi dobry."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Slup!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Ja jsem prvni!"
+	line "Jdeme na to!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "To"
+	line "neni mozne!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "MISTY se bude"
+	line "porad zlepsovat!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Tobe se uz"
+	line "neda prohrat!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Cau! Budouci"
+	line "sampion!"
 
-	para "Here's my advice!"
+	para "Mam pro tebe"
+	line "radu!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "VUDKYNE MISTY je"
+	line "profik na vodni"
+	cont "#MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Muzes je oslabit"
+	line "rostlinnymi"
+	cont "#MON!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Nebo je trefit"
+	line "elektrinou!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Porazil jsi MISTY!"
+	line "Co jsem rikal?"
 
-	para "You and me, kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Ty a ja, kluku,"
+	line "jsme fakt skvely"
+	cont "tym!"
 	done

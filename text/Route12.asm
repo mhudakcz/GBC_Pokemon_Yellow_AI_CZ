@@ -1,139 +1,135 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Spici #MON"
+	line "blokuje cestu!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX se budi!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Mrzute zautocil!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "SNORLAX zklidnen!"
+	line "S hlasitym zivakem"
+	cont "se vratil do hor!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Jeee! Mam"
+	line "branika!"
 	done
 
 _Route12Fisher1EndBattleText::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Pchaa!"
+	line "Jen drobotina!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Moment! Vlasec se"
+	line "mi zaseknul!"
 	done
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Bud trpelivy!"
+	line "Ryba je hra"
+	cont "na cekani!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Ten"
+	line "mi utekl!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "S lepsim PRUTem"
+	line "chytim lepsi"
+	cont "#MON!"
 	done
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Nasel jsi MOON"
+	line "STONE?"
 	done
 
 _Route12CooltrainerMEndBattleText::
-	text "Oww!"
+	text "Ouha!"
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Mohl jsem nechat"
+	line "#MON vyvinout"
+	cont "s MOON STONEm!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "Elektrina je moje"
+	line "specialita!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Vypnuto!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "Voda vede proud,"
+	line "tak meli bys"
+	cont "zapnout proud na"
+	cont "morske #MON!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "RYBARSKY BLAZEN"
+	line "vs. #MON KLUK!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "Moc"
+	line "silne!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "Porazils me v"
+	line "#MON, ale ja"
+	cont "umim rybarit!"
 	done
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Radsi bych"
+	line "pracoval!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy..."
+	text "Neni"
+	line "to lehke..."
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me anymore."
+	text "Je to v pohode."
+	line "Prohra mi uz"
+	cont "nevadi."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Nikdy nevis, co"
+	line "muzes chytit!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "Utekl!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Chytam MAGIKARP"
+	line "porad, ale jsou"
+	cont "tak slabi!"
 	done
 
 _Route12SignText::
 	text "ROUTE 12 "
-	line "North to LAVENDER"
+	line "Sever do LAVENDER"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "RYBARSKY REVIR"
 	done

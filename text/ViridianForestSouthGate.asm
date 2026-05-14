@@ -1,16 +1,16 @@
 _ViridianForestSouthGateGirlText::
-	text "Are you going to"
+	text "Jdes do"
 	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	cont "Pozor, je to"
+	cont "prirodni bludiste!"
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "You have to roam"
-	line "far to get new"
-	cont "kinds of #MON."
+	text "Musis cestovat"
+	line "daleko, aby jsi"
+	cont "nasel jine #MON"
 
-	para "Look for other"
-	line "types outside of"
-	cont "VIRIDIAN FOREST."
+	para "Hledej jine druhy"
+	line "mimo VIRIDIAN"
+	cont "FOREST."
 	done

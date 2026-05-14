@@ -1,19 +1,19 @@
 _SafariZoneWestRestHouseScientistText::
-	text "Tossing ROCKs at"
-	line "#MON might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "Hazet KAMENY na"
+	line "#MON je muze"
+	cont "vyplasit, ale"
+	cont "snaze je chytis."
 	done
 
 _SafariZoneWestRestHouseCooltrainerMText::
-	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	text "Pouzij NAVNADU,"
+	line "#MON pak snaze"
+	cont "chytis."
 	done
 
 _SafariZoneWestRestHouseSilphWorkerFText::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "Hodne jsem"
+	line "chodila, ale"
+	cont "zadneho #MON"
+	cont "jsem nevidela."
 	done

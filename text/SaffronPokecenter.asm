@@ -1,12 +1,12 @@
 _SaffronPokecenterBeautyText::
-	text "#MON growth"
-	line "rates differ from"
-	cont "specie to specie."
+	text "Rust #MON se"
+	line "lisi druh od"
+	cont "druhu."
 	done
 
 _SaffronPokecenterGentlemanText::
-	text "SILPH CO. is very"
-	line "famous. That's"
-	cont "why it attracted"
+	text "SILPH CO. je moc"
+	line "slavna. Proto"
+	cont "tam zautocil"
 	cont "TEAM ROCKET!"
 	done

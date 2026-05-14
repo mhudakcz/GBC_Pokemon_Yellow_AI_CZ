@@ -1,108 +1,105 @@
 _Museum1FScientist1ComeAgainText::
-	text "Come again!"
+	text "Prijd zase!"
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "Vstup pro deti je"
+	line "za ¥50."
 
-	para "Would you like to"
-	line "come in?"
+	para "Chces dovnitr?"
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "Dobre, ¥50!"
+	line "Diky!"
 	done
 
 _Museum1FScientist1DontHaveEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Nemas dost"
+	line "penez."
 	prompt
 
 _Museum1FScientist1DoYouKnowWhatAmberIsText::
-	text "You can't sneak"
-	line "in the back way!"
+	text "Nemuzes se sem"
+	line "vplizit zezadu!"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "Ach, to je jedno!"
+	line "Vis, co je"
+	cont "JANTAR?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Nekde je"
+	line "laborator, co"
+	cont "zkousi ozivit"
+	cont "davne #MON"
+	cont "z JANTARU."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "JANTAR je"
+	line "zkamenela miza."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
-	text "Please go to the"
-	line "other side!"
+	text "Jdi prosim na"
+	line "druhou stranu!"
 	done
 
 _Museum1FScientist1TakePlentyOfTimeText::
-	text "Take plenty of"
-	line "time to look!"
+	text "Mas dost casu"
+	line "na prohlidku!"
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "To je nadherna"
+	line "fosilie!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
+	text "Pst! Myslim, ze"
+	line "tenhle kus"
+	cont "JANTARU obsahuje"
 	cont "#MON DNA!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	para "Bylo by skvele,"
+	line "kdyby z neho"
+	cont "vzkrisit #MON!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "Ale kolegove me"
+	line "ignoruji!"
 
-	para "So, I have a favor"
-	line "to ask!"
+	para "Mam pro tebe"
+	line "prosbu!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "Vezmi to do"
+	line "#MON LABu na"
+	cont "vysetreni!"
 	prompt
 
 _Museum1FScientist2ReceivedOldAmberText::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "OLD AMBER!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Pst! Nech OLD"
+	line "AMBER prozkoumat!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
-	text "You don't have"
-	line "space for this!"
+	text "Nemas misto"
+	line "na tohle!"
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
+	text "Jsme hrdi na 2"
+	line "fosilie velmi"
+	cont "vzacnych davnych"
 	cont "#MON!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "JANTAR je cisty"
+	line "a zlaty!"
 	done

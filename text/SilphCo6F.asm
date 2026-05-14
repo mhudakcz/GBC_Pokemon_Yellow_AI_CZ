@@ -1,107 +1,107 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "ROCKETi prisli"
+	line "a obsadili"
+	cont "budovu!"
 	done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
+	text "No, radsi jdu"
+	line "zpatky do prace!"
 	done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Pane boze..."
+	line "Pomoz mi, prosim!"
 	done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
-	line "Heheh!"
+	text "Zasnoubili jsme"
+	line "se! Hehe!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Podivej se na nej!"
+	line "Takovy zbabelec!"
 	done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Je mi ho tak lito,"
+	line "ze si ho proste"
+	cont "musim vzit!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
+	text "TEAM ROCKET chce"
+	line "ovladnout svet"
+	cont "pomoci #MON!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
-	line "because of you!"
+	text "TEAM ROCKET utekl"
+	line "kvuli tobe!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "Urcite si vzali"
+	line "na musku SILPH"
+	cont "kvuli nasim"
+	cont "#MON vyrobkum."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "Az vyrostes,"
+	line "pridej se k"
+	cont "SILPHu!"
 	done
 
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jsem jeden ze 4"
+	line "ROCKET BRATRI!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "Plamen"
+	line "uhasl!"
 	prompt
 
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "Nevadi!"
+	line "Mi bratri me"
+	cont "pomsti!"
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
-	line "PRESIDENT!"
+	text "Ten zkazeny"
+	line "PREZIDENT!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "Nemel me poslat"
+	line "do POBOCKY"
+	cont "TIKSI!"
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Sakra!"
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "POBOCKA TIKSI?"
+	line "To je v ruskem"
+	cont "nicim!"
 	done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
-	line "TEAM ROCKET?"
+	text "Trouflas si"
+	line "zradit TEAM"
+	cont "ROCKET?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "Ty"
+	line "zradce!"
 	prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Kdyz stojis za"
+	line "spravedlnosti,"
+	cont "zradis zlo!"
 	done

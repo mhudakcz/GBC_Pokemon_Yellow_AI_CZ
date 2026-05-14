@@ -1,45 +1,44 @@
 _SafariZoneSecretHouseFishingGuruYouHaveWonText::
-	text "Ah! Finally!"
+	text "Ach! Konecne!"
 
-	para "You're the first"
-	line "person to reach"
-	cont "the SECRET HOUSE!"
+	para "Jsi prvni, kdo"
+	line "dorazil k"
+	cont "TAJNEMU DOMU!"
 
-	para "I was getting"
-	line "worried that no"
-	cont "one would win our"
-	cont "campaign prize."
+	para "Bal jsem se, ze"
+	line "nikdo nevyhraje"
+	cont "nasi soutez."
 
-	para "Congratulations!"
-	line "You have won!"
+	para "Gratuluji!"
+	line "Vyhral jsi!"
 	prompt
 
 _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
-	text "HM03 is SURF!"
+	text "HM03 je SURF!"
 
-	para "#MON will be"
-	line "able to ferry you"
-	cont "across water!"
+	para "#MON te bude"
+	line "moci prevezt"
+	cont "pres vodu!"
 
-	para "And, this HM isn't"
-	line "disposable! You"
-	cont "can use it over"
-	cont "and over!"
+	para "A toto HM neni"
+	line "na jedno pouziti!"
+	cont "Pouzivej znovu"
+	cont "a znovu!"
 
-	para "You're super lucky"
-	line "for winning this"
-	cont "fabulous prize!"
+	para "Mas obrovske"
+	line "stesti, ze jsi"
+	cont "vyhral cenu!"
 	done
 
 _SafariZoneSecretHouseFishingGuruHM03NoRoomText::
-	text "You don't have"
-	line "room for this"
-	cont "fabulous prize!"
+	text "Nemas misto"
+	line "na tuto"
+	cont "uzasnou cenu!"
 	done

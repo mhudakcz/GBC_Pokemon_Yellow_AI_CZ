@@ -1,60 +1,61 @@
 _NameRatersHouseNameRaterWantMeToRateText::
-	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	text "Zdravim, zdravim!"
+	line "Jsem oficialni"
+	cont "HODNOTITEL JMEN!"
 
-	para "Want me to rate"
-	line "the nicknames of"
-	cont "your #MON?"
+	para "Chces, abych"
+	line "ohodnotil"
+	cont "prezdivky tvych"
+	cont "#MON?"
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
-	line "should I look at?"
+	text "Ktereho #MON"
+	line "mam ohodnotit?"
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a decent"
-	cont "nickname!"
+	text ", jo?"
+	line "To je slusna"
+	cont "prezdivka!"
 
-	para "But, would you"
-	line "like me to give"
-	cont "it a nicer name?"
+	para "Ale chces, abych"
+	line "mu dal hezci"
+	cont "jmeno?"
 
-	para "How about it?"
+	para "Co ty na to?"
 	done
 
 _NameRatersHouseNameRaterWhatShouldWeNameItText::
-	text "Fine! What should"
-	line "we name it?"
+	text "Dobre! Jak ho"
+	line "pojmenujeme?"
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
-	text "OK! This #MON"
-	line "has been renamed"
+	text "OK! Tenhle #MON"
+	line "byl prejmenovan"
 	cont "@"
 	text_ram wBuffer
 	text "!"
 
-	para "That's a better"
-	line "name than before!"
+	para "Lepsi jmeno"
+	line "nez predtim!"
 	done
 
 _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
-	text "Fine! Come any-"
-	line "time you like!"
+	text "Dobre! Prijd"
+	line "kdykoli chces!"
 	done
 
 _NameRatersHouseNameRaterATrulyImpeccableNameText::
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a truly"
-	cont "impeccable name!"
+	text ", jo?"
+	line "To je opravdu"
+	cont "skvele jmeno!"
 
-	para "Take good care of"
-	line "@"
+	para "Dobre se starej"
+	line "o @"
 	text_ram wNameBuffer
 	text "!"
 	done

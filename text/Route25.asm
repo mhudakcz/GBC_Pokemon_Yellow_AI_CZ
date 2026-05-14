@@ -1,156 +1,155 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Mistni treneri"
+	line "sem chodi"
+	cont "trenovat!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
+	text "Ujde"
+	line "to."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Kazdy #MON ma"
+	line "sve slabiny. Je"
+	cont "dobre chovat"
+	cont "ruzne druhy."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "Tata me vzal na"
+	line "skvely vecirek"
+	cont "na lod S.S.ANNE"
+	cont "ve VERMILION CITY!"
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "Ja"
+	line "se nezlobim!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "Na S.S.ANNE jsem"
+	line "videl trenery z"
+	cont "celeho sveta."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Jsem hustej."
+	line "Mam pritelkyni!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn..."
+	text "Au,"
+	line "sakra..."
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Tak nic. Moje"
+	line "holka me utesi."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Cau! Muj kluk"
+	line "je super!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I'm in"
-	line "a slump!"
+	text "Mam"
+	line "krizi!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Kez by byl muj"
+	line "kluk tak dobry"
+	cont "jako ty!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Vedel jsem, ze"
+	line "te musim porazit!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Vedel"
+	line "jsem, ze prohraju!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Kdyz je #MON"
+	line "zmateny nebo spi,"
+	cont "vymen ho!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "Kamoska ma"
+	line "krasneho #MON."
+	cont "Strasne zavidim!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Uz"
+	line "nezavidim!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Tys byl na MT."
+	line "MOON? Mohl bys"
+	cont "mi dat CLEFAIRY?"
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Prave jsem slezl"
+	line "z MT.MOON, ale"
+	cont "jsem pripraven!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "Maklal"
+	line "ses!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Sakra!"
+	line "Tam vzadu me"
+	cont "kousl ZUBAT."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Jdu navstivit"
+	line "sberatele #MON"
+	cont "na mysu!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "Dostal"
+	line "jsi me."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Ten sberatel ma"
+	line "spoustu vzacnych"
+	cont "druhu #MON."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Jdes k BILLovi?"
+	line "Nejdriv si"
+	cont "zaboxujem!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "Ty jsi"
+	line "neco!"
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
+	text "Stezka pod nami"
+	line "je zkratka do"
 	cont "CERULEAN CITY."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "MORSKA CHATA"
+	line "Tady bydli BILL!"
 	done

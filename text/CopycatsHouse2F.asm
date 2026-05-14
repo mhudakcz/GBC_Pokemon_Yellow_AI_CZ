@@ -1,33 +1,33 @@
 _CopycatsHouse2FCopycatDoYouLikePokemonText::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Cau!"
+	line "Mas rad #MON?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: Ne, jen"
+	line "jsem se te ptal."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: He?"
+	line "Jsi divna!"
 
 	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	line "Prestat napodobit?"
 
-	para "But, that's my"
-	line "favorite hobby!"
+	para "Ale to je muj"
+	line "oblibeny konicek!"
 	prompt
 
 _CopycatsHouse2FCopycatTM31PreReceiveText::
-	text "Oh wow!"
-	line "A # DOLL!"
+	text "Ach wow!"
+	line "# DOLL!"
 
-	para "For me?"
-	line "Thank you!"
+	para "Pro mne?"
+	line "Diky!"
 
-	para "You can have"
-	line "this, then!"
+	para "Tohle si"
+	line "vezmi ty!"
 	prompt
 
 _CopycatsHouse2FCopycatReceivedTM31Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -36,65 +36,65 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 _CopycatsHouse2FCopycatTM31Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM31 obsahuje"
+	line "muj oblibeny"
+	cont "tah, MIMIC!"
 
-	para "Use it on a good"
-	line "#MON!@"
+	para "Pouzij ho na"
+	line "dobreho #MON!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation2Text::
-	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
+	text "<PLAYER>: Cau!"
+	line "Diky za TM31!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Prosim?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Je to"
+	line "tak zabava na-"
+	cont "podobit me?"
 
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	para "COPYCAT: Jasne!"
+	line "Je to sranda!"
 	done
 
 _CopycatsHouse2FCopycatTM31NoRoomText::
-	text "Don't you want"
-	line "this?@"
+	text "Tohle nechces?@"
 	text_end
 
 _CopycatsHouse2FDoduoText::
 	text "DODUO: Giiih!"
 
-	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	para "ZRCATKO, ZRCATKO"
+	line "POVEZ MI, KDO JE"
+	cont "TU NEJ?"
 	done
 
 _CopycatsHouse2FRareDollText::
-	text "This is a rare"
-	line "#MON! Huh?"
-	cont "It's only a doll!"
+	text "To je vzacny"
+	line "#MON! Co?"
+	cont "Je to jen panenka!"
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Hra, kde MARIO"
+	line "ma na hlave"
+	cont "kybl!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
 	text "..."
 
-	para "My Secrets!"
+	para "Moje Tajemstvi!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
+	para "Dovednost:"
+	line "Napodobovani!"
+	cont "Konicek: Sbirani"
+	cont "panenek!"
+	cont "Oblibeny #MON:"
 	cont "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::
-	text "Huh? Can't see!"
+	text "He? Nevidim!"
 	done

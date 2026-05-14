@@ -1,173 +1,171 @@
 _Route14CooltrainerM1BattleText::
-	text "You need to use"
-	line "TMs to teach good"
-	cont "moves to #MON!"
+	text "Musis pouzit TM,"
+	line "aby ses naucil"
+	cont "utoky pro #MON!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Ne-"
+	line "stacil jsi!"
 	prompt
 
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs,"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "Mas par HM, ze?"
+	line "#MON ty utoky"
+	cont "nikdy nezapomene."
 	done
 
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "Moji ptaci #MON"
+	line "jsou pripraveni"
+	cont "k souboji."
 	done
 
 _Route14CooltrainerM2EndBattleText::
-	text "Not"
-	line "ready yet!"
+	text "Jeste"
+	line "ne pripraveni!"
 	prompt
 
 _Route14CooltrainerM2AfterBattleText::
-	text "They need to learn"
-	line "better moves."
+	text "Musi se naucit"
+	line "lepsi utoky."
 	done
 
 _Route14CooltrainerM3BattleText::
-	text "TMs are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "TM jsou v akci"
+	line "v CELADONu!"
+	cont "Ale HM ma jen"
+	cont "par lidi!"
 	done
 
 _Route14CooltrainerM3EndBattleText::
-	text "Aww,"
-	line "bummer!"
+	text "Au,"
+	line "smula!"
 	prompt
 
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "Uc #MON utoky"
+	line "stejneho typu"
+	cont "jako on, pro"
+	cont "vetsi silu."
 	done
 
 _Route14CooltrainerM4BattleText::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Naucil jsi sve"
+	line "ptaky #MON"
+	cont "LETAT?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
-	text "Shot"
-	line "down in flames!"
+	text "Sestre-"
+	line "len v plamenech!"
 	prompt
 
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
-	line "my true love!"
+	text "Ptaci #MON"
+	line "jsou ma laska!"
 	done
 
 _Route14CooltrainerM5BattleText::
-	text "Have you heard of"
-	line "the legendary"
+	text "Slysel jsi o tech"
+	line "legendarnich"
 	cont "#MON?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Proc?"
+	line "Proc jsem prohral?"
 	prompt
 
 _Route14CooltrainerM5AfterBattleText::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "Vsichni 3 legen-"
+	line "darni #MON jsou"
+	cont "draveho rodu."
 	done
 
 _Route14CooltrainerM6BattleText::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "Nejsem na to,"
+	line "ale OK! Pojdme!"
 	done
 
 _Route14CooltrainerM6EndBattleText::
-	text "I"
-	line "knew it!"
+	text "Vedel"
+	line "jsem to!"
 	prompt
 
 _Route14CooltrainerM6AfterBattleText::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "Vyhra, prohra,"
+	line "to je v dlouhem"
+	cont "behu jedno!"
 	done
 
 _Route14Biker1BattleText::
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "Pojd, pojd."
+	line "Jedem, jedem,"
+	cont "jedem!"
 	done
 
 _Route14Biker1EndBattleText::
-	text "Arrg!"
-	line "Lost! Get lost!"
+	text "Aaa!"
+	line "Prohra! Zmiz!"
 	prompt
 
 _Route14Biker1AfterBattleText::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Co, co, co?"
+	line "Co chces?"
 	done
 
 _Route14Biker2BattleText::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Super! Potrebuju"
+	line "zabit cas!"
 	done
 
 _Route14Biker2EndBattleText::
-	text "What?"
-	line "You!?"
+	text "Coze?"
+	line "Ty!?"
 	prompt
 
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "Vychovat #MON"
+	line "je otrava, vole."
 	done
 
 _Route14Biker3BattleText::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "Jezdime tu, bo"
+	line "je tu vic"
+	cont "mista!"
 	done
 
 _Route14Biker3EndBattleText::
-	text "Wipe out!"
+	text "Vykolejil jsem!"
 	prompt
 
 _Route14Biker3AfterBattleText::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "Cool, ze mas"
+	line "tak silne #MON!"
 
-	para "Might is right!"
-	line "And you know it!"
+	para "Sila je vsechno!"
+	line "A ty to vis!"
 	done
 
 _Route14Biker4BattleText::
-	text "#MON fight?"
-	line "Cool! Rumble!"
+	text "#MON souboj?"
+	line "Cool! Tak jdem!"
 	done
 
 _Route14Biker4EndBattleText::
-	text "Blown"
-	line "away!"
+	text "Smeten"
+	line "z mapy!"
 	prompt
 
 _Route14Biker4AfterBattleText::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Mezi nami dvema"
+	line "by to bylo jine,"
+	cont "jeden na jednoho!"
 	done
 
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
+	text "CESTA 14"
+	line "Zapad k FUCHSIA"
 	cont "CITY"
 	done

@@ -1,157 +1,157 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "Prisel jsem sem"
+	line "s kamarady!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "Vyrazili lovit"
+	line "#MON do boje!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle 'em!"
+	text "Hej! Mas #MON!"
+	line "Pojd, pustime se"
+	cont "do souboje!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Ne!"
+	line "CATERPIE na to"
+	cont "nestaci!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Pst! Vyplasis"
+	line "broucky!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Nemuzes utect"
+	line "souboji, kdyz"
+	cont "trener #MON!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
+	text "Co?"
+	line "Doslo mi"
 	cont "#MON!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Sakra! Pujdu"
+	line "chytit nejake"
+	cont "silnejsi!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Hej, pockej!"
+	line "Kam ten spech?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Vzdavam"
+	line "se! Jsi v tom"
+	cont "fakt dobry!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Nekdy najdes"
+	line "neco zajimaveho"
+	cont "na zemi!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Hledam veci,"
+	line "co jsem"
+	cont "upustil!"
 	done
 
 _ViridianForestCooltrainerFBattleText::
-	text "Hi, do you have a"
+	text "Cau, mas"
 	line "PIKACHU?"
 	done
 
 _ViridianForestCooltrainerFEndBattleText::
-	text "Oh no,"
-	line "really?"
+	text "Ach ne,"
+	line "fakt?"
 	prompt
 
 _ViridianForestCooltrainerFAfterBattleText::
-	text "I looked forever,"
-	line "but I never found"
-	cont "a PIKACHU here!"
+	text "Hledala jsem"
+	line "vsude, ale tady"
+	cont "zadny PIKACHU"
+	cont "nebyl!"
 	done
 
 _ViridianForestYoungster5BattleText::
-	text "I'm gonna be the"
-	line "best. You just"
-	cont "can't beat me!"
+	text "Budu nejlepsi."
+	line "Me proste"
+	cont "neporazis!"
 	done
 
 _ViridianForestYoungster5EndBattleText::
-	text "After"
-	line "all I did..."
+	text "Po tom"
+	line "vsem, co jsem..."
 	prompt
 
 _ViridianForestYoungster5AfterBattleText::
-	text "A METAPOD is cool"
-	line "because its"
-	cont "attack is its"
-	cont "defense!"
+	text "METAPOD je cool,"
+	line "protoze jeho"
+	cont "utok je zaroven"
+	cont "obrana!"
 	done
 
 _ViridianForestYoungster6Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Dosly mi #"
+	line "BALLy na chytani"
+	cont "#MON!"
 
-	para "You should carry"
-	line "extras!"
+	para "Vzdy nos s sebou"
+	line "nejake navic!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Chces-li se"
+	line "vyhnout soubojum,"
+	cont "vyhybej se"
+	cont "travnatym mistum!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Na otravu pouzij"
+	line "PROTILEK! Sezen"
+	cont "v #MON MARTu!"
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Spoj se s PROF."
+	line "OAKem pres PC a"
+	cont "nech si #DEX"
+	cont "ohodnotit!"
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
+	para "Zadne kradeze"
+	line "#MON jinym"
+	cont "trenerum!"
+	cont "Chytej jen divoke"
 	cont "#MON!"
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "Pred chytanim"
+	line "#MON oslab!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Kdyz je zdravy,"
+	line "muze utect!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
+	text "OPOUSTIS"
 	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	cont "DALE MESTO PEWTER"
 	done

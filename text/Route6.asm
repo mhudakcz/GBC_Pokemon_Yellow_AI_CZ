@@ -1,104 +1,103 @@
 _Route6CooltrainerM1BattleText::
-	text "I'm doing this"
-	line "out of love."
-	cont "Leave me alone!"
+	text "Delam to z lasky."
+	line "Nech me byt!"
 	done
 
 _Route6CooltrainerM1EndBattleText::
-	text "No,"
-	line "this can't be..."
+	text "Ne,"
+	line "to nemuze byt..."
 	prompt
 
 _Route6CooltrainerM1AfterBattleText::
-	text "My love will leave"
-	line "me in disgust."
+	text "Ma laska me ted"
+	line "s odporem opusti."
 	done
 
 _Route6CooltrainerF1BattleText::
-	text "I'm training for"
-	line "my love. Don't"
-	cont "bother me!"
+	text "Trenuju pro svou"
+	line "lasku. Neotravuj"
+	cont "me!"
 	done
 
 _Route6CooltrainerF1EndBattleText::
-	text "My"
-	line "textbook never..."
+	text "Ma"
+	line "ucebnice nikdy..."
 	prompt
 
 _Route6CooltrainerF1AfterBattleText::
-	text "Now I understand,"
-	line "#MON isn't"
-	cont "about calculated"
-	cont "numbers."
+	text "Ted to chapu,"
+	line "#MON neni jen"
+	cont "o spoctenych"
+	cont "cislech."
 	done
 
 _Route6Youngster1BattleText::
-	text "There aren't many"
-	line "bugs out here."
+	text "Tady venku moc"
+	line "broucku neni."
 	done
 
 _Route6Youngster1EndBattleText::
-	text "No!"
-	line "You're kidding!"
+	text "Ne!"
+	line "Delas si srandu!"
 	prompt
 
 _Route6Youngster1AfterBattleText::
-	text "I like bugs, so"
-	line "I'm going back to"
+	text "Mam rad brouky,"
+	line "tak se vracim do"
 	cont "VIRIDIAN FOREST."
 	done
 
 _Route6CooltrainerM2BattleText::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Ha? Chces si se"
+	line "mnou pokecat?"
 	done
 
 _Route6CooltrainerM2EndBattleText::
-	text "I"
-	line "didn't start it!"
+	text "Ja"
+	line "to nezacal!"
 	prompt
 
 _Route6CooltrainerM2AfterBattleText::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Mel bych nosit"
+	line "vic #MON pro"
+	cont "svou bezpecnost."
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Ja? No tak jo."
+	line "Zahrajem si!"
 	done
 
 _Route6CooltrainerF2EndBattleText::
-	text "Just"
-	line "didn't work!"
+	text "Proste"
+	line "to nevyslo!"
 	prompt
 
 _Route6CooltrainerF2AfterBattleText::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Chci byt silnejsi!"
+	line "Jaky je tvuj"
+	cont "tajny recept?"
 	done
 
 _Route6Youngster2BattleText::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "Tebe jsem tu"
+	line "jeste nevidel!"
+	cont "Jsi dobry?"
 	done
 
 _Route6Youngster2EndBattleText::
-	text "You"
-	line "are too good!"
+	text "Jsi"
+	line "moc dobry!"
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Jsou ma #MON"
+	line "slaba? Nebo jsem"
+	cont "ja jen spatny?"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "PODZEMNI CESTA"
 	line "CERULEAN CITY -"
 	cont "VERMILION CITY"
 	done

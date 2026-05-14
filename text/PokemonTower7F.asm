@@ -1,51 +1,49 @@
 _PokemonTowerJessieJamesText1::
-	text "Stop right there!@"
+	text "Stuj na miste!@"
 	text_end
 
 _PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
-	cont "we're setting him"
-	cont "straight."
+	text "Dedek si stezoval,"
+	line "tak ho ucime"
+	cont "spravnym vecem."
 
-	para "So render yourself"
-	line "invisible, or"
-	cont "prepare to fight!"
+	para "Zmiz, anebo se"
+	line "priprav na boj!"
 	done
 
 _PokemonTowerJessieJamesText3::
-	text "You"
-	line "will regret this!"
+	text "Tohle"
+	line "budes litovat!"
 	prompt
 
 _PokemonTowerJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "Vypada to, ze TYM"
+	line "ROCKET zase"
+	cont "odlita!@"
 	text_end
 
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "MR.FUJI: He? Ty"
+	line "jsi me prisel"
+	cont "zachranit?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Diky. Ale prisel"
+	line "jsem sem ze sve"
+	cont "vlastni vule."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
+	para "Prisel jsem"
+	line "utisit dusi"
+	cont "matky CUBONE."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "Myslim, ze duch"
+	line "MAROWAK odesel"
+	cont "na onen svet."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "Musim ti podekovat"
+	line "za tvuj zajem!"
 
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	para "Pojd se mnou do"
+	line "meho domova, do"
+	cont "#MON DOMU pod"
+	cont "touto vezi."
 	done

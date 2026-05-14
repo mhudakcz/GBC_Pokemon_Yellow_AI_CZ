@@ -1,4 +1,4 @@
 _RocketHideoutElevatorAppearsToNeedKeyText::
-	text "It appears to"
-	line "need a key.@"
+	text "Vypada to, ze"
+	line "potrebuje klic.@"
 	text_end

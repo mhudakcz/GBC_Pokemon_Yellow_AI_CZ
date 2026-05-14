@@ -1,118 +1,116 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Ja? Jsem"
+	line "programator!"
 	done
 
 _CeladonMansion3FProgrammerText2::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Ja? Jsem"
+	line "programator!"
 
-	para "What a surprise!"
-	line "I never expected"
-	cont "anyone to fill a"
+	para "Prekvapeni!"
+	line "Necekal jsem, ze"
+	cont "nekdo doplni cely"
 	cont "#DEX."
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Jsem graficky"
+	line "designer!"
+	cont "Nakreslil jsem te!"
 	done
 
 _CeladonMansion3FGraphicArtistText2::
-	text "I'm the graphic"
-	line "artist!"
+	text "Jsem graficky"
+	line "designer!"
 
-	para "Wow, you finished"
-	line "your #DEX!"
-	cont "Want me to PRINT"
-	cont "out a DIPLOMA"
-	cont "as proof?"
+	para "Hura, dokoncil jsi"
+	line "svuj #DEX!"
+	cont "Mam ti VYTISKNOUT"
+	cont "DIPLOM jako"
+	cont "doklad?"
 	done
 
 _CeladonMansion3FGraphicArtistText3::
-	text "Just tell me if"
-	line "you want to PRINT"
-	cont "out a DIPLOMA."
+	text "Jen rekni, kdyz"
+	line "budes chtit"
+	cont "VYTISKNOUT DIPLOM."
 	done
 
 _CeladonMansion3FGraphicArtistText4::
-	text "All done!"
+	text "Hotovo!"
 	done
 
 _CeladonMansion3FGraphicArtistText5::
-	text "OK, let's not"
-	line "PRINT."
+	text "OK, netiskneme."
 	done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Napsal jsem"
+	line "pribeh! Neni"
+	cont "ERIKA roztomila?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "I MISTY mam moc"
+	line "rad!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "A SABRINA, tu"
+	line "mam taky rad!"
 	done
 
 _CeladonMansion3FWriterText2::
-	text "I wrote the story!"
+	text "Napsal jsem"
+	line "pribeh!"
 
-	para "It's great you"
-	line "caught all the"
-	cont "#MON! Thanks!"
+	para "Skvele, ze jsi"
+	line "chytil vsechny"
+	cont "#MON! Diky!"
 	done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
+	text "Ze ano?"
 
-	para "I'm the game"
+	para "Jsem herni"
 	line "designer!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "Naplnit #DEX je"
+	line "tezke, ale"
+	cont "nevzdavej to!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "Az to dokoncis,"
+	line "rekni mi to!"
 	done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "Wow! Vyborne!"
+	line "Dokoncil jsi"
+	cont "svuj #DEX!"
+	cont "Gratulujeme!"
 	cont "...@"
 	text_end
 
 _CeladonMansion3FGameDesignerCompletedDexText2::
-	text "Go show off your"
-	line "DIPLOMA to"
-	cont "the development"
-	cont "crew."
+	text "Bez ukazat DIPLOM"
+	line "vyvojarum."
 	done
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Je to herni"
+	line "program! Hrabani"
+	cont "v nem by mohlo"
+	cont "hru rozbit!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Nekdo hraje hru"
+	line "misto prace!"
 	done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Je to skript!"
+	line "Radsi se nedivej"
+	cont "na konec hry!"
 	done
 
 _CeladonMansion3FDevRoomSignText::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Vyvojova mistnost"
 	done

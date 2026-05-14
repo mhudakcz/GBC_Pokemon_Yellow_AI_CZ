@@ -1,235 +1,230 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
+	text "<RIVAL>: Hej!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Porad se s tim"
+	line "tady patlas?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "Mne se dari!"
+	line "Nachytal jsem"
+	cont "silne a chytre"
+	cont "#MON!"
 
-	para "Here, let me see"
-	line "what you caught,"
+	para "Hele, ukaz, co"
+	line "mas ty,"
 	cont "<PLAYER>!"
 	done
 
 _CeruleanCityRivalDefeatedText::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Hej!"
+	line "Klid! Uz jsi"
+	cont "vyhral!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
-	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	text "Cha!"
+	line "Na mou genialitu"
+	cont "ty proste nemas!"
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: Hele,"
+	line "co myslis?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
+	para "Stavil jsem se"
+	line "u BILLa a ukazal"
+	cont "mi sve vzacne"
 	cont "#MON!"
 
-	para "That added a lot"
-	line "of pages to my"
+	para "To mi dalo dost"
+	line "stranek do"
 	cont "#DEX!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	para "BILL je svetove"
+	line "znamy jako"
+	cont "#MANIAK!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "Vymyslel system"
+	line "ukladani #MON"
+	cont "na PC!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Kdyz pouzivas"
+	line "jeho system, jdi"
+	cont "mu podekovat!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Tak, ja musim"
+	line "letet! Mej se!"
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "Hej! Drz se dal!"
+	line "Tohle neni tvuj"
+	cont "dvur! Cze? Ja?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Jsem nevinny"
+	line "kolemjdouci!"
+	cont "Neveris mi?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
+	text "<PLAYER> ziskal"
 	line "TM28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Musim ted padat!"
+	line "Cau!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Udelej tomu"
+	line "misto!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "Nemuzu utect,"
+	line "dokud ti to"
+	cont "nedam!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Stuj!"
+	line "Vzdavam se! Pujdu"
+	cont "v klidu pryc!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "Tak jo! Vratim"
+	line "ti tu ukradenou"
+	cont "TM!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
-	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	text "Tys taky trener?"
+	line "Sbirat, bojovat,"
+	cont "to je drsny"
+	cont "zivot."
 	done
 
 _CeruleanCitySuperNerd1Text::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Ten ker pred"
+	line "obchodem prekazi"
+	cont "v ceste."
 
-	para "There might be a"
-	line "way around."
+	para "Mozna jde nejak"
+	line "obejit."
 	done
 
 _CeruleanCitySuperNerd2Text::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	text "Delas encyklopedii"
+	line "o #MON? To zni"
+	cont "zajimave."
 	done
 
 _CeruleanCityGuardText::
-	text "These poor people"
-	line "here were robbed."
+	text "Tihle chudaci"
+	line "tu byli okradeni."
 
-	para "We're positive"
-	line "that TEAM ROCKET"
-	cont "is behind this"
-	cont "terrible deed."
+	para "Jsme si jisti,"
+	line "ze za tim stoji"
+	cont "TEAM ROCKET!"
 
-	para "Even our POLICE"
-	line "FORCE has trouble"
-	cont "with the ROCKETs!"
+	para "I s nasi POLICII"
+	line "maji ROCKETi"
+	cont "potize!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
-	text "OK! ELECTRODE!"
-	line "Use SONICBOOM!"
-	cont "Please ELECTRODE,"
-	cont "pay attention!"
+	text "Tak! ELECTRODE!"
+	line "Pouzij SONICBOOM!"
+	cont "Prosim ELECTRODE,"
+	cont "davej pozor!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
 	text "ELECTRODE, TACKLE!"
-	line "No! You blew it"
-	cont "again!"
+	line "Ne! Zase jsi to"
+	cont "pokazil!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
 	text "ELECTRODE, SWIFT!"
-	line "No! That's wrong!"
+	line "Ne! Spatne!"
 
-	para "Training #MON"
-	line "is difficult!"
+	para "Trenovat #MON"
+	line "je tezke!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "Poslusnost tvych"
+	line "#MON zavisi"
+	cont "na tvych"
+	cont "schopnostech!"
 	done
 
 _CeruleanCityElectrodeTookASnoozeText::
-	text "ELECTRODE took a"
-	line "snooze..."
+	text "ELECTRODE si"
+	line "zdrimnul..."
 	done
 
 _CeruleanCityElectrodeIsLoafingAroundText::
-	text "ELECTRODE is"
-	line "loafing around..."
+	text "ELECTRODE se"
+	line "flaka..."
 	done
 
 _CeruleanCityElectrodeTurnedAwayText::
-	text "ELECTRODE turned"
-	line "away..."
+	text "ELECTRODE se"
+	line "odvratil..."
 	done
 
 _CeruleanCityElectrodeIgnoredOrdersText::
 	text "ELECTRODE"
-	line "ignored orders..."
+	line "ignoroval rozkaz."
 	done
 
 _CeruleanCityCooltrainerF2Text::
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Chci jasne cervene"
+	line "KOLO!"
 
-	para "I'll keep it at"
-	line "home, so it won't"
-	cont "get dirty!"
+	para "Nechala bych si"
+	line "ho doma, aby"
+	cont "se neusprasilo!"
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "Tohle je CERULEAN"
+	line "CAVE! Strasne"
+	cont "silne #MON tam"
+	cont "ziji!"
 
-	para "The #MON LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
+	para "Pouze sampion"
+	line "#MON LIGY tam"
+	cont "smi vstoupit!"
 	done
 
 _CeruleanCitySignText::
 	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	line "Zahalena tajemnou"
+	cont "modrou aurou"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Stiskem B behem"
+	line "vyvoje zrusis"
+	cont "cely proces."
 	done
 
 _CeruleanCityBikeShopSign::
-	text "Grass and caves"
-	line "handled easily!"
-	cont "BIKE SHOP"
+	text "Trava i jeskyne"
+	line "hracka! Obchod"
+	cont "s koly"
 	done
 
 _CeruleanCityGymSign::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "VUDCE: MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "Divoska a"
+	line "morska panna!"
 	done

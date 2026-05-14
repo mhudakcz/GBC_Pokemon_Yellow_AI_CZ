@@ -1,99 +1,97 @@
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Chyceni #MON"
+	line "jsou registrovani"
+	cont "s ID cislem a OT,"
+	cont "coz je jmeno"
+	cont "puvodniho trenera,"
+	cont "ktery je chytil!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Hura!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Kamos mi vymeni"
+	line "sveho KANGASKHANa"
+	cont "za meho"
+	cont "GRAVELERa!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Pojd, GRAVELERe!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Mam ho rad!"
+	line "Sbiram je!"
 
-	para "Huh?"
+	para "Coze?"
 
-	para "GRAVELER turned"
-	line "into a different"
+	para "GRAVELER se"
+	line "premenil v jiny"
 	cont "#MON!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "#MON ziskane"
+	line "vymenou poznas"
+	cont "podle jejich"
+	cont "ID cisel!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "To je SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "RPG! Na to ted"
+	line "nemam cas!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Sportovni hra!"
+	line "Tata bude rad!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Hlavolam! Vypada"
+	line "navykove!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Bojovka! Vypada"
+	line "drsne!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "3F: TV HRY"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Red a Blue!"
+	line "Oba jsou #MON!"
 	done
 
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Ahoj! Mam to!"
+	line "Konecne #DEX!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Jeste ne? Tohle"
+	line "se ti bude hodit!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 je COUNTER!"
+	line "Ne ten pult,"
+	cont "o ktery se"
+	cont "opiram!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Tvuj batoh je"
+	line "plny predmetu!"
 	done

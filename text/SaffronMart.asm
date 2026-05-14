@@ -1,13 +1,12 @@
 _SaffronMartSuperNerdText::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
-	cont "weaker #MON"
-	cont "away!"
+	text "MAX REPEL vydrzi"
+	line "dele nez SUPER"
+	cont "REPEL pri odhaneni"
+	cont "slabsich #MON!"
 	done
 
 _SaffronMartCooltrainerFText::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "REVIVE je drahy,"
+	line "ale ozivi"
+	cont "omdlene #MON!"
 	done

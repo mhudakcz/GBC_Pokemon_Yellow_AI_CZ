@@ -1,56 +1,56 @@
 _SilphCo8FSilphWorkerMSilphIsFinishedText::
-	text "I wonder if SILPH"
-	line "is finished..."
+	text "Mam strach, ze je"
+	line "se SILPHem amen..."
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "Thanks for saving"
-	line "us!"
+	text "Diky, ze jsi nas"
+	line "zachranil!"
 	done
 
 _SilphCo8FRocket1BattleText::
-	text "That's as far as"
-	line "you'll go!"
+	text "Tady tvoje cesta"
+	line "konci!"
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "Malo"
+	line "kuraze!"
 	prompt
 
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Jestli se nevratis"
+	line "zpet, zavolam"
+	cont "posily!"
 	done
 
 _SilphCo8FScientistBattleText::
-	text "You're causing us"
-	line "problems!"
+	text "Delas nam"
+	line "potize!"
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
-	line "I lost?"
+	text "He?"
+	line "Prohral jsem?"
 	prompt
 
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "Co rikas na"
+	line "labyrint v SILPH"
+	cont "BUDOVE?"
 	done
 
 _SilphCo8FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jsem jeden ze 4"
+	line "ROCKET BRATRI!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
-	text "Whoo!"
-	line "Oh brothers!"
+	text "Wuh!"
+	line "Ach, bratri!"
 	prompt
 
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Necham te"
+	line "svym bratrum!"
 	done

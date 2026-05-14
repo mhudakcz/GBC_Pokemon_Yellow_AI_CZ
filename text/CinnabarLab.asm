@@ -1,29 +1,28 @@
 _CinnabarLabFishingGuruText::
-	text "We study #MON"
-	line "extensively here."
+	text "Tady #MON"
+	line "dukladne zkoumame."
 
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	para "Lide nam"
+	line "casto nosi #MON"
+	cont "ke zkoumani."
 	done
 
 _CinnabarLabPhotoText::
-	text "A photo of the"
-	line "LAB's founder,"
-	cont "DR.FUJI!"
+	text "Fotka zakladatele"
+	line "LABu, DR.FUJIho!"
 	done
 
 _CinnabarLabMeetingRoomSignText::
 	text "#MON LAB"
-	line "Meeting Room"
+	line "Jednaci mistnost"
 	done
 
 _CinnabarLabRAndDSignText::
 	text "#MON LAB"
-	line "R-and-D Room"
+	line "Vyvojova mistnost"
 	done
 
 _CinnabarLabTestingRoomSignText::
 	text "#MON LAB"
-	line "Testing Room"
+	line "Testovaci mistnost"
 	done

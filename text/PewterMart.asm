@@ -1,17 +1,17 @@
 _PewterMartYoungsterText::
-	text "A shady old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "Jeden divny dedek"
+	line "me prinutil koupit"
+	cont "tuhle podivnou"
+	cont "rybu #MON!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Je strasne slaba"
+	line "a stala ¥500!"
 	done
 
 _PewterMartSuperNerdText::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Dobre veci se"
+	line "stanou, kdyz"
+	cont "trpelive vychovas"
+	cont "#MON, i ty"
+	cont "slabe!"
 	done

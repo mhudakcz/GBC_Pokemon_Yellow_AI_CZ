@@ -1,209 +1,209 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
-	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
-	cont "came to save us?"
-	cont "Why, thank you!"
+	text "Ach! Ahoj! Ty"
+	line "nejsi ROCKET!"
+	cont "Prisel jsi nas"
+	cont "zachranit? Diky!"
 
-	para "I want you to"
-	line "have this #MON"
-	cont "for saving us."
+	para "Chci, abys mel"
+	line "tohohle #MON"
+	cont "za zachranu."
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "Je to LAPRAS."
+	line "Velmi chytry."
 
-	para "We kept it in our"
-	line "lab, but it will"
-	cont "be much better"
-	cont "off with you!"
+	para "Drzeli jsme ho v"
+	line "labu, ale s tebou"
+	cont "se mu povede"
+	cont "mnohem lip!"
 
-	para "I think you will"
-	line "be a good trainer"
-	cont "for LAPRAS!"
+	para "Myslim, ze budes"
+	line "pro LAPRASe dobry"
+	cont "trener!"
 
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	para "Je to dobry"
+	line "plavec. Sveze te"
+	cont "po vode!"
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKET's"
-	line "BOSS went to the"
-	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	text "BOSS TEAM ROCKET"
+	line "sel do zasedacky!"
+	cont "Je nas PREZIDENT"
+	cont "v poradku?"
 	done
 
 _SilphCo7FSilphWorkerM1SavedText::
-	text "Saved at last!"
-	line "Thank you!"
+	text "Konecne v"
+	line "bezpeci! Diky!"
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "TEAM ROCKET was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "TEAM ROCKET sel"
+	line "po MASTER BALLu,"
+	cont "co chyti kazdy"
+	cont "#MON!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::
-	text "We canceled the"
-	line "MASTER BALL"
-	cont "project because"
-	cont "of TEAM ROCKET."
+	text "Zrusili jsme"
+	line "projekt MASTER"
+	cont "BALL kvuli TEAM"
+	cont "ROCKETu."
 	done
 
 _SilphCo7FSilphWorkerM3ItWouldBeBadText::
-	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	text "Bylo by zle, kdyby"
+	line "TEAM ROCKET vzal"
+	cont "SILPH nebo nase"
+	cont "#MON!"
 	done
 
 _SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText::
-	text "Wow! You chased"
-	line "off TEAM ROCKET"
-	cont "all by yourself?"
+	text "Wow! Vyhnal jsi"
+	line "TEAM ROCKET"
+	cont "uplne sam?"
 	done
 
 _SilphCo7FSilphWorkerM4ItsReallyDangerousHereText::
-	text "You! It's really"
-	line "dangerous here!"
-	cont "You came to save"
-	cont "me? You can't!"
+	text "Ty! Je to tu"
+	line "nebezpecne! Sels"
+	cont "me zachranit?"
+	cont "Nemuzes!"
 	done
 
 _SilphCo7FSilphWorkerM4SafeAtLastText::
-	text "Safe at last!"
-	line "Oh thank you!"
+	text "Konecne v bezpeci!"
+	line "Mockrat diky!"
 	done
 
 _SilphCo7FRocket1BattleText::
-	text "Aha! I smell a"
-	line "little rat!"
+	text "Aha! Cejtim"
+	line "myseho potkana!"
 	done
 
 _SilphCo7FRocket1EndBattleText::
-	text "Lights"
-	line "out!"
+	text "Zhasnu"
+	line "ti!"
 	prompt
 
 _SilphCo7FRocket1AfterBattleText::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "Mojeho BOSSe"
+	line "nenajdes jen tak,"
+	cont "popobiha tu!"
 	done
 
 _SilphCo7FScientistBattleText::
 	text "Heheh!"
 
-	para "You mistook me for"
-	line "a SILPH worker?"
+	para "Splet sis me s"
+	line "delnikem SILPHu?"
 	done
 
 _SilphCo7FScientistEndBattleText::
-	text "I'm"
-	line "done!"
+	text "Jsem"
+	line "v koncich!"
 	prompt
 
 _SilphCo7FScientistAfterBattleText::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "I pres svuj vek"
+	line "jsi sikovny"
+	cont "trener!"
 	done
 
 _SilphCo7FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Jsem jeden ze 4"
+	line "ROCKET BRATRI!"
 	done
 
 _SilphCo7FRocket2EndBattleText::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "Aaah!"
+	line "Bratri, prohral!"
 	prompt
 
 _SilphCo7FRocket2AfterBattleText::
-	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	text "Nevadi."
+	line "Mi bratri ti to"
+	cont "vrati!"
 	done
 
 _SilphCo7FRocket3BattleText::
-	text "A child intruder?"
-	line "That must be you!"
+	text "Detsky vetrelec?"
+	line "To budes ty!"
 	done
 
 _SilphCo7FRocket3EndBattleText::
-	text "Fine!"
-	line "I lost!"
+	text "Fajn!"
+	line "Prohral jsem!"
 	prompt
 
 _SilphCo7FRocket3AfterBattleText::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "Bez domu, nez"
+	line "se muj BOSS"
+	cont "rozzlobi!"
 	done
 
 _SilphCo7FRivalText::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: Kde se"
+	line "tak flakas,"
+	cont "<PLAYER>?"
 	done
 
 _SilphCo7FRivalWaitedHereText::
 	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	line "Tusil jsem, ze"
+	cont "se tu objevis,"
+	cont "kdyz pockam!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "Asi te zdrzel"
+	line "TEAM ROCKET! Ne"
+	cont "ze by mi to"
+	cont "vadilo!"
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "Videl jsem te v"
+	line "SAFFRONu, a chci"
+	cont "vedet, jestli ses"
+	cont "zlepsil!"
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh-oh!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	text "Ouvajs!"
+	line "Takze umis cely"
+	cont "BOSS ROCKET!"
 	prompt
 
 _SilphCo7FRivalVictoryText::
-	text "<RIVAL>: How can"
-	line "I put this?"
+	text "<RIVAL>: Jak to"
+	line "mam rict?"
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "Nejsi dost dobry,"
+	line "abys hral s nami"
+	cont "velkymi kluky!"
 	prompt
 
 _SilphCo7FRivalGoodLuckToYouText::
-	text "Well, <PLAYER>!"
+	text "Tak co, <PLAYER>!"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Ja jdu dal a"
+	line "vys!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "Kdyz koukam do"
+	line "#DEXu, zacinam"
+	cont "videt, kdo je"
+	cont "silny a jak se"
+	cont "vyvijeji!"
 
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	para "Jdu do #MON"
+	line "LIGY vykopnout"
+	cont "ELITNI CTYRKU!"
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "Stanu se"
+	line "nejmocnejsim"
+	cont "trenerem na svete!"
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "<PLAYER>, hodne"
+	line "stesti!"
+	cont "Vykasli se na to!"
+	cont "Cau!"
 	done

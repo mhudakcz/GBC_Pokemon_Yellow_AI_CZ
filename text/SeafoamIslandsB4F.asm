@@ -3,12 +3,12 @@ _SeafoamIslandsB4FArticunoBattleText::
 	text_end
 
 _SeafoamIslandsB4FBouldersSignText::
-	text "Boulders might"
-	line "change the flow"
-	cont "of water!"
+	text "Balvany mohou"
+	line "zmenit smer"
+	cont "proudu vody!"
 	done
 
 _SeafoamIslandsB4FDangerSignText::
-	text "DANGER"
-	line "Fast current!"
+	text "POZOR"
+	line "Silny proud!"
 	done

@@ -1,97 +1,97 @@
 SilphCo2FSilphWorkerFPleaseTakeThisText::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Iiii!"
+	line "Ne! Stop! Pomoc!"
 
-	para "Oh, you're not"
-	line "with TEAM ROCKET."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	para "Ach, ty nejsi z"
+	line "TEAM ROCKET."
+	cont "Myslela jsem..."
+	cont "Promin. Tady,"
+	cont "vezmi si tohle!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
-	text "<PLAYER> got"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::
-	text "TM36 is"
+	text "TM36 je"
 	line "SELFDESTRUCT!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "Je silny, ale"
+	line "#MON, ktery ho"
+	cont "pouzije, omdli!"
+	cont "Bud opatrny."
 	done
 
 _SilphCo2FSilphWorkerFTM36NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "Nemas pro to"
+	line "misto."
 	done
 
 _SilphCo2FScientist1BattleText::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "Pomoc! Jsem"
+	line "zamestnanec SILPH."
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "Jak"
+	line "jsi vedel, ze"
+	cont "jsem ROCKET?"
 	prompt
 
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and TEAM"
+	text "Delam pro SILPH"
+	line "i pro TEAM"
 	cont "ROCKET!"
 	done
 
 _SilphCo2FScientist2BattleText::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Sem se nesmi!"
+	line "Bez domu!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "Jsi"
+	line "dobry."
 	prompt
 
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Zvladnes tenhle"
+	line "labyrint?"
 	done
 
 _SilphCo2FRocket1BattleText::
-	text "No kids are"
-	line "allowed in here!"
+	text "Sem deti nesmi!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Tuhy!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond-shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Dlazdice ve tvaru"
+	line "kosoctverce jsou"
+	cont "teleportacni!"
 
-	para "They're hi-tech"
-	line "transporters!"
+	para "Jsou to hi-tech"
+	line "prenasece!"
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Hej, kluku! Co"
+	line "tu hledas?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "To jsem"
+	line "podelal!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "SILPH CO. bude"
+	line "spojena s TEAM"
+	cont "ROCKET!"
 	done

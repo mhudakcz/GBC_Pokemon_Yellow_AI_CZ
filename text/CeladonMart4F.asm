@@ -1,30 +1,30 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "gift for COPYCAT"
-	cont "in CERULEAN CITY."
+	text "Kupuju darek pro"
+	line "COPYCAT v CERULEAN"
+	cont "CITY."
 
-	para "It's got to be a"
-	line "# DOLL. They"
-	cont "are trendy!"
+	para "Musi to byt"
+	line "# DOLL. Ty jsou"
+	cont "ted v mode!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "Slysel jsem neco"
+	line "uzitecneho."
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "Pred divokymi"
+	line "#MON utecete"
+	cont "tak, ze je"
+	cont "zmatete # DOLL!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "Daruj kveti-"
+	line "nou radost!"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: DARKY MUDRCE"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "Evolucni akce!"
+	line "Element STONE ve"
+	cont "slevove cene!"
 	done

@@ -1,21 +1,21 @@
 _CeladonMartRoofLittleGirlGiveHerWhichDrinkText::
-	text "Give her which"
-	line "drink?"
+	text "Ktery napoj ji"
+	line "dat?"
 	done
 
 _CeladonMartRoofLittleGirlYayFreshWaterText::
-	text "Yay!"
+	text "Hura!"
 
 	para "FRESH WATER!"
 
-	para "Thank you!"
+	para "Diky!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Tohle si vezmi"
+	line "ode me!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM13Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -26,26 +26,26 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
+	text " obsahuje"
 	line "ICE BEAM!"
 
-	para "It can freeze the"
-	line "target sometimes!@"
+	para "Obcas dokaze cil"
+	line "zmrazit!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYaySodaPopText::
-	text "Yay!"
+	text "Hura!"
 
 	para "SODA POP!"
 
-	para "Thank you!"
+	para "Diky!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Tohle si vezmi"
+	line "ode me!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM48Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -56,94 +56,93 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 
 	para "@"
 	text_ram wStringBuffer
-	text " contains"
+	text " obsahuje"
 	line "ROCK SLIDE!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYayLemonadeText::
-	text "Yay!"
+	text "Hura!"
 
 	para "LEMONADE!"
 
-	para "Thank you!"
+	para "Diky!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Tohle si vezmi"
+	line "ode me!@"
 	text_end
 
 _CeladonMartRoofLittleGirlReceivedTM49Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "TM49!@"
 	text_end
 
 _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
-	para "TM49 contains"
+	para "TM49 obsahuje"
 	line "TRI ATTACK!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::
-	text "You don't have"
-	line "space for this!@"
+	text "Nemas na to"
+	line "misto!@"
 	text_end
 
 _CeladonMartRoofLittleGirlImNotThirstyText::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "Ne, diky!"
+	line "Uz nemam zizen"
+	cont "po vsem!@"
 	text_end
 
 _CeladonMartRoofSuperNerdText::
-	text "My sister is a"
-	line "trainer, believe"
-	cont "it or not."
+	text "Moje sestra je"
+	line "trenerka, verte"
+	cont "nebo ne."
 
-	para "But, she's so"
-	line "immature, she"
-	cont "drives me nuts!"
+	para "Ale je tak"
+	line "detinska, ze me"
+	cont "to dohani k"
+	cont "silenstvi!"
 	done
 
 _CeladonMartRoofLittleGirlImThirstyText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Mam zizen!"
+	line "Chci neco"
+	cont "k piti!"
 	done
 
 _CeladonMartRoofLittleGirlGiveHerADrinkText::
-	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	text "Mam zizen!"
+	line "Chci neco"
+	cont "k piti!"
 
-	para "Give her a drink?"
+	para "Dat ji napoj?"
 	done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "STRECHA:"
+	line "AUTOMATY"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "Napojovy automat!"
+	line "Tady je menu!"
 	prompt
 
 _VendingMachineText4::
-	text "Oops, not enough"
-	line "money!"
+	text "Ouha, malo penez!"
 	done
 
 _VendingMachineText5::
 	text_ram wStringBuffer
 	text_start
-	line "popped out!"
+	line "vyskocil ven!"
 	done
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Uz nemas misto!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Nemam zizen!"
 	done

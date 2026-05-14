@@ -1,42 +1,41 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Cau <PLAYER>!"
+	line "<RIVAL> je u"
+	cont "dedy v labce."
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Deda te poslal"
+	line "neco vyridit?"
+	cont "Hele, tohle ti"
+	cont "pomuze!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Mas toho prilis"
+	line "moc."
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Pouzij MAPU MESTA"
+	line "ke zjisteni, kde"
+	cont "se nachazis."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "Spending time"
-	line "with your #MON"
-	cont "makes them more"
-	cont "friendly to you."
+	text "Cas straveny s"
+	line "#MON je sblizi"
+	cont "vic s tebou."
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "Velka mapa!"
+	line "To se hodi!"
 	done

@@ -1,59 +1,59 @@
 _Museum2FYoungsterText::
 	text "MOON STONE?"
 
-	para "What's so special"
-	line "about it?"
+	para "Co je na ni"
+	line "tak zvlastni?"
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "20. cervence 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "Prvni pristani"
+	line "na mesici!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "Koupil jsem si"
+	line "barevnou TV!"
 	done
 
 _Museum2FScientistText::
-	text "We have a space"
-	line "exhibit now."
+	text "Mame tu vystavu"
+	line "o vesmiru."
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Chci PIKACHU!"
+	line "Je tak roztomily!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "Rekla jsem tati,"
+	line "at mi ho chyti!"
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Jo, PIKACHU bude"
+	line "brzy, slibuju!"
 	done
 
 _Museum2FPikachuText1::
-	text "Your PIKACHU looks"
-	line "untamed."
-	cont "May I have it for"
-	cont "my daughter?"
+	text "Tvuj PIKACHU"
+	line "vypada zdivocele."
+	cont "Mohu ho dostat"
+	cont "pro svou dceru?"
 	done
 
 _Museum2FPikachuText2::
-	text "I'd like to get"
-	line "that PIKACHU off"
-	cont "you, but it's too"
-	cont "attached to you."
+	text "Rad bych od tebe"
+	line "toho PIKACHU,"
+	cont "ale moc je"
+	cont "navazany na tebe."
 	done
 
 _Museum2FSpaceShuttleSignText::
-	text "SPACE SHUTTLE"
+	text "RAKETOPLAN"
 	line "COLUMBIA"
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
+	text "Meteorit, ktery"
+	line "spadl na MT.MOON."
 	cont "(MOON STONE?)"
 	done

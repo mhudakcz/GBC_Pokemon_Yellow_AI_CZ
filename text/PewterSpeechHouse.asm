@@ -1,19 +1,17 @@
 _PewterSpeechHouseGamblerText::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
+	text "#MON se uci"
+	line "nove techniky"
+	cont "jak rostou!"
 
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	para "Ale nektere musi"
+	line "naucit trener!"
 	done
 
 _PewterSpeechHouseYoungsterText::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "#MON je snazsi"
+	line "chytit, kdyz je"
+	cont "zraneny nebo spi!"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "Ale neni to vzdy"
+	line "jiste!"
 	done

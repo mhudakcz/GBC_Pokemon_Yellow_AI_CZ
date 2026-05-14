@@ -1,68 +1,66 @@
 _CeladonGymErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Ahoj. Krasne"
+	line "pocasi, ze ano?"
+	cont "Je to prijemne."
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "...Ach jo..."
+	line "Asi jsem si"
+	cont "zdrimla. Vitej."
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "Jmenuju se ERIKA."
+	line "Jsem VUDKYNE"
+	cont "CELADON GYMu."
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "Ucim aranzovat"
+	line "kvetiny. Moji"
+	cont "#MON jsou typu"
+	cont "grass."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "Promin, netusila"
+	line "jsem, ze me"
+	cont "chces vyzvat."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Dobra, ale ja"
+	line "neprohraju."
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Ach!"
+	line "Vzdavam to."
 
-	para "You are remarkably"
-	line "strong."
+	para "Jsi pozoruhodne"
+	line "silny."
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "Musim ti udelit"
+	line "RAINBOWBADGE."
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Sbiras informace"
+	line "o #MON? To me"
+	cont "opravdu udivuje."
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "Ja bych #MON"
+	line "nikdy nesbirala,"
+	cont "kdyby nebyli"
+	cont "krasni."
 	done
 
 _CeladonGymRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "RAINBOWBADGE ti"
+	line "umozni ovladat"
+	cont "#MON az do L50."
 
-	para "It also allows"
-	line "#MON to use"
-	cont "STRENGTH in and"
-	cont "out of battle."
+	para "Take dovoluje"
+	line "#MON pouzivat"
+	cont "STRENGTH v boji"
+	cont "i mimo nej."
 
-	para "Please also take"
-	line "this with you."
+	para "Vezmi si i toto."
 	done
 
 _CeladonGymReceivedTM21Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -71,150 +69,147 @@ _CeladonGymReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
+	para "TM21 obsahuje"
 	line "MEGA DRAIN."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "Pulka udeleneho"
+	line "poskozeni"
+	cont "se vrati zpet"
+	cont "tvemu #MON!"
 	done
 
 _CeladonGymTM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "Udelej misto"
+	line "pro toto."
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "Hej!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Sem nesmis!"
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "Jsi"
+	line "moc hruby!"
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "Fuj! Doufam, ze"
+	line "te ERIKA"
+	cont "rozdrti!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Zacinala jsem"
+	line "se nudit."
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
+	text "Muj"
 	line "makeup!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "#MON typu grass"
+	line "jsou silni proti"
+	cont "typu water!"
 
-	para "They also have an"
-	line "edge on rock and"
+	para "Maji vyhodu i"
+	line "proti rock a"
 	cont "ground #MON!"
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Nejsi ty ten"
+	line "slidil?"
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "To je"
+	line "sok!"
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "Aha, ty nesli-"
+	line "dis? Mame tu"
+	cont "spoustu zevlounu!"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "Koukni na me"
+	line "grass #MON!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "Snadno se chovaji!"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "Ne!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "U nas v GYMu"
+	line "pouzivame jen"
+	cont "grass #MON!"
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "Pouzivame je i"
+	line "na aranzovani"
+	cont "kvetin!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Sem nenos zadne"
+	line "bug ani fire"
+	cont "#MON!"
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "Ach!"
+	line "Ty!"
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Nase VUDKYNE"
+	line "ERIKA je ticha,"
+	cont "ale taky velmi"
+	cont "schopna!"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Tesi me. Mym"
+	line "konickem je"
+	cont "trenink #MON."
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
-	line "Splendid!"
+	text "Ach!"
+	line "Skvele!"
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "Mam pred sebou"
+	line "rande na slepo."
+	cont "Musim se naucit"
+	cont "byt zdvorila."
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "Vitej v"
+	line "CELADON GYMu!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "Nepodcenuj"
+	line "divci silu!"
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Ach!"
+	line "Porazena!"
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "Nevzala jsem sve"
+	line "nejlepsi #MON!"
 
-	para "Wait 'til next"
-	line "time!"
+	para "Pockej na"
+	line "priste!"
 	done

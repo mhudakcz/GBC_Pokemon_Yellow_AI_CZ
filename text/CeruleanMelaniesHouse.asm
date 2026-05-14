@@ -1,35 +1,36 @@
 MelanieText1::
-	text "I take care of"
-	line "injured #MON."
+	text "Staram se o"
+	line "zranene #MON."
 
-	para "I nursed this"
-	line "BULBASAUR back to"
-	cont "health."
+	para "Tomu BULBASAURovi"
+	line "jsem pomohla"
+	cont "zpatky na nohy."
 
-	para "It needs a good"
-	line "trainer to take"
-	cont "care of it now.@"
+	para "Ted potrebuje"
+	line "dobreho trenera,"
+	cont "co se o nej"
+	cont "postara.@"
 	text_end
 
 MelanieText2::
-	text "I know! Would you"
-	line "take care of this"
-	cont "BULBASAUR?"
+	text "Vim! Vzal by sis"
+	line "tohohle"
+	cont "BULBASAURa?"
 	done
 
 MelanieText3::
-	text "Please take care"
-	line "of BULBASAUR!@"
+	text "Prosim, postarej"
+	line "se o BULBASAURa!@"
 	text_end
 
 MelanieText4::
-	text "Is BULBASAUR"
-	line "doing well?@"
+	text "Jak se ma"
+	line "BULBASAUR?@"
 	text_end
 
 MelanieText5::
-	text "Oh..."
-	line "That's too bad...@"
+	text "Och..."
+	line "To je skoda...@"
 	text_end
 
 MelanieBulbasaurText::

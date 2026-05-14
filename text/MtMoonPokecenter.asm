@@ -1,19 +1,19 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "Mam 6 # BALLu"
+	line "na opasku."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Maximum je nest"
+	line "6 #MON."
 	done
 
 _MtMoonPokecenterGentlemanText::
 	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	line "utoci na obcany"
+	cont "CERULEAN..."
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "TEAM ROCKET je"
+	line "porad ve"
+	cont "zpravach!"
 	done
 
 _MtMoonPokecenterClipboardText::
@@ -21,28 +21,28 @@ _MtMoonPokecenterClipboardText::
 	done
 
 _MtMoonPokecenterMagikarpSalesmanIGotADealText::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "PAN: Ahoj, kamo!"
+	line "Mam pro tebe"
+	cont "skvelou nabidku!"
 
-	para "I'll let you have"
-	line "a swell MAGIKARP"
-	cont "for just ¥500!"
-	cont "What do you say?"
+	para "Dam ti bezvadneho"
+	line "MAGIKARPa za"
+	cont "pouhych ¥500!"
+	cont "Co ty na to?"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "Ne? Delam to"
+	line "jen jako"
+	cont "laskavost tobe!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Potrebujes vic"
+	line "penez nez tohle!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "PAN: Hele, ja"
+	line "penize nevracim!"
 	done

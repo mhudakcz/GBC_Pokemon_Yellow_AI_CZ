@@ -1,43 +1,43 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+	text "Popel meho #MON"
+	line "je ulozeny v"
+	cont "#MON TOWER."
 
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it anymore..."
+	para "Muzes si vzit"
+	line "tento TM. Uz ho"
+	cont "nepotrebuji..."
 	prompt
 
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
+	text "<PLAYER> dostal"
 	line "TM39!@"
 	text_end
 
 _Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+	text "TM39 je utok"
+	line "zvany SWIFT."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "Je velmi presny,"
+	line "tak ho pouzij v"
+	cont "soubojich, ktere"
+	cont "musis vyhrat."
 	done
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+	text "Nemas misto"
+	line "na tohle."
 	done
 
 _Route12Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "A man fishing!"
+	para "Muz rybari!"
 	done
 
 _Route12Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Pohled do"
+	line "dalekohledu."
 
-	para "It's #MON TOWER!"
+	para "To #MON TOWER!"
 	done

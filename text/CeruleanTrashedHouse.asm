@@ -1,36 +1,36 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
-	text "Those miserable"
-	line "ROCKETs!"
+	text "Ti mizerni"
+	line "ROCKETi!"
 
-	para "Look what they"
-	line "did here!"
+	para "Podivej, co"
+	line "tady provedli!"
 
-	para "They stole a TM"
-	line "for teaching"
-	cont "#MON how to"
-	cont "DIG holes!"
+	para "Ukradli TM,"
+	line "ktere uci #MON"
+	cont "kopat diry"
+	cont "pomoci DIG!"
 
-	para "That cost me a"
-	line "bundle, it did!"
+	para "Stalo me to"
+	line "majlant!"
 	done
 
 _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
-	text "I figure what's"
-	line "lost is lost!"
+	text "Co je pryc, je"
+	line "pryc!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	para "Rozhodl jsem se"
+	line "naucit DIGLETT"
+	cont "DIG bez TM!"
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "TEAM ROCKET must"
-	line "be trying to DIG"
-	cont "their way into no"
-	cont "good!"
+	text "TEAM ROCKET se"
+	line "asi snazi DIGem"
+	cont "prokopat nekam,"
+	cont "kam nepatri!"
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "TEAM ROCKET tudy"
+	line "utekl!"
 	done

@@ -1,29 +1,28 @@
 _SummerBeachHouseSurfinDudeText1::
-	text "Whoa!"
+	text "Wow!"
 
-	para "Your PIKACHU knows"
-	line "how to SURF! So,"
-	cont "I'm not alone..."
+	para "Tvuj PIKACHU umi"
+	line "SURFovat! Tak"
+	cont "nejsem sam..."
 
-	para "Great! You earned"
-	line "the right to SURF"
-	cont "with the DUDE!"
+	para "Super! Mas pravo"
+	line "SURFovat s borcem!"
 
-	para "Give it a go?"
+	para "Dame to?"
 	done
 
 _SummerBeachHouseSurfinDudeText2::
-	text "Come SURF anytime,"
-	line "my friend!"
+	text "Prijd SURFovat"
+	line "kdykoli, kamose!"
 	done
 
 _SummerBeachHouseSurfinDudeText3::
-	text "Wanna go SURF?"
+	text "Jdem SURFovat?"
 	done
 
 _SummerBeachHouseSurfinDudeText4::
-	text "Dogs and burgers"
-	line "on special today!"
+	text "Hot dogy a burgry"
+	line "v akci dnes!"
 	done
 
 _SummerBeachHousePikachuText::
@@ -31,77 +30,76 @@ _SummerBeachHousePikachuText::
 	done
 
 _SummerBeachHousePoster1Text1::
-	text "SURFIN' DUDE's"
-	line "scribbles..."
+	text "Borecek si"
+	line "skrabe..."
 
-	para "When I shoot the"
-	line "tube, the tunes"
-	cont "hit the groove!"
+	para "Kdyz prorazim"
+	line "tunel, mam"
+	cont "svuj rytmus!"
 	done
 
 _SummerBeachHousePoster1Text2::
-	text "30 years of waves!"
-	line "SURFIN' DUDE"
+	text "30 let vln!"
+	line "BOREC SURFAR"
 	done
 
 _SummerBeachHousePoster2Text1::
-	text "SURFING TIP 1!"
+	text "SURF TIP 1!"
 
-	para "After flips, line"
-	line "the board up with"
-	cont "a wave for a cool"
-	cont "effect!"
+	para "Po skoku srovnej"
+	line "prkno s vlnou"
+	cont "pro cool efekt!"
 	done
 
 _SummerBeachHousePoster2Text2::
-	text "SUMMER BEACH HOUSE"
-	line "#MON welcome!"
+	text "LETNI PRIBYTEK"
+	line "#MON vitani!"
 	done
 
 _SummerBeachHousePoster3Text1::
-	text "SURFING TIP 2!"
+	text "SURF TIP 2!"
 
-	para "Pulling flips in"
-	line "a jump is totally"
-	cont "rad!"
+	para "Dat salto ve"
+	line "skoku je"
+	cont "vrchol!"
 	done
 
 _SummerBeachHousePoster3Text2::
-	text "The sea unites"
-	line "all in surfdom!"
+	text "More spojuje"
+	line "vsechny surfary!"
 	done
 
 _SummerBeachHousePrinterText1::
-	text "It's some sort of"
-	line "a machine...@"
+	text "Je to nejaky"
+	line "stroj...@"
 	text_end
 
 _SummerBeachHousePrinterText2::
-	text "SUMMER BEACH HOUSE"
-	line "PRINTER, it says.@"
+	text "TISKARNA LETNIHO"
+	line "PRIBYTKU, stoji.@"
 	text_end
 
 _SummerBeachHousePrinterText3::
-	text "The Hi-Score is"
-	line "shown."
+	text "Zobrazi se nej-"
+	line "lepsi skore."
 
-	para "PRINT it out?"
+	para "VYTISKNOUT?"
 	done
 
 _SummerBeachHousePrinterText4::
-	text "SUMMER BEACH HOUSE"
-	line "PRINTER, it says."
+	text "TISKARNA LETNIHO"
+	line "PRIBYTKU, stoji."
 
-	para "The Hi-Score is"
-	line "shown."
+	para "Zobrazi se nej-"
+	line "lepsi skore."
 
-	para "PRINT it out?"
+	para "VYTISKNOUT?"
 	done
 
 _SummerBeachHousePrinterText5::
-	text "PRINT completed.@"
+	text "TISK hotov.@"
 	text_end
 
 _SummerBeachHousePrinterText6::
-	text "PRINT error!@"
+	text "Chyba TISKU!@"
 	text_end

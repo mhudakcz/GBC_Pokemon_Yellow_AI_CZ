@@ -1,10 +1,10 @@
 _CinnabarMartSilphWorkerFText::
-	text "Don't they have X"
-	line "ATTACK? It's good"
-	cont "for battles!"
+	text "Nemaji X ATTACK?"
+	line "Hodi se na"
+	cont "souboje!"
 	done
 
 _CinnabarMartScientistText::
-	text "It never hurts to"
-	line "have extra items!"
+	text "Mit predmety"
+	line "navic neuskodi!"
 	done

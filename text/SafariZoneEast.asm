@@ -1,16 +1,16 @@
 _SafariZoneEastRestHouseSignText::
-	text "REST HOUSE"
+	text "ODPOCIVADLO"
 	done
 
 _SafariZoneEastTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERA"
 
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
+	para "Zbyvajici cas"
+	line "klesa, jen kdyz"
+	cont "se hybes!"
 	done
 
 _SafariZoneEastSignText::
-	text "CENTER AREA"
-	line "NORTH: AREA 2"
+	text "OBLAST STRED"
+	line "SEVER: OBLAST 2"
 	done

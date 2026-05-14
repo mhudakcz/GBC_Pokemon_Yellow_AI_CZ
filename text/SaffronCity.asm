@@ -1,67 +1,66 @@
 _SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
+	text "Co tu chces?"
+	line "Zmiz!"
 	done
 
 _SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "BOSS rekl, ze"
+	line "to mesto sebere!"
 	done
 
 _SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
+	text "Uhni z cesty!"
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	text "SAFFRON patri"
+	line "TEAM ROCKET!"
 	done
 
 _SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "Byt zly me dela"
+	line "tak zivym!"
 	done
 
 _SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Au! Davej pozor,"
+	line "kam slapes!"
 	done
 
 _SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "Az ovladneme"
+	line "SILPH, muzeme"
+	cont "tezit #MON"
+	cont "po celem svete!"
 	done
 
 _SaffronCityScientistText::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "That's amazing!"
+	text "Porazil jsi TEAM"
+	line "ROCKET sam?"
+	cont "To je uzasne!"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Jo! TEAM ROCKET"
+	line "je pryc!"
+	cont "Konecne se da"
+	cont "zase ven!"
 	done
 
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "Lide by se meli"
+	line "vratit zpet do"
+	cont "mesta SAFFRON."
 	done
 
 _SaffronCityGentlemanText::
-	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	text "Priletel jsem na"
+	line "PIDGEOTu, kdyz"
+	cont "psali o SILPHu."
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "Uz je po vsem?"
+	line "Zmeskal jsem"
+	cont "akci v mediich."
 	done
 
 _SaffronCityPidgeotText::
@@ -69,31 +68,31 @@ _SaffronCityPidgeotText::
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "Videl jsem sefa"
+	line "ROCKETu utikat"
+	cont "z budovy SILPH."
 	done
 
 _SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+	text "Jsem ostraha."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "Podezrele deti"
+	line "tu nemaji co"
+	cont "delat!"
 	done
 
 _SaffronCityRocket9Text::
 	text "..."
-	line "Snore..."
+	line "Chrrr..."
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Ha! On si dava"
+	line "sichtu!"
 	done
 
 _SaffronCitySignText::
 	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	line "Zlate, zarive"
+	cont "mesto obchodu"
 	done
 
 _SaffronCityFightingDojoSignText::
@@ -103,50 +102,51 @@ _SaffronCityFightingDojoSignText::
 _SaffronCityGymSignText::
 	text "SAFFRON CITY"
 	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	cont "VUDCE: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "Mistryne"
+	line "psychiky #MON!"
 	done
 
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "FULL HEAL leci"
+	line "vsechny neduhy"
+	cont "jako spanek ci"
+	cont "popaleniny."
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "Stoji vic, ale"
+	line "je to mnohem"
+	cont "praktictejsi."
 	done
 
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TIPY PRO TRENERY"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "Novy GREAT BALL"
+	line "ma lepsi sance"
+	cont "na chyceni."
 
-	para "Try it on those"
-	line "hard-to-catch"
+	para "Zkus ho na ty"
+	line "tezko chytatelne"
 	cont "#MON."
 	done
 
 _SaffronCitySilphCoSignText::
 	text "SILPH CO."
-	line "OFFICE BUILDING"
+	line "KANCELARSKA BUDOVA"
 	done
 
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "MR.PSYCHIC"
+	line "DUM"
 	done
 
 _SaffronCitySilphCoLatestProductSignText::
-	text "SILPH's latest"
-	line "product!"
+	text "Novinka od"
+	line "SILPHu!"
 
-	para "Release to be"
-	line "determined..."
+	para "Datum vydani"
+	line "bude urceno..."
 	done

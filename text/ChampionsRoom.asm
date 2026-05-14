@@ -1,84 +1,83 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hej!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Tesil jsem se,"
+	line "az te uvidim,"
+	cont "<PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Muj rival musi"
+	line "byt silny, aby"
+	cont "me udrzel ve"
+	cont "strehu!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "Pri praci na"
+	line "#DEX jsem"
+	cont "hledal mocne"
+	cont "#MON vsude!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "A nejen to,"
+	line "sestavil jsem"
+	cont "tymy, co porazi"
+	cont "kazdy typ #MON!"
 
-	para "And now!"
+	para "A ted!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "Jsem sampion"
+	line "#MON LIGY!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER>! Vis,"
+	line "co to znamena?"
 
-	para "I'll tell you!"
+	para "Reknu ti to!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Jsem nejmocnejsi"
+	line "trener na svete!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "NE!"
+	line "To neni mozne!"
+	cont "Porazil jsi me!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Po vsi te drine,"
+	line "co jsem si dal,"
+	cont "abych se stal"
+	cont "sampionem?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Moje vlada uz"
+	line "konci? Tohle"
+	cont "neni fer!"
 	prompt
 
 _RivalVictoryText::
 	text "Hahaha!"
-	line "I won, I won!"
+	line "Vyhral, vyhral!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "Jsem na tebe moc"
+	line "dobry, <PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Dotahls to az"
+	line "ke mne, <RIVAL>,"
+	cont "#MON geniovi!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Dobry pokus,"
+	line "smolari! Hahaha!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Proc?"
+	line "Proc jsem prohral?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Nikdy jsem"
+	line "nedelal chyby"
+	cont "u svych #MON..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "Sakra! Jsi novy"
+	line "sampion #MON"
+	cont "LIGY!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "I kdyz to"
+	line "nerad priznavam."
 	done
 
 _ChampionsRoomOakText::
@@ -86,61 +85,60 @@ _ChampionsRoomOakText::
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "OAK: Tys vyhral!"
+	line "Gratuluju ti!"
+	cont "Jsi novy sampion"
+	cont "#MON LIGY!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "Hodne jsi vyrostl"
+	line "od chvile, kdy"
+	cont "jsi odesel s"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>, stal"
+	line "ses dospelym!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "OAK: <RIVAL>!"
+	line "Jsem zklamany!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Prisel jsem,"
+	line "kdyz jsem slysel,"
+	cont "zes porazil"
+	cont "ELITNI CTYRKU!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Ale kdyz jsem"
+	line "dorazil, uz jsi"
+	cont "prohral!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL>! Vis,"
+	line "proc jsi"
+	cont "prohral?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "Zapomnels chovat"
+	line "sve #MON s"
+	cont "duverou a laskou!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Bez nich uz"
+	line "nikdy nebudes"
+	cont "sampionem!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
 	text "OAK: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Chapes, ze tve"
+	line "vitezstvi neni"
+	cont "jen tvoji"
+	cont "zasluhou!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "Pouto, ktere mas"
+	line "s #MON, je"
+	cont "nadherne!"
 
 	para "<PLAYER>!"
-	line "Come with me!"
+	line "Pojd se mnou!"
 	done

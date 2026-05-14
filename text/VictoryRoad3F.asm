@@ -1,63 +1,65 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "Slysel jsem famy"
+	line "o detskem zazraku!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text "Ty"
+	line "famy byly pravda!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "Tys porazil"
+	line "GIOVANNIHO z"
+	cont "TEAM ROCKET?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Ukazu ti, jak"
+	line "moc jsi dobry!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text "Jsem"
+	line "vzteky bez sebe!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "Ukazals mi, jak"
+	line "moc dobra jsem ja!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Jen vyvoleni"
+	line "smi projit!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "Tomu"
+	line "nemuzu verit!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "Vsichni treneri"
+	line "tady miri do"
+	cont "#MON LIGY!"
+	cont "Bud opatrny!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Treneri ziji"
+	line "pro hledani"
+	cont "silnejsich"
+	cont "soupercu!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
+	text "Ach!"
+	line "Tak silny!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Tezkymi souboji"
+	line "se stavas"
+	cont "silnejsim!"
 	done

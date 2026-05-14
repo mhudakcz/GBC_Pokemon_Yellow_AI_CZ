@@ -3,84 +3,84 @@ _VictoryRoad2FMoltresBattleText::
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "VICTORY ROAD je"
+	line "posledni zkouska"
+	cont "pro trenery!"
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "Aiyah!"
+	text "Aiya!"
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Kdyz se zaseknes,"
+	line "zkus posunout"
+	cont "nejake balvany!"
 	done
 
 _VictoryRoad2FSuperNerd1BattleText::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "Aha, ty chces"
+	line "vyzvat ELITNI"
+	cont "CTYRKU?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
-	text "You"
-	line "got me!"
+	text "Mas"
+	line "me!"
 	prompt
 
 _VictoryRoad2FSuperNerd1AfterBattleText::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "<RIVAL> tudy"
+	line "taky prosel!"
 	done
 
 _VictoryRoad2FCooltrainerMBattleText::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Pojd!"
+	line "Smahnu te!"
 	done
 
 _VictoryRoad2FCooltrainerMEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "Smahli"
+	line "me!"
 	prompt
 
 _VictoryRoad2FCooltrainerMAfterBattleText::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "Zaslouzil sis"
+	line "byt na VICTORY"
+	cont "ROAD!"
 	done
 
 _VictoryRoad2FSuperNerd2BattleText::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "Pokud se tudy"
+	line "dostanes, muzes"
+	cont "stanout pred"
+	cont "ELITNI CTYRKOU!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
-	text "No!"
-	line "Unbelievable!"
+	text "Ne!"
+	line "To neni mozne!"
 	prompt
 
 _VictoryRoad2FSuperNerd2AfterBattleText::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "Ve znalostech"
+	line "o #MON jsem"
+	cont "stale lepsi"
+	cont "nez ty!"
 	done
 
 _VictoryRoad2FSuperNerd3BattleText::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "Je VICTORY ROAD"
+	line "moc tezka?"
 	done
 
 _VictoryRoad2FSuperNerd3EndBattleText::
-	text "Well"
-	line "done!"
+	text "Dobra"
+	line "prace!"
 	prompt
 
 _VictoryRoad2FSuperNerd3AfterBattleText::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Mnoho treneru"
+	line "se zde vyzvy"
+	cont "vzdava."
 	done

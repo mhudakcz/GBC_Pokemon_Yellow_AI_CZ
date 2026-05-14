@@ -1,8 +1,8 @@
 _VermilionPidgeyHouseYoungsterText::
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "Ucim svoji PIDGEY"
+	line "doletet s dopisem"
+	cont "do SAFFRONu"
+	cont "na sever!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
@@ -10,13 +10,13 @@ _VermilionPidgeyHousePidgeyText::
 	text_end
 
 _VermilionPidgeyHouseLetterText::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Drahy PIPPI, brzy"
+	line "se uvidime."
 
-	para "I heard SAFFRON"
-	line "has problems with"
+	para "Slysel jsem, ze"
+	line "v SAFFRON je"
 	cont "TEAM ROCKET."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "VERMILION vypada,"
+	line "ze je v bezpeci."
 	done

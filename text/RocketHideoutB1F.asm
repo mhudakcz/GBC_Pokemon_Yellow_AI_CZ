@@ -1,74 +1,72 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text "Proc...?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "Kdo jsi? Jak ses"
+	line "sem dostal?"
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
-	text "Oww!"
-	line "Beaten!"
+	text "Au!"
+	line "Porazen!"
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "Provokujes TEAM"
+	line "ROCKET?"
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "Vlamujes se do"
+	line "nasi akce?"
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text "Spaleny!"
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "Tohle ti"
+	line "neprojde, smrade!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "Vetrelec!"
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "Nezvladnu"
+	line "to!"
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
 	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	line "Nevim, kde je!"
 	done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
+	text "Proc jsi sem"
+	line "prisel?"
 	done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
+	text "Tohle"
+	line "nepujde!"
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "Tak fajn, reknu!"
+	line "Vyjed vytahem"
+	cont "za mym SEFEM!"
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "Zabloudil ses,"
+	line "ty mala kryso?"
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Sakra, ten boj"
+	line "otevrel dvere!"
 	done

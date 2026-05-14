@@ -1,145 +1,143 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "Uf... Musim si"
+	line "odpocinout..."
+	cont "Hrrr..."
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "Ten tunel z mesta"
+	line "CERULEAN te"
+	cont "pekne zmuze!"
 	done
 
 _Route3Youngster1BattleText::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Hej! Potkali jsme"
+	line "se ve VIRIDIANU!"
 	done
 
 _Route3Youngster1EndBattleText::
-	text "You"
-	line "beat me again!"
+	text "Zase"
+	line "jsi me porazil!"
 	prompt
 
 _Route3Youngster1AfterBattleText::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "Existuji i jine"
+	line "druhy #MON,"
+	cont "nez ty z lesa!"
 	done
 
 _Route3Youngster2BattleText::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "Cau! Mam rad"
+	line "kratasy! Jsou"
+	cont "pohodlne a lehke!"
 	done
 
 _Route3Youngster2EndBattleText::
-	text "I don't"
-	line "believe it!"
+	text "Tomu"
+	line "nevericim!"
 	prompt
 
 _Route3Youngster2AfterBattleText::
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "Ukladas si #MON"
+	line "na PC? V kazdem"
+	cont "BOXu se vejde"
+	cont "20 #MON!"
 	done
 
 _Route3CooltrainerF1BattleText::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Koukal jsi na me,"
+	line "ze jo?"
 	done
 
 _Route3CooltrainerF1EndBattleText::
-	text "You're"
-	line "mean!"
+	text "Jsi"
+	line "protivny!"
 	prompt
 
 _Route3CooltrainerF1AfterBattleText::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Prestan zirat,"
+	line "kdyz nechces"
+	cont "souboj!"
 	done
 
 _Route3Youngster3BattleText::
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "Jsi trener?"
+	line "Tak do toho!"
 	done
 
 _Route3Youngster3EndBattleText::
-	text "If I"
-	line "had new #MON,"
-	cont "I would've won!"
+	text "S novymi"
+	line "#MON bych"
+	cont "asi vyhral!"
 	prompt
 
 _Route3Youngster3AfterBattleText::
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "Kdyz se ti zaplni"
+	line "BOX v PC, staci"
+	cont "se prepnout"
+	cont "na jiny BOX!"
 	done
 
 _Route3CooltrainerF2BattleText::
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "Ten pohled, co's"
+	line "mi venoval, je"
+	cont "tak zajimavy!"
 	done
 
 _Route3CooltrainerF2EndBattleText::
-	text "Be nice!"
+	text "Bud hodny!"
 	prompt
 
 _Route3CooltrainerF2AfterBattleText::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Vyhni se soubojum"
+	line "tim, ze te lide"
+	cont "neuvidi!"
 	done
 
 _Route3Youngster4BattleText::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Hej! Ty nemas"
+	line "kratasy!"
 	done
 
 _Route3Youngster4EndBattleText::
-	text "Lost!"
-	line "Lost! Lost!"
+	text "Prohra!"
+	line "Prohra! Prohra!"
 	prompt
 
 _Route3Youngster4AfterBattleText::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Vzdy nosim kraty,"
+	line "i v zime!"
 	done
 
 _Route3Youngster5BattleText::
-	text "You can fight my"
-	line "new #MON!"
+	text "Muzes bojovat"
+	line "s mymi #MON!"
 	done
 
 _Route3Youngster5EndBattleText::
-	text "Done"
-	line "like dinner!"
+	text "Uplne"
+	line "smetli!"
 	prompt
 
 _Route3Youngster5AfterBattleText::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "Trenovani #MON"
+	line "jsou silnejsi"
+	cont "nez divoci!"
 	done
 
 _Route3CooltrainerF3BattleText::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Au! Sahl jsi"
+	line "na me?"
 	done
 
 _Route3CooltrainerF3EndBattleText::
-	text "That's it?"
+	text "To je vse?"
 	prompt
 
 _Route3CooltrainerF3AfterBattleText::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "CESTA 4 je na"
+	line "upati MT.MOON."
 	done
 
 _Route3SignText::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "CESTA 3"
+	line "MT.MOON PRED"
 	done

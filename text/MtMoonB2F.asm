@@ -1,130 +1,129 @@
 _MtMoonJessieJamesText1::
-	text "Stop right there!@"
+	text "Stuj!@"
 	text_end
 
 _MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
+	text "Ta fosilie patri"
+	line "TEAM ROCKET!"
 
-	para "Surrender now, or "
-	line "prepare to fight!"
+	para "Vzdej se, nebo"
+	line "se pripravuj!"
 	done
 
 _MtMoonJessieJamesText3::
-	text "A"
-	line "brat beat us?"
+	text "Decko"
+	line "nas porazilo?"
 	prompt
 
 _MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!@"
+	text "TEAM ROCKET zase"
+	line "letime rychlosti"
+	cont "svetla!@"
 	text_end
 
 _MtMoonB2FDomeFossilYouWantText::
-	text "You want the"
-	line "DOME FOSSIL?"
+	text "Chces DOME"
+	line "FOSSIL?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
-	text "You want the"
-	line "HELIX FOSSIL?"
+	text "Chces HELIX"
+	line "FOSSIL?"
 	done
 
 _MtMoonB2FReceivedFossilText::
-	text "<PLAYER> got the"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _MtMoonB2FYouHaveNoRoomText::
-	text "Look, you've got"
-	line "no room for this.@"
+	text "Hele, nemas misto"
+	line "na tohle.@"
 	text_end
 
 _MtMoonB2FSuperNerdTheyreBothMineText::
-	text "Hey, stop!"
+	text "Hej, stuj!"
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "Tyhle fosilie"
+	line "jsem nasel ja!"
+	cont "Obe jsou moje!"
 	done
 
 _MtMoonB2FSuperNerdOkIllShareText::
-	text "OK!"
-	line "I'll share!"
+	text "Tak fajn!"
+	line "Podelim se!"
 	prompt
 
 _MtMoonB2fSuperNerdEachTakeOneText::
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "Kazdy si vezme"
+	line "jednu! Nebud"
+	cont "chamtivy!"
 	done
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
-	text "Far away, on"
+	text "Daleko, na"
 	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	cont "je #MON LAB."
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "Bada se tam"
+	line "na obnoveni"
+	cont "fosilii."
 	done
 
 _MtMoonB2FSuperNerdThenThisIsMineText::
-	text "All right. Then"
-	line "this is mine!@"
+	text "Tak fajn. Tahle"
+	line "je tedy moje!@"
 	text_end
 
 _MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
-	cont "gangsters!"
+	text "My, TEAM ROCKET,"
+	line "jsme #MON"
+	cont "gangsteri!"
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "Pohnojil"
+	line "jsem to!"
 	prompt
 
 _MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "Sakra! Moji"
+	line "kolegove to"
+	cont "nenechaji tak!"
 	done
 
 _MtMoonB2FRocket3BattleText::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "Mame tu velkou"
+	line "praci! Zmiz,"
+	cont "decko!"
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "Tak ty"
+	line "jsi dobry."
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "Kdyz najdes"
+	line "fosilii, dej mi"
+	cont "ji a zmiz!"
 	done
 
 _MtMoonB2FRocket4BattleText::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "Male deti by mely"
+	line "nechat dospele"
+	cont "na pokoji!"
 	done
 
 _MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+	text "Vrim"
+	line "vzteky!"
 	prompt
 
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "#MON tu zili"
+	line "dlouho pred"
+	cont "prichodem lidi."
 	done

@@ -1,136 +1,136 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
-	line "with you!"
-	cont "You're mine!"
+	text "Mas pri sobe"
+	line "#MON!"
+	cont "Jsi muj!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "Tak"
+	line "tys me obelhal!"
 	prompt
 
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Bez svetla se"
+	line "neprodres tim"
+	cont "temnym tunelem."
 	done
 
 _Route9AJBattleText::
-	text "I aim to be the"
-	line "ultimate trainer!"
+	text "Chci byt ten"
+	line "nejlepsi trener!"
 	done
 
 _Route9AJEndBattleText::
-	text "My"
-	line "SANDSHREW lost?"
+	text "Muj"
+	line "SANDSHREW prohral?"
 	prompt
 
 _Route9AJAfterBattleText::
-	text "I'll restart my"
-	line "100-win streak"
-	cont "with SANDSHREW."
+	text "Zacnu novou seri"
+	line "100 vyher se"
+	cont "SANDSHREW."
 	done
 
 _Route9CooltrainerM2BattleText::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	text "Jdu pres ROCK"
+	line "TUNNEL do"
+	cont "LAVENDERu..."
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text "Nestacim"
+	line "ti!"
 	prompt
 
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "Taky mirite do"
+	line "ROCK TUNNELu?"
 	done
 
 _Route9CooltrainerF2BattleText::
-	text "Don't you dare"
-	line "condescend me!"
+	text "Nedovaz se mi"
+	line "nadrazovat!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
-	text "No!"
-	line "You're too much!"
+	text "Ne!"
+	line "Jsi moc dobry!"
 	prompt
 
 _Route9CooltrainerF2AfterBattleText::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "Jsi fakt talent!"
+	line "Hodne stesti"
+	cont "tobe preju!"
 	done
 
 _Route9Hiker1BattleText::
 	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	line "Super! Zacinal"
+	cont "jsem se nudit!"
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
+	text "Jen do"
+	line "mne, jo!"
 
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	para "Pockej. Doslo mi"
+	line "#MON!"
 	prompt
 
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Mas pevne nervy,"
+	line "kdyz ses mi"
+	cont "postavil, co?"
 	done
 
 _Route9Hiker2BattleText::
 	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	line "Ty jsi ale"
+	cont "drsnak!"
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "Co"
+	line "to je?"
 	prompt
 
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Hahaha! Deti"
+	line "maji byt drsne!"
 	done
 
 _Route9Youngster1BattleText::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #MON"
-	cont "from cocoons!"
+	text "Vstaval jsem"
+	line "kazdy den brzy a"
+	cont "z kukel pestil"
+	cont "si #MON!"
 	done
 
 _Route9Youngster1EndBattleText::
-	text "WHAT?"
+	text "COZE?"
 
-	para "What a total"
-	line "waste of time!"
+	para "To je naprosta"
+	line "ztrata casu!"
 	prompt
 
 _Route9Youngster1AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "Musim sbirat vic"
+	line "nez brouky, abych"
+	cont "zesilil..."
 	done
 
 _Route9Hiker3BattleText::
 	text "Hahahaha!"
-	line "Come on, dude!"
+	line "Pojd na to, kluku!"
 	done
 
 _Route9Hiker3EndBattleText::
 	text "Hahahaha!"
-	line "You beat me fair!"
+	line "Cestne jsi vyhral!"
 	prompt
 
 _Route9Hiker3AfterBattleText::
 	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	line "Mi statni kluci"
+	cont "se vzdy smejem!"
 	done

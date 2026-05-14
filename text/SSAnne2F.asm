@@ -1,63 +1,63 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Tato lod je"
+	line "luxusni linka"
+	cont "pro trenery!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "V kazdem pristavu"
+	line "delame parties s"
+	cont "pozvanymi treneri!"
 	done
 
 _SSAnne2FRivalText::
 	text "<RIVAL>: Bonjour!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Predstav si, ze"
+	line "te tu potkam!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, byls"
+	line "fakt pozvany?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Jak ti pokracuje"
+	line "tvuj #DEX?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Ja uz chytil"
+	line "40 druhu, kamo!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Ruzne druhy jsou"
+	line "vsude kolem!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Lez po travnatych"
+	line "oblastech!"
 	done
 
 _SSAnne2FRivalDefeatedText::
-	text "Humph!"
+	text "Pche!"
 
-	para "At least you're"
-	line "raising your"
+	para "Aspon si vychova-"
+	line "vas svoje"
 	cont "#MON!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "<PLAYER>! Co je,"
+	line "morska nemoc?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Mel by ses"
+	line "sebrat, kamo!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Slysel"
+	line "jsem o mistru"
+	cont "CUT na palube."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Ale byl to jen"
+	line "neduzivy dedek!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Ale CUT je sama"
+	line "fakt uzitecna!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Mel bys za nim"
+	line "jit! Mej se!"
 	done

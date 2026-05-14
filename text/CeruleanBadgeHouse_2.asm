@@ -1,28 +1,27 @@
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Obrana #MON"
+	line "trochu vzroste."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "A muzes pouzivat"
+	line "SURF i mimo"
+	cont "souboj."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "#MON do L70"
+	line "te poslechnou."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Vyssi se ti"
+	line "vzepnou!"
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "SPEC schopnosti"
+	line "tvych #MON se"
+	cont "trochu zlepsi."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "Vsechny #MON"
+	line "te poslechnou!"
 	prompt

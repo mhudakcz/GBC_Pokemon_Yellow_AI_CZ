@@ -1,22 +1,20 @@
 _CeladonMart2FMiddleAgedManText::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay..."
+	text "SUPER REPEL drzi"
+	line "slabe #MON pryc"
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "Hmm, je to silny"
+	line "REPEL!"
 	done
 
 _CeladonMart2FGirlText::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Na dlouhe vypravy"
+	line "si kup REVIVE."
 	done
 
 _CeladonMart2FCurrentFloorSignText::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Spickove predmety"
+	line "pro trenery!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRH PRO"
+	line "    TRENERY"
 	done

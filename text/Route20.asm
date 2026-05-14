@@ -1,153 +1,152 @@
 _Route20Swimmer1BattleText::
-	text "The water is"
-	line "shallow here."
+	text "Voda je tu"
+	line "mlcina."
 	done
 
 _Route20Swimmer1EndBattleText::
-	text "Splash!"
+	text "Slup!"
 	prompt
 
 _Route20Swimmer1AfterBattleText::
-	text "I wish I could"
-	line "ride my #MON."
+	text "Kez bych mohl"
+	line "jezdit na #MON."
 	done
 
 _Route20Swimmer2BattleText::
-	text "SEAFOAM is a"
-	line "quiet getaway!"
+	text "SEAFOAM je"
+	line "klidne misto!"
 	done
 
 _Route20Swimmer2EndBattleText::
-	text "Quit it!"
+	text "Nech toho!"
 	prompt
 
 _Route20Swimmer2AfterBattleText::
-	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	text "Pod ostrovem je"
+	line "obrovska"
+	cont "jeskyne."
 	done
 
 _Route20Swimmer3BattleText::
-	text "I love floating"
-	line "with the fishes!"
+	text "Plavu si tu"
+	line "s rybami!"
 	done
 
 _Route20Swimmer3EndBattleText::
-	text "Yowch!"
+	text "Auvajs!"
 	prompt
 
 _Route20Swimmer3AfterBattleText::
-	text "Want to float"
-	line "with me?"
+	text "Pojedes plavat"
+	line "se mnou?"
 	done
 
 _Route20Swimmer4BattleText::
-	text "Are you on"
-	line "vacation too?"
+	text "Mas taky"
+	line "dovolenou?"
 	done
 
 _Route20Swimmer4EndBattleText::
-	text "No"
-	line "mercy at all!"
+	text "Vubec"
+	line "zadne slitovani!"
 	prompt
 
 _Route20Swimmer4AfterBattleText::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "SEAFOAM byval"
+	line "jeden ostrov!"
 	done
 
 _Route20Swimmer5BattleText::
-	text "Check out my buff"
-	line "physique!"
+	text "Mrkni na moje"
+	line "svaly!"
 	done
 
 _Route20Swimmer5EndBattleText::
-	text "Wimpy!"
+	text "Slabocha!"
 	prompt
 
 _Route20Swimmer5AfterBattleText::
-	text "I should've been"
-	line "buffing up my"
-	cont "#MON, not me!"
+	text "Mel jsem trenovat"
+	line "sva #MON,"
+	cont "ne sebe!"
 	done
 
 _Route20Swimmer6BattleText::
-	text "Why are you"
-	line "riding a #MON?"
-	cont "Can't you swim?"
+	text "Proc jezdis na"
+	line "#MON?"
+	cont "Neumis plavat?"
 	done
 
 _Route20Swimmer6EndBattleText::
-	text "Ouch!"
-	line "Torpedoed!"
+	text "Au!"
+	line "Torpedo!"
 	prompt
 
 _Route20Swimmer6AfterBattleText::
-	text "Riding a #MON"
-	line "sure looks fun!"
+	text "Jezdit na #MON"
+	line "musi byt sranda!"
 	done
 
 _Route20CooltrainerMBattleText::
-	text "I rode my bird"
-	line "#MON here!"
+	text "Priletel jsem na"
+	line "ptacim #MON!"
 	done
 
 _Route20CooltrainerMEndBattleText::
-	text "Oh"
-	line "no!"
+	text "Ach"
+	line "ne!"
 	prompt
 
 _Route20CooltrainerMAfterBattleText::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Ptaci me uz"
+	line "neodvezou zpet!"
 	done
 
 _Route20Swimmer7BattleText::
-	text "My boy friend gave"
-	line "me big pearls!"
+	text "Kluk mi dal"
+	line "velke perly!"
 	done
 
 _Route20Swimmer7EndBattleText::
-	text "Don't"
-	line "touch my pearls!"
+	text "Nesahej"
+	line "mi na perly!"
 	prompt
 
 _Route20Swimmer7AfterBattleText::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Vyrostou mi perly"
+	line "vetsi uvnitr"
+	cont "CLOYSTERa?"
 	done
 
 _Route20Swimmer8BattleText::
-	text "I swam here from"
+	text "Priplaval jsem z"
 	line "CINNABAR ISLAND!"
 	done
 
 _Route20Swimmer8EndBattleText::
-	text "I'm"
-	line "so disappointed!"
+	text "Jsem"
+	line "tak zklamana!"
 	prompt
 
 _Route20Swimmer8AfterBattleText::
-	text "#MON have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "#MON obsadili"
+	line "opusteny dum"
+	cont "na CINNABARu!"
 	done
 
 _Route20Swimmer9BattleText::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "CINNABAR ma na"
+	line "zapade LAB"
+	cont "pro #MON."
 	done
 
 _Route20Swimmer9EndBattleText::
-	text "Wait!"
+	text "Pockej!"
 	prompt
 
 _Route20Swimmer9AfterBattleText::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "CINNABAR je"
+	line "sopecny ostrov!"
 	done
 
 _Route20SeafoamIslandsSignText::

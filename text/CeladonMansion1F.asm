@@ -14,55 +14,54 @@ _CeladonMansion1FNidoranFText::
 
 _CeladonMansion1FManagersSuiteSignText::
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "Apartma spravce"
 	done
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
-	line "keep me company."
+	text "Moji drazi #MON"
+	line "mi delaji"
+	cont "spolecnost."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "MEOWTH dokonce"
+	line "nosi domu prachy!"
 	done
 
 _CeladonMansion1Text6::
-	text "Oh, you have an"
-	line "adorable PIKACHU"
-	cont "with you.@"
+	text "Ach, mas s sebou"
+	line "rozkosneho"
+	cont "PIKACHU.@"
 	text_end
 
 _CeladonMansion1Text7::
-	text "It seems like it"
-	line "hasn't been tamed"
-	cont "at all."
+	text "Vypada to, ze"
+	line "vubec neni"
+	cont "ochocen."
 	done
 
 _CeladonMansion1Text8::
-	text "Why don't you"
-	line "take more care"
-	cont "with PIKACHU?"
+	text "Proc nedavas vic"
+	line "pozor na PIKACHU?"
 	done
 
 _CeladonMansion1Text9::
-	text "You must be happy"
-	line "to have a #MON"
-	cont "that cute."
+	text "Musis byt stastny,"
+	line "ze mas tak"
+	cont "mileho #MON."
 	done
 
 _CeladonMansion1Text10::
-	text "Your PIKACHU seems"
-	line "tamed."
+	text "Tvuj PIKACHU"
+	line "vypada ochocene."
 	done
 
 _CeladonMansion1Text11::
-	text "Your PIKACHU looks"
-	line "happy with you."
+	text "Tvuj PIKACHU je"
+	line "s tebou stastny."
 	done
 
 _CeladonMansion1Text12::
-	text "You look like a"
-	line "fantastic duo."
+	text "Jste fantasticka"
+	line "dvojka."
 
-	para "You're making me"
-	line "jealous!"
+	para "Az te zavidim!"
 	done

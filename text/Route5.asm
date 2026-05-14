@@ -1,5 +1,5 @@
 _Route5UndergroundPathSignText::
-	text "UNDERGROUND PATH"
+	text "PODZEMNI CESTA"
 	line "CERULEAN CITY -"
 	cont "VERMILION CITY"
 	done

@@ -1,97 +1,96 @@
 _DaycareGentlemanIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Vedu SKOLKU."
+	line "Chces, abych ti"
+	cont "vychoval"
+	cont "nejakeho #MON?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Ktereho #MON"
+	line "mam vychovavat?"
 	prompt
 
 _DaycareGentlemanWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "Dobre, postaram"
+	line "se o @"
 	text_ram wNameBuffer
 	text_start
-	cont "for a while."
+	cont "na chvili."
 	prompt
 
 _DaycareGentlemanComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Stav se za"
+	line "chvili."
 	done
 
 _DaycareGentlemanMonHasGrownText::
-	text "Your @"
+	text "Tvuj @"
 	text_ram wNameBuffer
 	text_start
-	line "has grown a lot!"
+	line "hodne vyrostl!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Vyrostl o @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "!"
+	text " urovni!"
 
-	para "Aren't I great?"
+	para "Nejsem skvely?"
 	prompt
 
 _DaycareGentlemanOweMoneyText::
-	text "You owe me ¥@"
+	text "Dluzis mi ¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	line "za navrat"
+	cont "tohoto #MON."
 	done
 
 _DaycareGentlemanGotMonBackText::
-	text "<PLAYER> got"
+	text "<PLAYER> dostal"
 	line "@"
 	text_ram wDayCareMonName
-	text " back!"
+	text " zpet!"
 	done
 
 _DaycareGentlemanMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Uz zpatky?"
+	line "Tvuj @"
 	text_ram wNameBuffer
 	text_start
-	cont "needs some more"
-	cont "time with me."
+	cont "potrebuje vic"
+	cont "casu se mnou."
 	prompt
 
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Tak dobre,"
 	line "@"
 	text_end
 
 _DaycareGentlemanComeAgainText::
-	text "Come again."
+	text "Prijd zas."
 	done
 
 _DaycareGentlemanNoRoomForMonText::
-	text "You have no room"
-	line "for this #MON!"
+	text "Nemas misto pro"
+	line "tohohle #MON!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
-	text "You only have one"
-	line "#MON with you."
+	text "Mas u sebe jen"
+	line "jednoho #MON."
 	done
 
 _DaycareGentlemanCantAcceptMonWithHMText::
-	text "I can't accept a"
-	line "#MON that"
-	cont "knows an HM move."
+	text "Nemuzu vzit"
+	line "#MON, ktery"
+	cont "umi HM utok."
 	done
 
 _DaycareGentlemanHeresYourMonText::
-	text "Thank you! Here's"
-	line "your #MON!"
+	text "Diky! Tady mas"
+	line "sveho #MON!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::
-	text "Hey, you don't"
-	line "have enough ¥!"
+	text "Hej, ty nemas"
+	line "dost ¥!"
 	done

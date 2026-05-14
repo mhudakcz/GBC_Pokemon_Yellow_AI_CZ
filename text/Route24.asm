@@ -1,187 +1,187 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Gratuluji!"
+	line "Porazil jsi nasich"
+	cont "5 treneru!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "Vyslouzil sis"
+	line "skvelou cenu!"
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> ziskal"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "Nemas nikde"
+	line "misto!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Hele, nechces se"
+	line "pridat k"
+	cont "TEAM ROCKETu?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "Jsme skupina"
+	line "pachajici zlo"
+	cont "skrze #MON!"
 
-	para "Want to join?"
+	para "Chces se pridat?"
 
-	para "Are you sure?"
+	para "Jsi si jist?"
 
-	para "Come on, join us!"
+	para "Tak pojd, pridej"
+	line "se k nam!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Rikam ti, abys"
+	line "se pridal!"
 
-	para "OK, you need"
-	line "convincing!"
+	para "Tak jo, potrebujes"
+	line "presvedcit!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Dam ti nabidku,"
+	line "ktera neodmitnes!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text "Argh!"
+	line "Ty jsi dobrej!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "Se svym talentem"
+	line "by ses mohl stat"
+	cont "spickou v"
+	cont "TEAM ROCKETu!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "Videl jsem tve"
+	line "krousky z travy!"
 	done
 
 _Route24CooltrainerM2EndBattleText::
-	text "I"
-	line "thought not!"
+	text "Coz"
+	line "jsem si myslel!"
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "Schoval jsem se,"
+	line "protoze me lide"
+	cont "na moste desili!"
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "Tak jo! Ja jsem 5!"
+	line "Rozdupu te!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
-	text "Whoa!"
-	line "Too much!"
+	text "Hej!"
+	line "Moc velky!"
 	prompt
 
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Dal jsem do toho"
+	line "vse, nelituji!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Jsem cislo 4!"
+	line "Uz unaveny?"
 	done
 
 _Route24CooltrainerF1EndBattleText::
-	text "I lost"
-	line "too!"
+	text "Taky"
+	line "jsem prohrala!"
 	prompt
 
 _Route24CooltrainerF1AfterBattleText::
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "Dala jsem do toho"
+	line "vse, nelituji!"
 	done
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "Tady cislo 3!"
+	line "Nebudu jednoduchy!"
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Au!"
+	line "Rozdupany!"
 	prompt
 
 _Route24Youngster1AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Dal jsem do toho"
+	line "vse, nelituji!"
 	done
 
 _Route24CooltrainerF2BattleText::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Ja jsem druha!"
+	line "Tohle je vazne!"
 	done
 
 _Route24CooltrainerF2EndBattleText::
-	text "How could I"
-	line "lose?"
+	text "Jak"
+	line "jsem mohla?"
 	prompt
 
 _Route24CooltrainerF2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Dala jsem do toho"
+	line "vse, nelituji!"
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "Tohle je NUGGET"
+	line "BRIDGE! Porazis"
+	cont "nasich 5 treneru"
+	cont "a ziskas cenu!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "Myslis si, ze na"
+	line "to mas?"
 	done
 
 _Route24Youngster2EndBattleText::
 	text "Whoo!"
-	line "Good stuff!"
+	line "Dobry kousek!"
 	prompt
 
 _Route24Youngster2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Dal jsem do toho"
+	line "vse, nelituji!"
 	done
 
 _Route24DamianText1::
-	text "I'm not good at"
-	line "raising #MON."
+	text "Neumim moc"
+	line "vychovat #MON."
 
-	para "I should release"
-	line "my CHARMANDER"
-	cont "because I haven't"
-	cont "raised it well..."
+	para "Asi propustim"
+	line "sveho CHARMANDERa,"
+	cont "nevychoval jsem"
+	cont "ho dobre..."
 
-	para "If you promise me"
-	line "you'll care for"
-	cont "it, it's yours."
+	para "Pokud slibis, ze"
+	line "se o nej postaras,"
+	cont "je tvuj."
 	done
 
 _Route24DamianText2::
-	text "Take good care of"
-	line "my CHARMANDER!@"
+	text "Postarej se mi"
+	line "o CHARMANDERa!@"
 	text_end
 
 _Route24DamianText3::
-	text "Oh... I'd better"
-	line "release it then."
+	text "Aha... To ho"
+	line "asi pustim."
 	done
 
 _Route24DamianText4::
-	text "How's CHARMANDER"
-	line "doing?"
+	text "Jak se CHARMANDER"
+	line "ma?"
 	done
