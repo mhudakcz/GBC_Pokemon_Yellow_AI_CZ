@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokémon Yellow CZ — komunitní překlad do češtiny</title>
+<meta name="description" content="Komunitní překlad legendární hry Pokémon Yellow Version pro Game Boy Color do češtiny. Open-source, postavený nad pret/pokeyellow.">
+<meta property="og:title" content="Pokémon Yellow česky">
+<meta property="og:description" content="Komunitní český překlad legendární GBC klasiky. Otevřený projekt postavený nad pret/pokeyellow.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #fac000;
+    --yellow-light: #ffe066;
+    --yellow-dark: #b88800;
+    --ink: #1a1a1a;
+    --ink-soft: #404040;
+    --paper: #fff8e0;
+    --shadow: #5a4400;
+    --accent: #d22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'VT323', 'Courier New', monospace;
+    font-size: 22px;
+    line-height: 1.45;
+    background: var(--yellow);
+    color: var(--ink);
+    background-image:
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.04) 0 1px, transparent 1px 4px),
+      repeating-linear-gradient(90deg, rgba(0,0,0,0.04) 0 1px, transparent 1px 4px);
+    min-height: 100vh;
+  }
+  .pixel-font {
+    font-family: 'Press Start 2P', monospace;
+    letter-spacing: 0.02em;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-bottom: 4px solid var(--ink);
+  }
+  header h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: clamp(20px, 5vw, 38px);
+    line-height: 1.4;
+    text-shadow: 4px 4px 0 var(--shadow);
+    color: var(--paper);
+    margin-bottom: 16px;
+  }
+  header h1 .cz { color: var(--accent); text-shadow: 4px 4px 0 var(--ink); }
+  header .tagline {
+    font-size: clamp(20px, 2.5vw, 28px);
+    color: var(--ink-soft);
+    max-width: 700px;
+    margin: 0 auto 20px;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--yellow);
+    padding: 8px 16px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    border: 2px solid var(--yellow-light);
+    box-shadow: 4px 4px 0 var(--shadow);
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  section { margin-bottom: 56px; }
+  section h2 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: clamp(16px, 2.5vw, 22px);
+    margin-bottom: 24px;
+    padding: 12px 16px;
+    background: var(--ink);
+    color: var(--yellow);
+    box-shadow: 4px 4px 0 var(--shadow);
+    border: 2px solid var(--yellow-light);
+  }
+  p { margin-bottom: 14px; }
+  ul { margin: 14px 0 14px 28px; }
+  li { margin-bottom: 6px; }
+  code, .mono {
+    font-family: 'VT323', monospace;
+    background: var(--paper);
+    padding: 1px 8px;
+    border: 1px solid var(--ink);
+    font-size: 0.95em;
+  }
+  a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 2px; }
+  a:hover { background: var(--ink); color: var(--yellow); }
+
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 16px 28px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    border: 3px solid var(--ink);
+    box-shadow: 5px 5px 0 var(--ink);
+    transition: transform 0.05s, box-shadow 0.05s;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  .cta:hover {
+    background: var(--accent);
+    color: white;
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0 var(--ink);
+  }
+  .cta.secondary {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .cta.secondary:hover {
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  /* Dialog box mimicking the in-game text */
+  .dialog {
+    background: var(--paper);
+    border: 4px solid var(--ink);
+    border-radius: 0;
+    box-shadow: 6px 6px 0 var(--shadow);
+    padding: 22px 24px 28px;
+    margin: 24px 0;
+    position: relative;
+    font-size: 24px;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  .dialog::after {
+    content: '▼';
+    position: absolute;
+    bottom: 6px;
+    right: 12px;
+    font-size: 14px;
+    color: var(--ink);
+    animation: blink 1s infinite;
+  }
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+  .dialog .speaker { font-weight: bold; color: var(--accent); }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  @media (min-width: 600px) {
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+  }
+  .card {
+    background: var(--paper);
+    border: 3px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--shadow);
+    padding: 18px 20px;
+  }
+  .card h3 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: var(--accent);
+  }
+  .check { color: #2a7; font-weight: bold; }
+  .pending { color: var(--ink-soft); }
+
+  footer {
+    border-top: 4px solid var(--ink);
+    padding: 32px 20px;
+    text-align: center;
+    background: var(--yellow-dark);
+    color: var(--paper);
+    font-size: 18px;
+  }
+  footer a { color: var(--paper); }
+
+  .pikachu-row {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 12px;
+    margin: 20px 0;
+    user-select: none;
+  }
+
+  details {
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    padding: 12px 18px;
+    margin: 12px 0;
+    cursor: pointer;
+  }
+  summary {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  details[open] summary { margin-bottom: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="pikachu-row">⚡ 🟡 ⚡</div>
+  <h1>Pokémon Yellow<br><span class="cz">česky</span></h1>
+  <p class="tagline">Komunitní český překlad legendární GBC klasiky.<br>Open-source, sestavený nad disassemblerem <a href="https://github.com/pret/pokeyellow">pret/pokeyellow</a>.</p>
+  <span class="badge">v0.1 — beta</span>
+</header>
+
+<main>
+
+<section id="dialog">
+  <div class="dialog">
+    <span class="speaker">PROF. OAK:</span><br>
+    Vítej, mladíku!<br>
+    Pojď se podívat do<br>
+    světa POKéMON!
+  </div>
+  <p style="text-align:center; color:var(--ink-soft); font-size:18px;">↑ Takhle to vypadá ve hře po prvním spuštění (v0.1, bez háčků).</p>
+</section>
+
+<section id="stahnout">
+  <h2>Stáhnout v0.1</h2>
+  <p>Patch se aplikuje na originální ROM <em>Pokemon Yellow Version (UE) [C][!]</em>. Místo distribuce ROMky tady najdeš výsledný build sestavený z otevřeného disassembly — funkčně stejné, ale technicky čistší.</p>
+  <p style="margin-top:20px;">
+    <a class="cta" href="https://github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ/raw/master/roms/Pokemon_YELLOW_CZ_v0.1.gbc">⬇ Pokemon_YELLOW_CZ_v0.1.gbc</a>
+    <a class="cta secondary" href="https://github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ">GitHub repo</a>
+  </p>
+  <p style="font-size:18px; color:var(--ink-soft); margin-top:14px;"><strong>SHA1:</strong> <code>f04e5e575e84d96edeea97c05fda4e6ab13071b4</code> · <strong>velikost:</strong> 1 MB</p>
+</section>
+
+<section id="jak-hrat">
+  <h2>Jak to spustit</h2>
+  <p>Potřebuješ emulátor Game Boy Color. Doporučené:</p>
+  <ul>
+    <li><a href="https://sameboy.github.io/">SameBoy</a> — nejpřesnější (Windows/Mac/Linux)</li>
+    <li><a href="https://bgb.bircd.org/">BGB</a> — klasika pro Windows</li>
+    <li><a href="https://mgba.io/">mGBA</a> — multiplatformní</li>
+  </ul>
+  <p>Stáhni si <code>.gbc</code> soubor výše, otevři ho v emulátoru a hraj.</p>
+</section>
+
+<section id="prelozeno">
+  <h2>Stav v0.1</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>HOTOVO</h3>
+      <ul>
+        <li><span class="check">✓</span> Oakovo úvodní intro</li>
+        <li><span class="check">✓</span> Představení rivala</li>
+        <li><span class="check">✓</span> Pallet Town — NPC + cedule</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>NÁSLEDUJE</h3>
+      <ul>
+        <li><span class="pending">…</span> Viridian, Pewter, Cerulean</li>
+        <li><span class="pending">…</span> Jména předmětů (97 ks)</li>
+        <li><span class="pending">…</span> Pokédex záznamy (151 ks)</li>
+        <li><span class="pending">…</span> Bojové hlášky</li>
+        <li><span class="pending">…</span> Diakritika (rozšíření fontu)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="jak">
+  <h2>Jak to funguje</h2>
+  <p>Hra ukládá texty v patentovaném 1-bytovém kódování (nikoli ASCII). <code>A</code> = <code>0x80</code>, <code>a</code> = <code>0xA0</code>, mezera <code>0x7F</code>. Existují speciální tokeny — <code>0x50</code> ukončí řetězec, <code>0x57</code> čeká na hráče, <code>0x4F</code> je nový řádek. Token <code>#</code> v zdrojáku je jediný bajt, který se zobrazí jako "POKé" (4 buňky šířky).</p>
+  <p>Disassembly od <a href="https://github.com/pret/pokeyellow">pret/pokeyellow</a> nám tohle všechno dává v čitelných <code>.asm</code> souborech, kde texty vypadají takhle:</p>
+  <pre style="background:var(--paper);padding:14px;border:2px solid var(--ink);overflow-x:auto;font-size:18px;">_PalletTownOakComeWithMe::
+    text "OAK: #MON se"
+    line "muze objevit"
+    cont "ve vysoke trave."
+    done</pre>
+  <p>Stačí přepsat angličtinu na češtinu, spustit <code>make</code> a vyjde nová <code>.gbc</code> ROM-ka.</p>
+</section>
+
+<section id="omezeni">
+  <h2>Tvrdá omezení</h2>
+  <details>
+    <summary>📏 18 znaků na řádek</summary>
+    <p>Textové okno ve hře má 20 dlaždic na šířku, s rámečkem zbývá 18 buněk. Token <code>#</code> ("POKé") zabere 4 buňky, <code>&lt;PLAYER&gt;</code> až 7 (jméno hráče). Pro automatickou kontrolu máme linter <code>translate/width_check.py</code>.</p>
+  </details>
+  <details>
+    <summary>🅰️ Diakritika v první vlně chybí</summary>
+    <p>Originální font hry obsahuje jen ASCII písmena + <code>é</code>. Háčky a čárky vyžadují přidání nových dlaždic do <code>gfx/font/font.png</code> a rozšíření charmap v <code>constants/charmap.asm</code>. Plánováno na pozdější vrstvu.</p>
+  </details>
+  <details>
+    <summary>🎵 Hudba a sprajty zůstávají</summary>
+    <p>Měníme jen text. Grafika, hudba, herní logika a save formát zůstávají identické s originálem — můžeš libovolně přenášet uložené pozice mezi EN a CZ verzí.</p>
+  </details>
+</section>
+
+<section id="prispet">
+  <h2>Přispět</h2>
+  <p>Projekt je open-source. Pokud chceš pomoct:</p>
+  <ul>
+    <li><strong>Překládat texty</strong> — pull request na <code>text/*.asm</code> nebo <code>data/text/*.asm</code>. Linter ti řekne, jestli se vejdeš.</li>
+    <li><strong>Hlásit chyby</strong> — issue v repu, klidně se screenshotem z emulátoru.</li>
+    <li><strong>Konzistence terminologie</strong> — slovník překladů jmen Pokémonů, útoků a měst je otevřená otázka.</li>
+  </ul>
+  <p style="margin-top:20px;">
+    <a class="cta" href="https://github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ/issues">Otevřít issue</a>
+    <a class="cta secondary" href="https://github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ/fork">Fork &amp; přispět</a>
+  </p>
+</section>
+
+<section id="atribuce">
+  <h2>Atribuce</h2>
+  <p>Tento projekt je <strong>fanouškovský</strong>. Pokémon Yellow je ochranná známka Nintendo / Game Freak / The Pokémon Company. Tady poskytujeme pouze diff (textové změny) nad otevřeným disassembly.</p>
+  <p>Postaveno díky:</p>
+  <ul>
+    <li><a href="https://github.com/pret/pokeyellow">pret/pokeyellow</a> — kompletní disassembly Pokémon Yellow</li>
+    <li><a href="https://rgbds.gbdev.io/">rgbds</a> — Game Boy assembler</li>
+    <li>Komunita kolem <a href="https://gbdev.io/">gbdev.io</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="pikachu-row">⚡ ⚡ ⚡</div>
+  <p>Pokémon Yellow CZ · <a href="https://github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ">github.com/mhudakcz/GBC_Pokemon_Yellow_AI_CZ</a></p>
+  <p style="margin-top:8px; font-size:16px; opacity:0.85;">Made with ❤️ in Czech Republic · Not affiliated with Nintendo</p>
+</footer>
+
+</body>
+</html>
