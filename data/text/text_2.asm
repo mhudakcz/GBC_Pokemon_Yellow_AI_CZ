@@ -612,10 +612,10 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> hraje"
+	line "na SNESu!"
+	cont "...Tak jo!"
+	cont "Cas vyrazit!"
 	done
 
 _Route15UpstairsBinocularsText::
