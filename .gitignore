@@ -9,10 +9,13 @@
 # compiled audio
 *.pcm
 
-# compiled roms
-*.gbc
-*.gb
+# compiled roms (top-level build artifacts ignored)
+/pokeyellow*.gbc
+/pokeyellow*.gb
 *.patch
+
+# but DO commit versioned CZ release ROMs under roms/
+!roms/*.gbc
 
 # rgbds extras
 *.map

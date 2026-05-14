@@ -433,81 +433,81 @@ _NotEnoughMemoryText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Vitej, mladiku!"
+	line "Pojd se podivat"
+	cont "do sveta #MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Jmenuji se OAK!"
+	line "Lide mi rikaji"
+	cont "#MON profesor!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
+	text "Tento svet"
+	line "obyvaji tvorove,"
+	cont "kterym rikame"
 	cont "#MON!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Pro nekoho jsou"
+	line "#MON jen"
+	cont "domaci mazlicci,"
+	cont "jini je trenuji."
 
-	para "Myself..."
+	para "Ja sam..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Zkoumam #MON"
+	line "jako profesi."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Nejprve, jak"
+	line "se jmenujes?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Tohle je muj vnuk."
+	line "Je to tvuj rival"
+	cont "uz od doby, kdy"
+	cont "jsi byl mimino."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Hmm, jak"
+	line "se jmenuje?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Tva vlastni"
+	line "legenda o #MON"
+	cont "se prave rodi!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Svet plny snu"
+	line "a dobrodruzstvi"
+	cont "s #MON"
+	cont "te ceka! Jdeme!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Chces dat"
+	line "prezdivku"
+	cont "tomu @"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Dobre! Jmenujes"
+	line "se <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Aha, uz si vzpo-"
+	line "minam! Jmenuje"
+	cont "se <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
