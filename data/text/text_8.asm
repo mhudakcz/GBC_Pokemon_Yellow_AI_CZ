@@ -1,128 +1,128 @@
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Pockej, prosim.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_YELLOW_VC)
-	text "Please come again!"
+	text "Prijd zase!"
 	done
 	text_start
-	text "sed because of"
-	cont "inactivity."
+	text "rave kvuli"
+	cont "necinnosti."
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Spojeni bylo"
+	line "uzavreno kvuli"
+	cont "necinnosti."
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Kontaktuj sveho"
+	line "kamarada a"
+	cont "prijd znovu!"
 	done
 
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Prijd zase!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Pripravujeme"
+	line "veci."
+	cont "Pockej, prosim."
 	done
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Oslnujici FLASH"
+	line "osvetlil oblast!"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Skok do"
+	line "#MON CENTRA."
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
+	text " nemuze"
+	line "pouzit TELEPORT."
 	prompt
 
 _CannotFlyHereText::
 	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
+	text " nemuze"
+	line "tu pouzit FLY."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Neni dost"
+	line "zdravy."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Ne! Potreba"
+	line "novy ODZNAK."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Predmety tu nelze"
+	line "pouzit."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Tady nemuzes"
+	line "sesednout."
 	prompt
 
 _UsedStrengthText::
 	text_ram wNameBuffer
-	text " used"
+	text " pouzil"
 	line "STRENGTH.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
+	text " umi"
+	line "hybat balvany."
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "Proud je"
+	line "prilis rychly!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Cyklistika je"
+	line "zabava! Bez SURF!"
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> ziskal"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Uz neni misto"
+	line "pro #MON!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " byl"
+	cont "poslan do #MON"
+	cont "BOXu @"
 	text_ram wStringBuffer
-	text " on PC!"
+	text " v PC!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Uz neni misto"
+	line "pro #MON!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "#MON BOX"
+	line "je plny, dalsi"
+	cont "uz neprijme!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Zmen BOX v"
+	line "#MON CENTRU!"
 	done

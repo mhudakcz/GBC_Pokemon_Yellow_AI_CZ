@@ -1,41 +1,41 @@
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "se objevil!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " chce"
+	line "bojovat!"
 	prompt
 
 _UnveiledGhostText::
 	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	line "odhalil"
+	cont "identitu DUCHA!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Sakra! DUCHa"
+	line "nelze urcit!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Bez! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Do toho! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Na ne! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Nepritel je slaby!"
+	line "Na ne! @"
 	text_end
 
 _PlayerMon1Text::
@@ -49,7 +49,7 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "dost!@"
 	text_end
 
 _OKExclamationText::
@@ -57,379 +57,379 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "dobre!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Vrat se!"
 	done
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> sebral"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Smazat vsechna"
+	line "ulozena data?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Ktere patro"
+	line "chces? "
 	done
 
 _SleepingPikachuText1::
-	text "There isn't any"
-	line "response..."
+	text "Zadna"
+	line "odezva..."
 	prompt
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Vyber #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Pouzit predmet"
+	line "na #MON?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "Vytahnout"
+	line "ktereho #MON?"
 	done
 
 _PartyMenuUseTMText::
-	text "Teach to which"
+	text "Naucit ktereho"
 	line "#MON?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Presunout #MON"
+	line "kam?"
 	done
 
 _PotionText::
 	text_ram wNameBuffer
 	text_start
-	line "recovered by @"
+	line "zotaven o @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	text " byl"
+	line "vylecen z jedu!"
 	done
 
 _ParlyzHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	text_start
+	line "zbaven ochrnuti!"
 	done
 
 _BurnHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	text_start
+	line "popalka vylecena!"
 	done
 
 _IceHealText::
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	text " byl"
+	line "rozmrazen!"
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "se probudil!"
 	done
 
 _FullHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	text_start
+	line "zdravi obnoveno!"
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "byl ozivnen!"
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " vyrostl"
+	line "na uroven @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> zapnul"
+	line "PC."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Pristoupeno k"
+	line "BILLovu PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Pristoup k #MON"
+	line "uloznemu systemu."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Pristoup k"
+	line "necimu PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Pristoup k #MON"
+	line "uloznemu systemu."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Pristoup k mym PC."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Pristoup k"
+	line "skladu predmetu."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> zapnul"
+	line "PC."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Co chces"
+	line "delat?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Co chces"
+	line "ulozit?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Kolik?"
 	done
 
 _ItemWasStoredText::
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text_start
+	line "ulozen pres PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Nemas nic"
+	line "k ulozeni."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Neni misto"
+	line "pro veci."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Co chces"
+	line "vybrat?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Kolik?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Vybral jsi"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Nic neni"
+	line "ulozeno."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Uz nemuzes"
+	line "nest dalsi veci."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Co chces"
+	line "zahodit?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Kolik?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Pristoup k webu"
+	line "#MON LIGY."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Pristoup k SINI"
+	line "SLAVY."
 	prompt
 
 _SleepingPikachuText2::
-	text "There isn't any"
-	line "response..."
+	text "Zadna"
+	line "odezva..."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Zapnuto!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Co?"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Ktereho #MON"
+	line "ulozit?"
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " byl"
+	line "ulozen v BOXu @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Nemuzes ulozit"
+	line "posledni #MON!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Jejda! BOX je"
+	line "plny #MON."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " je"
+	line "vytazen."
+	cont "Mas @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Co? Tady nejsou"
+	line "zadni #MON!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Nemuzes brat"
+	line "dalsi #MON."
 
-	para "Deposit #MON"
-	line "first."
+	para "Nejdriv uloz"
+	line "#MON."
 	prompt
 
 _PikachuUnhappyText::
 	text_ram wNameBuffer
-	text " looks"
-	line "unhappy about it!"
+	text " vypada"
+	line "nestastne!"
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "Ktereho #MON"
+	line "vypustit?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Po vypusteni"
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text_start
+	cont "navzdy zmizi. OK?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " byl"
+	line "vypusten ven."
+	cont "Mej se @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "Potreba"
+	line "POUZDRO NA MINCE!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Vymenujeme tve"
+	line "mince za ceny."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Kterou cenu"
+	line "chces?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Tady mas!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Takze chces"
 	line "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Promin, potrebujes"
+	line "vic minci.@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Jejda! Nemas"
+	line "dost mista.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "Aha, tak teda.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Chces ohodnotit"
+	line "svuj #DEX?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "Spojeni s PC"
+	line "PROF.OAKa zruseno.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Pristoup k PC"
+	line "PROF.OAKa."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Pristoup k #DEX"
+	line "hodnoticimu sys."
 	prompt
 
 _ExpressionText::
-	text "This expression is"
-	line "No. @"
+	text "Tento vyraz je"
+	line "c. @"
 	text_decimal wExpressionNumber, 1, 2
 	text "."
 	prompt
 
 _NotEnoughMemoryText::
-	text "Not enough Yellow"
-	line "Version memory."
+	text "Malo pameti"
+	line "ve Yellow verzi."
 	done
 
 _OakSpeechText1::
@@ -512,119 +512,119 @@ _HisNameIsText::
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " a"
 	line "@"
 	text_ram wNameBuffer
-	text " will"
-	cont "be traded."
+	text " budou"
+	cont "vymeneni."
 	done
 
 _Colosseum3MonsText::
-	text "You need 3 #MON"
-	line "to fight!"
+	text "Potreba 3 #MON"
+	line "k souboji!"
 	prompt
 
 _ColosseumMewText::
-	text "Sorry, MEW can't"
-	line "attend!"
+	text "Promin, MEW"
+	line "nesmi!"
 	prompt
 
 _ColosseumDifferentMonsText::
-	text "Your #MON must"
-	line "all be different!"
+	text "Tvi #MON musi"
+	line "byt vsichni jini!"
 	prompt
 
 _ColosseumMaxL55Text::
-	text "No #MON can"
-	line "exceed L55!"
+	text "Zadny #MON"
+	line "nesmi nad L55!"
 	prompt
 
 _ColosseumMinL50Text::
-	text "All #MON must"
-	line "be at least L50!"
+	text "Vsichni #MON"
+	line "min. na L50!"
 	prompt
 
 _ColosseumTotalL155Text::
-	text "Your total levels"
-	line "exceed 155!"
+	text "Soucet urovni"
+	line "presahuje 155!"
 	prompt
 
 _ColosseumMaxL30Text::
-	text "No #MON can"
-	line "exceed L30!"
+	text "Zadny #MON"
+	line "nesmi nad L30!"
 	prompt
 
 _ColosseumMinL25Text::
-	text "All #MON must"
-	line "be at least L25!"
+	text "Vsichni #MON"
+	line "min. na L25!"
 	prompt
 
 _ColosseumTotalL80Text::
-	text "Your total levels"
-	line "exceed 80!"
+	text "Soucet urovni"
+	line "presahuje 80!"
 	prompt
 
 _ColosseumMaxL20Text::
-	text "No #MON can"
-	line "exceed L20!"
+	text "Zadny #MON"
+	line "nesmi nad L20!"
 	prompt
 
 _ColosseumMinL15Text::
-	text "All #MON must"
-	line "be at least L15!"
+	text "Vsichni #MON"
+	line "min. na L15!"
 	prompt
 
 _ColosseumTotalL50Text::
-	text "Your total levels"
-	line "exceed 50!"
+	text "Soucet urovni"
+	line "presahuje 50!"
 	prompt
 
 _ColosseumHeightText::
 	text_ram wNameBuffer
-	text " is over"
-	line "6’8” tall!"
+	text " mer"
+	line "vic nez 6’8”!"
 	prompt
 
 _ColosseumWeightText::
 	text_ram wNameBuffer
-	text " weighs"
-	line "over 44 pounds!"
+	text " vazi"
+	line "vic nez 20 kg!"
 	prompt
 
 _ColosseumEvolvedText::
 	text_ram wNameBuffer
-	text " is an"
-	line "evolved #MON!"
+	text_start
+	line "je vyvinut #MON"
 	prompt
 
 _ColosseumIneligibleText::
-	text "Your opponent is"
-	line "ineligible."
+	text "Tvuj soupere"
+	line "nesplnuje."
 	prompt
 
 _ColosseumWhereToText::
-	text "Where would you"
-	line "like to go?"
+	text "Kam chces"
+	line "jit?"
 	done
 
 _ColosseumPleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "OK, pockej"
+	line "chvilku."
 	done
 
 _ColosseumCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Spojeni bylo"
+	line "zruseno."
 	done
 
 _ColosseumVersionText::
-	text "The game versions"
-	line "don't match."
+	text "Verze her"
+	line "nesedi."
 	prompt
 
 _TextIDErrorText::
 	text_decimal hTextID, 1, 2
-	text " error."
+	text " chyba."
 	done
 
 _ContCharText::
@@ -632,6 +632,6 @@ _ContCharText::
 	text_end
 
 _NoPokemonText::
-	text "There are no"
-	line "#MON here!"
+	text "Tady nejsou"
+	line "zadni #MON!"
 	prompt

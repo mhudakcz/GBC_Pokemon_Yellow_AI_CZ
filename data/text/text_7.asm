@@ -3,103 +3,102 @@ _PokemonText::
 	done
 
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Ahoj!"
+	next "Mohu pomoci?"
 	done
 
 _PokemonFaintedText::
 	text_ram wNameBuffer
 	text_start
-	line "fainted!"
+	line "omdlel!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> nema"
+	line "schopne #MON!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> omdlel!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "Ucinek REPELu"
+	line "vyprsel."
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Klidne se podivej."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "That will be"
+	line "To bude"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text ". OK?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Tady mas!"
+	line "Diky!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Nemas dost"
+	line "penez."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Nemuzes nest"
+	line "dalsi veci."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Co bys chtel"
+	line "prodat?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Zaplatim ti"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text " za to."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Nemas nic"
+	line "na prodej."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Tohle nelze"
+	line "ocenit."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Diky!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Mohu jeste"
+	line "neco udelat?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " se naucil"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Ktery utok ma"
+	next "byt zapomenut?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
+	text "Prerusit uceni"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
@@ -108,7 +107,7 @@ _AbandonLearningText::
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "se nenaucil"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
@@ -116,101 +115,101 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text " se"
+	line "snazi naucit"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "But, @"
+	para "Ale, @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "nemuze umet vic"
+	cont "nez 4 utoky!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Smazat starsi"
+	line "utok pro misto"
+	cont "pro @"
 	text_ram wStringBuffer
 	text "?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 a...@"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text " Puf!@"
 	text_end
 
 _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " zapomnel"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "And..."
+	para "A..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "HM techniky"
+	line "nelze smazat!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Vitej v nasem"
+	line "#MON CENTRU!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Vylecime tve"
+	line "#MON do plne"
+	cont "kondice!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
+	text "Mame vylecit tve"
 	line "#MON?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "OK. Potrebujeme"
+	line "tve #MON."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Diky!"
+	line "Tvi #MON jsou"
+	cont "v kondici!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Tesime se zase"
+	line "na shledanou!"
 	done
 
 _LooksContentText::
-	text "It looks very"
-	line "content asleep."
+	text "Vypada velmi"
+	line "spokojene a spi."
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Tato oblast je"
+	line "vyhrazena pro 2"
+	cont "pratele propojene"
+	cont "kabelem."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Vitej v"
+	line "Cable Clubu!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Prihlaste se zde."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Pred otevrenim"
+	line "spojeni musime"
+	cont "ulozit hru."
 	done

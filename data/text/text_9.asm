@@ -1,193 +1,193 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Vyhnul se"
+	line "hozenemu BALLu!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Tento #MON"
+	line "nelze chytit!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
+	text "Minul jsi"
 	line "#MON!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Sakra! #MON"
+	line "se vyprostil!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Sakris! Vypadalo,"
+	line "ze je chyceny!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Sakra! A bylo"
+	line "to tak blizko!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Vyborne!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " byl"
+	cont "chycen!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " byl"
+	line "prenesen do"
+	cont "BILLova PC!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " byl"
+	line "prenesen do"
+	cont "necijho PC!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Nova data #DEX"
+	line "budou pridana pro"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> nasedl"
+	line "na @"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Neni kam"
+	line "sesednout!"
 	prompt
 
 _RefusingText::
 	text_ram wNameBuffer
 	text_start
-	line "is refusing!"
+	line "odmita!"
 	prompt
 
 _VitaminStatRoseText::
 	text_ram wNameBuffer
-	text "'s"
+	text_start
 	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " stoupl."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Nebude to mit"
+	line "zadny ucinek."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> hodil"
+	line "navnadu."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> hodil"
+	line "kamen."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Zahral na #"
+	line "FLUTNU."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "To je chytlava"
+	line "melodie!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Vsichni spici"
+	line "#MON se budi."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> zahral na"
+	line "# FLUTNU.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Mince"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Ano! ITEMFINDER"
+	line "ukazuje, ze tu"
+	cont "je predmet."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Ne! ITEMFINDER"
+	line "neodpovida."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Zvysit PP ktere"
+	line "techniky?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Obnovit PP"
+	line "ktere techniky?"
 	done
 
 _PPMaxedOutText::
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text " ma"
+	line "PP na maximu."
 	prompt
 
 _PPIncreasedText::
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text " PP"
+	line "se zvedlo."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PP bylo obnoveno."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "Spustena TM!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "Spustena HM!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Obsahuje"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "Naucit @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "#MON?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
+	text " neni"
+	line "kompatibilni s"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "Nemuze se naucit"
 	line "@"
 	text_ram wStringBuffer
 	text "."
@@ -195,54 +195,54 @@ _MonCannotLearnMachineMoveText::
 
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	line "Tohle neni cas"
+	cont "to pouzit! "
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Tohle ti nepatri"
+	line "k pouziti!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Nebude to mit"
+	line "zadny ucinek."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Trener"
+	line "zablokoval BALL!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Nebud zlodej!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Cyklistika tu"
+	next "neni povolena."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Tady nelze SURF"
+	line "na @"
 	text_ram wNameBuffer
-	text " here!"
+	text "!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "#MON BOX"
+	line "je plny! Nelze"
+	cont "pouzit predmet!"
 	prompt
 
 _DontHavePokemonText::
-	text "You don't have a "
+	text "Nemas zadneho"
 	line "#MON!"
 	prompt
 
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> pouzil@"
 	text_end
 
 _ItemUseText002::
@@ -251,7 +251,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> nasedl na@"
 	text_end
 
 _GotOnBicycleText2::
@@ -260,183 +260,183 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> sesedl@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "z @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Zahodil"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Lze zahodit"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Tohle je moc"
+	line "dulezite zahodit!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wNameBuffer
-	text " knows"
+	text " uz zna"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "OK, pripoj kabel"
+	line "takto!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> vymenil"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " za"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
 	text "!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
+	text "Hledam"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "! Chces"
 
-	para "trade one for"
+	para "vymenit za"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "? "
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "Au!"
+	line "No nic..."
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "Co? Tohle neni"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Az nejakeho"
+	line "ziskas, prijd!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Diky!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
+	text "Neni muj stary"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text " skvely?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Ahoj! Chces"
+	line "vymenit"
 
-	para "your @"
+	para "tveho @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "za @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "No, kdyz"
+	line "nechces..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hmm? Tohle neni"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Vzpomen si na me,"
+	line "az nejakeho mas."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Diky!"
 	done
 
 _AfterTrade2Text::
-	text "Hello there! Your"
-	line "old @"
+	text "Ahoj! Tvuj"
+	line "stary @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	cont "magnificent!"
+	text " je"
+	cont "uzasny!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Ahoj! Mas"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Chces ho vymenit"
+	line "za @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "To je skoda."
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "...Tohle neni"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Az ho ziskas,"
+	line "vymen ho se mnou!"
 	done
 
 _Thanks3Text::
-	text "Thanks, pal!"
+	text "Diky, kamo!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
-	line "@"
+	text "Jak se ma muj"
+	line "stary @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "Muj @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text_start
+	line "se ma skvele!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Neni co"
+	line "rozseknout!"
 	prompt
 
 _UsedCutText::
 	text_ram wNameBuffer
-	text " hacked"
-	line "away with CUT!"
+	text " sekal"
+	line "pomoci CUT!"
 	prompt

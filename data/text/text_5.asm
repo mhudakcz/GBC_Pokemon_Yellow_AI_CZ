@@ -1,88 +1,88 @@
 _IsEvolvingText::
-	text "What? @"
+	text "Co? @"
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "se vyviji!"
 	done
 
 _FellAsleepText::
 	text "<TARGET>"
-	line "fell asleep!"
+	line "usnul!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "uz spi!"
 	prompt
 
 _PoisonedText::
 	text "<TARGET>"
-	line "was poisoned!"
+	line "byl otraven!"
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "tezce otraven!"
 	prompt
 
 _BurnedText::
 	text "<TARGET>"
-	line "was burned!"
+	line "byl popalen!"
 	prompt
 
 _FrozenText::
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "uplne zmrznul!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
+	text "Ohen rozmrazil"
 	line "<TARGET>!"
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>silne@"
 	text_end
 
 _RoseText::
-	text " rose!"
+	text " stoupl!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wStringBuffer
 	text "@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>silne@"
 	text_end
 
 _FellText::
-	text " fell!"
+	text " klesl!"
 	prompt
 
 _RanFromBattleText::
 	text "<USER>"
-	line "ran from battle!"
+	line "utekl ze souboje!"
 	prompt
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "vystraseny utekl!"
 	prompt
 
 _WasBlownAwayText::
 	text "<TARGET>"
-	line "was blown away!"
+	line "byl odfouknut!"
 	prompt
 
 _ChargeMoveEffectText::
@@ -91,181 +91,181 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "vytvoril vir!"
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "nasal slunce!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "sklonil hlavu!"
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "zari!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "vyletel vysoko!"
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "vykopal jamu!"
 	prompt
 
 _BecameConfusedText::
 	text "<TARGET>"
-	line "became confused!"
+	line "je zmaten!"
 	prompt
 
 _MimicLearnedMoveText::
 	text "<USER>"
-	line "learned"
+	line "naucil se"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wNameBuffer
-	text " was"
-	cont "disabled!"
+	text " je"
+	cont "blokovan!"
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Nic se nestalo!"
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Bez ucinku!"
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Ale selhalo! "
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
+	text "Neovlivnilo to"
 	line "<TARGET>!"
 	prompt
 
 _IsUnaffectedText::
 	text "<TARGET>"
-	line "is unaffected!"
+	line "je neovlivnen!"
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET>"
+	line "ochrnut! Mozna"
+	cont "nezautoci!"
 	prompt
 
 _SubstituteText::
-	text "It created a"
+	text "Vytvoril"
 	line "SUBSTITUTE!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "ma SUBSTITUTE!"
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Moc slaby na"
+	line "SUBSTITUTE!"
 	prompt
 
 _WasSeededText::
 	text "<TARGET>"
-	line "was seeded!"
+	line "byl zaset!"
 	prompt
 
 _EvadedAttackText::
 	text "<TARGET>"
-	line "evaded attack!"
+	line "uhnul utoku!"
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER>"
+	line "zasazen odrazem!"
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "Zmena typu na"
+	line "<TARGET>!"
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "Vsechny zmeny"
+	line "STAVU smazany!"
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "se hecuje!"
 	prompt
 
 _StartedSleepingEffect::
 	text "<USER>"
-	line "started sleeping!"
+	line "zacal spat!"
 	done
 
 _FellAsleepBecameHealthyText::
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "usnul a stal se"
+	cont "zdravy!"
 	done
 
 _RegainedHealthText::
 	text "<USER>"
-	line "regained health!"
+	line "obnovil zdravi!"
 	prompt
 
 _TransformedText::
 	text "<USER>"
-	line "transformed into"
+	line "se promenil v"
 	cont "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER>"
+	line "chranen proti"
+	cont "spec. utokum!"
 	prompt
 
 _ReflectGainedArmorText::
 	text "<USER>"
-	line "gained armor!"
+	line "ziskal brneni!"
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "<USER>"
+	line "v mlze!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Mince se rozsypaly"
+	line "vsude!"
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
+	text "Vysal zdravi z"
 	line "<TARGET>!"
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "<TARGET>"
+	line "snu byl seden!"
 	prompt
 
 _TradeCenterOpponentText::

@@ -1,56 +1,56 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Data souboru"
+	line "jsou znicena!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Chces ULOZIT"
+	line "hru?"
 	done
 
 _SavingText::
-	text "Saving..."
+	text "Ukladam..."
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> ulozil"
+	line "hru!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "Starsi soubor"
+	line "bude smazan pro"
+	cont "ulozeni. OK?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Pri zmene"
+	line "#MON BOXu se"
+	cont "ulozi data."
 
-	para "Is that okay?"
+	para "Je to OK?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
+	text "Vyber"
 	line "<PKMN> BOX.@"
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " se vyvinul"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "v @"
 	text_ram wNameBuffer
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Co? @"
 	text_ram wStringBuffer
 	text_start
-	line "stopped evolving!"
+	line "prestal s vyvojem!"
 	prompt

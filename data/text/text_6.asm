@@ -1,10 +1,10 @@
 TeachingHMsText::
-	text "Once a #MON"
-	line "learns an HM, the"
-	cont "technique can't"
-	cont "be replaced."
+	text "Kdyz se #MON"
+	line "nauci HM, tu"
+	cont "techniku nelze"
+	cont "nahradit."
 
-	para "Better think care-"
-	line "fully before you"
-	cont "teach HM moves."
+	para "Dobre to zvaz"
+	line "pred tim, nez"
+	cont "naucis HM utoky."
 	done
